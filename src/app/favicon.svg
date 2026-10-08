@@ -1,0 +1,27 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100">
+  <defs>
+    <linearGradient id="blueGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#2563eb;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#1d4ed8;stop-opacity:1" />
+    </linearGradient>
+  </defs>
+  
+  <!-- Background circle -->
+  <circle cx="50" cy="50" r="48" fill="url(#blueGrad)"/>
+  
+  <!-- White figure silhouette representing physiotherapy -->
+  <g fill="white">
+    <!-- Head -->
+    <circle cx="50" cy="30" r="8"/>
+    
+    <!-- Body and limbs in active pose -->
+    <path d="M 50 38 L 50 60 M 50 45 L 38 50 M 50 45 L 62 50 M 50 60 L 42 75 M 50 60 L 58 75" 
+          stroke="white" stroke-width="5" stroke-linecap="round" fill="none"/>
+    
+    <!-- Plus symbol for medical/health -->
+    <g transform="translate(70, 20)">
+      <rect x="-2" y="-8" width="4" height="16" fill="white" rx="1"/>
+      <rect x="-8" y="-2" width="16" height="4" fill="white" rx="1"/>
+    </g>
+  </g>
+</svg>

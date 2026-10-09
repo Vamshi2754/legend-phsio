@@ -159,7 +159,7 @@ export default function Hero() {
               ),
               color: "bg-indigo-500",
               title: "Opening Hours",
-              desc: "Mon–Sun: 6am–11pm",
+              desc: "Mon–Sun: 9am–9pm",
               value: "Available 7 Days",
               isPhone: false,
             },

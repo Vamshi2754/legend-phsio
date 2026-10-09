@@ -2,7 +2,7 @@ import type { Metadata } from "next";
 
 export const metadata: Metadata = {
   title: "Contact Us | Legend Physiotherapy Clinic Hyderabad | Call +91 81430 15455",
-  description: "Contact Legend Physiotherapy for expert physiotherapy treatment in Hyderabad. Clinic at LB Nagar & home visits across 200+ locations. Call +91 81430 15455 or WhatsApp for appointment. Available Mon-Sun 6am-11pm.",
+  description: "Contact Legend Physiotherapy for expert physiotherapy treatment in Hyderabad. Clinic at LB Nagar & home visits across 200+ locations. Call +91 81430 15455 or WhatsApp for appointment. Available Mon-Sun 9am-9pm.",
   keywords: [
     "contact physiotherapy clinic",
     "physiotherapy clinic hyderabad contact",

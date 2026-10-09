@@ -145,7 +145,7 @@ export default function BookAppointmentPage() {
                         {/* Info Box */}
                         <div className="bg-yellow-50 border-l-4 border-yellow-400 p-6 rounded">
                             <h4 className="font-bold text-gray-900 mb-2">⏰ Hours</h4>
-                            <p className="text-sm text-gray-700 mb-3">Monday - Friday: 8:00 AM - 8:00 PM</p>
+                            <p className="text-sm text-gray-700 mb-3">Monday - Sunday: 9:00 AM - 9:00 PM</p>
                             <p className="text-xs text-gray-600">
                                 Same-day appointments available based on therapist availability
                             </p>

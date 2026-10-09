@@ -47,7 +47,7 @@ export default function ContactPage() {
                   <a href="tel:+918143015455" className="text-blue-600 hover:underline font-semibold text-sm sm:text-base break-all">
                     +91 81430 15455
                   </a>
-                  <p className="text-gray-600 text-xs sm:text-sm mt-1">Mon-Sun: 6:00 AM - 11:00 PM</p>
+                  <p className="text-gray-600 text-xs sm:text-sm mt-1">Mon-Sun: 9:00 AM - 9:00 PM</p>
                 </div>
               </div>
             </div>

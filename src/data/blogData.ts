@@ -428,7 +428,7 @@ export const blogPosts: Record<string, BlogPost> = {
       },
       {
         type: "paragraph",
-        text: "Located in LB Nagar, our clinic is easily accessible from surrounding areas including Kothapet, Dilsukhnagar, and Vanasthalipuram. We're open seven days a week from 8 AM to 8 PM, offering flexible scheduling to accommodate your needs."
+        text: "Located in LB Nagar, our clinic is easily accessible from surrounding areas including Kothapet, Dilsukhnagar, and Vanasthalipuram. We're open seven days a week from 9 AM to 9 PM, offering flexible scheduling to accommodate your needs."
       },
       {
         type: "paragraph",

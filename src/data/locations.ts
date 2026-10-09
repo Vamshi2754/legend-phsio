@@ -58,7 +58,7 @@ export const locationData: Record<string, LocationEntry> = {
       "High-intensity laser therapy & ultrasound-guided treatment",
       "Led by Dr. Sirish � 20+ years ortho & neuro expertise",
       "Home visit service available across Hyderabad",
-      "Open 7 days a week, 6 AM � 11 PM"
+      "Open 7 days a week, 9 AM - 9 PM"
     ],
     conditions: [
       "Chronic & acute back pain",
@@ -87,7 +87,7 @@ export const locationData: Record<string, LocationEntry> = {
     localContent: {
       intro: "LB Nagar and Kothapet form one of Hyderabad's busiest residential-commercial corridors along the Old Dilsukhnagar–Hayathnagar stretch. Residents here — from working professionals commuting via the LB Nagar Metro station to senior citizens in Green Hills Colony and Dwarka Nagar — frequently face back pain from long auto or bus rides, knee stiffness from climbing apartment stairs, and neck strain from desk-bound IT jobs at the nearby Nagole–Uppal tech parks. Our flagship clinic at Shop No.2, Dwarka Nagar is purpose-built for these needs, with hospital-grade robotic physiotherapy, spinal decompression, and high-intensity laser therapy under one roof.",
       whyLocal: "Unlike home-only services, our LB Nagar clinic gives you access to equipment that cannot travel — the robotic rehabilitation system for precise joint mobilisation, the spinal decompression table for disc herniation, and the Class IV laser for deep tissue healing. The clinic sits just 2 minutes from the LB Nagar X Roads bus stop and 5 minutes from Kothapet Signal, making it easy to reach from Sagar Ring Road, Champapet, Saroornagar, and Vanasthalipuram. For patients recovering from surgery or managing stroke rehabilitation who cannot visit the clinic, our therapists bring portable TENS, ultrasound, and resistance equipment directly to your home anywhere in greater LB Nagar.",
-      accessibility: "Our clinic operates 7 days a week from 6 AM to 11 PM, with dedicated early-morning slots for working professionals before their commute and late-evening sessions for those returning from Gachibowli or HITEC City IT offices. Walk-ins are welcome, but booking via WhatsApp ensures zero waiting time. We are located opposite the Green Hills Colony park entrance — look for the Legend Physiotherapy signboard on the ground floor of the Dwarka Nagar building, Road No. 4."
+      accessibility: "Our clinic operates 7 days a week from 9 AM - 9 PM, with dedicated early-morning slots for working professionals before their commute and late-evening sessions for those returning from Gachibowli or HITEC City IT offices. Walk-ins are welcome, but booking via WhatsApp ensures zero waiting time. We are located opposite the Green Hills Colony park entrance — look for the Legend Physiotherapy signboard on the ground floor of the Dwarka Nagar building, Road No. 4."
     }
   },
   "nagole": {
@@ -113,7 +113,7 @@ export const locationData: Record<string, LocationEntry> = {
     highlights: [
       "Certified physiotherapists serving Nagole & Snehapuri Colony",
       "Portable clinical-grade equipment brought to your home",
-      "Flexible slots: 6 AM � 11 PM, 7 days a week",
+      "Flexible slots: 9 AM - 9 PM, 7 days a week",
       "Specialised ortho & neuro rehabilitation",
       "Same-day appointments available"
     ],
@@ -138,7 +138,7 @@ export const locationData: Record<string, LocationEntry> = {
     nearby: "New Nagole Main Rd, Snehapuri Colony, Nagole, Hyderabad",
     localContent: {
       intro: "Nagole sits at the eastern edge of Hyderabad where the Metro Blue Line terminates, making it a transit hub for thousands of commuters heading to Uppal, Habsiguda, and ECIL. The Snehapuri Colony and New Nagole Main Road neighbourhoods are home to a mix of young families, retired defence personnel from the nearby Bolarum cantonment settlers, and IT professionals who relocated for affordable housing. Common physiotherapy needs here include lower back pain from long metro commutes, knee osteoarthritis among the elderly population, and sports injuries from the active cricket and badminton culture at local grounds near Nagole Lake.",
-      whyLocal: "Our Nagole home visit team operates from the Snehapuri Colony base, reaching patients within 20–30 minutes across Nagole, Boduppal, Peerzadiguda, and Uppal Depot. We carry portable TENS units, ultrasound machines, and therapeutic resistance equipment — everything needed for a full rehabilitation session at your home. For residents near Nagole Metro station, our therapists can coordinate sessions around your commute schedule, offering early 6 AM slots before office and late 9 PM sessions after you return.",
+      whyLocal: "Our Nagole home visit team operates from the Snehapuri Colony base, reaching patients within 20–30 minutes across Nagole, Boduppal, Peerzadiguda, and Uppal Depot. We carry portable TENS units, ultrasound machines, and therapeutic resistance equipment — everything needed for a full rehabilitation session at your home. For residents near Nagole Metro station, our therapists can coordinate sessions around your commute schedule, offering slots from 9 AM to 9 PM to fit around your schedule.",
       accessibility: "Nagole's rapid apartment growth means many patients are elderly parents living in high-rise buildings while their children work in HITEC City. Our home visit service eliminates the need to navigate traffic on the congested Nagole–Uppal Road or find parking at a clinic. We serve all apartments along New Nagole Main Road, Snehapuri Colony, and the new gated communities near Nagole Lake. Book via WhatsApp for same-day appointments — our Nagole team typically arrives within 2 hours of confirmation."
     }
   },
@@ -160,7 +160,7 @@ export const locationData: Record<string, LocationEntry> = {
         phone: "+91 79977 46927"
       }
     ],
-    description: "Legend Physiotherapy's Dilsukhnagar branch, located near Gaddiannaram behind Kamala Hospital, is one of Hyderabad's most accessible physiotherapy home visit services. We serve patients across Dilsukhnagar, Gaddiannaram, Gowtham Nagar, Madhura Puri Colony, and Chaitanyapuri. Our therapists specialise in treating work-related musculoskeletal disorders, chronic back pain, knee osteoarthritis, and post-surgical rehabilitation. We bring advanced portable equipment including ultrasound, TENS, and resistance bands, delivering a complete clinical experience at your home. Early morning and late evening slots are available for working professionals.",
+    description: "Legend Physiotherapy's Dilsukhnagar branch, located near Gaddiannaram behind Kamala Hospital, is one of Hyderabad's most accessible physiotherapy home visit services. We serve patients across Dilsukhnagar, Gaddiannaram, Gowtham Nagar, Madhura Puri Colony, and Chaitanyapuri. Our therapists specialise in treating work-related musculoskeletal disorders, chronic back pain, knee osteoarthritis, and post-surgical rehabilitation. We bring advanced portable equipment including ultrasound, TENS, and resistance bands, delivering a complete clinical experience at your home. 9 AM to 9 PM slots are available for working professionals.",
     seoDescription: "Expert physiotherapist in Dilsukhnagar near Gaddiannaram, Hyderabad. Legend Physiotherapy home visit service for back pain, knee pain, sports injuries, and post-surgery rehab. Call now.",
     highlights: [
       "Located near Kamala Hospital, Gaddiannaram",
@@ -191,7 +191,7 @@ export const locationData: Record<string, LocationEntry> = {
     localContent: {
       intro: "Dilsukhnagar is one of Hyderabad's most densely populated commercial hubs, with bustling markets, coaching centres, and a massive daily footfall around the Dilsukhnagar bus station and metro stop. The area — spanning Gaddiannaram, Gowtham Nagar, Madhura Puri Colony, and Chaitanyapuri — is home to students, small business owners, and families who often neglect chronic pain due to busy schedules. Common conditions we treat here include work-related repetitive strain injuries from shopkeepers standing all day, back pain from coaching centre teachers hunched over desks, and knee problems in the sizeable senior citizen community of Gaddiannaram's older colonies.",
       whyLocal: "Our Dilsukhnagar team operates from behind Kamala Hospital on Gaddiannaram Road, giving us quick access to patients across the Dilsukhnagar–Malakpet–Chaitanyapuri belt. We bring portable ultrasound, TENS, and manual therapy equipment directly to your home — particularly valuable in this area where traffic congestion around BN Reddy Nagar and the Dilsukhnagar crossroads makes clinic visits stressful. Our physiotherapists understand the occupational hazards common to this commercial district and design treatment plans accordingly.",
-      accessibility: "Dilsukhnagar Metro station is just 5 minutes from our Gaddiannaram base, and we cover all colonies within a 5 km radius including Moosarambagh, Malakpet, and Kothapet. Early morning slots starting at 6 AM are popular with market vendors who need treatment before their shops open, while evening sessions suit students and working professionals. We accept walk-in bookings via phone or WhatsApp, with most appointments confirmed within 30 minutes."
+      accessibility: "Dilsukhnagar Metro station is just 5 minutes from our Gaddiannaram base, and we cover all colonies within a 5 km radius including Moosarambagh, Malakpet, and Kothapet. Our slots from 9 AM to 9 PM suit both market vendors who need treatment in the morning and students or working professionals who prefer evening sessions. We accept walk-in bookings via phone or WhatsApp, with most appointments confirmed within 30 minutes."
     }
   },
   "habsiguda": {
@@ -268,7 +268,7 @@ export const locationData: Record<string, LocationEntry> = {
     seoDescription: "Expert physiotherapist near Kharmanghat, Hyderabad. Legend Physiotherapy home visit for back pain, knee pain, post-surgery rehab, and neurological conditions. Book today.",
     highlights: [
       "Serving Kharmanghat, Sri Raghavendra Nagar & Padma Nagar Colony",
-      "Flexible appointment timings 6 AM � 11 PM",
+      "Flexible appointment timings 9 AM - 9 PM",
       "Portable clinical equipment at your home",
       "Compassionate, patient-focused care",
       "Specialised in chronic pain & neuro rehab"
@@ -409,7 +409,7 @@ export const locationData: Record<string, LocationEntry> = {
     localContent: {
       intro: "Himayatnagar is one of Hyderabad's most sought-after central residential areas, known for its tree-lined streets, popular restaurants along Himayat Nagar Road, and proximity to the Assembly and Secretariat. The neighbourhood houses a mix of professionals, government employees, and affluent families who value convenience and quality healthcare. Physiotherapy needs here range from cervical spondylosis and frozen shoulder among desk-bound professionals to post-surgical rehabilitation for residents who undergo procedures at nearby hospitals like Care, NIMS, and Yashoda.",
       whyLocal: "With two branches in Himayatnagar — one at Domalguda beside the Hyundai Showroom and another on Himayat Nagar Road at New SBH Colony — we offer unmatched accessibility in central Hyderabad. This dual-branch setup means residents of Domalguda, Narayanguda, Basheerbagh, and Hyderguda are always within 5 minutes of expert physiotherapy. Both branches provide advanced manual therapy, electrotherapy, and dry needling. For patients who prefer home treatment, our therapists cover all of Himayatnagar and the surrounding Nampally, Red Hills, and Khairatabad areas.",
-      accessibility: "Both Himayatnagar branches are easily reachable via the Himayatnagar–Domalguda Road, with ample parking near the Hyundai showroom (Branch 1) and along Himayat Nagar Road (Branch 2). TSRTC buses from Secunderabad, Ameerpet, and Dilsukhnagar stop within walking distance. The Lakdi Ka Pul MMTS station is a short auto ride away, and the upcoming Metro connectivity will further improve access. We offer flexible timing from 6 AM to 11 PM at both branches."
+      accessibility: "Both Himayatnagar branches are easily reachable via the Himayatnagar–Domalguda Road, with ample parking near the Hyundai showroom (Branch 1) and along Himayat Nagar Road (Branch 2). TSRTC buses from Secunderabad, Ameerpet, and Dilsukhnagar stop within walking distance. The Lakdi Ka Pul MMTS station is a short auto ride away, and the upcoming Metro connectivity will further improve access. We offer flexible timing from 9 AM - 9 PM at both branches."
     }
   },
   "attapur": {
@@ -436,7 +436,7 @@ export const locationData: Record<string, LocationEntry> = {
       "Located near Pillar No. 13, Upparpally Rd, Hyderguda",
       "Serving Attapur, Hyderguda & Upparpally",
       "Portable clinical equipment at your home",
-      "Flexible appointment slots 6 AM � 11 PM",
+      "Flexible appointment slots 9 AM - 9 PM",
       "Expert ortho & neuro physiotherapists"
     ],
     conditions: [
@@ -461,7 +461,7 @@ export const locationData: Record<string, LocationEntry> = {
     localContent: {
       intro: "Attapur and Hyderguda are rapidly growing residential areas along the Attapur–Rajendra Nagar corridor in southwest Hyderabad. The neighbourhood runs parallel to the PVNR Expressway pillars, with Pillar No. 13 serving as a well-known local landmark. Residents here include young families in newly built apartment complexes, retired government employees in older Hyderguda colonies, and students from the nearby JNTU and university hostels. Physiotherapy demand in Attapur centres around post-pregnancy recovery for young mothers, knee and hip problems in the elderly, and sports injuries from the active gym and running culture among younger residents.",
       whyLocal: "Our Attapur base at Anandi Devi Complex near Pillar No. 13 on Upparpally Road gives us quick access to the entire Attapur–Rajendra Nagar–Upparpally belt. The PVNR Expressway corridor experiences heavy traffic, especially during office hours, making clinic visits time-consuming for patients. Our home visit service bypasses this completely — our therapists navigate the internal colony roads of Hyderguda and Attapur to reach you within 30 minutes. We carry portable TENS, ultrasound, and manual therapy equipment for a complete session at your home.",
-      accessibility: "Attapur is connected by the PVNR Expressway to Mehdipatnam and Tolichowki, and by Upparpally Road to Rajendra Nagar and Shamshabad. TSRTC buses along the expressway stop at Pillar No. 13, right outside our centre. For patients in the apartment towers along the expressway, we offer dedicated floor-by-floor home visit scheduling to serve multiple patients in the same building efficiently. Appointments are available 6 AM to 11 PM, including weekends."
+      accessibility: "Attapur is connected by the PVNR Expressway to Mehdipatnam and Tolichowki, and by Upparpally Road to Rajendra Nagar and Shamshabad. TSRTC buses along the expressway stop at Pillar No. 13, right outside our centre. For patients in the apartment towers along the expressway, we offer dedicated floor-by-floor home visit scheduling to serve multiple patients in the same building efficiently. Appointments are available 9 AM - 9 PM, including weekends."
     }
   },
   "mrc-colony": {
@@ -513,7 +513,7 @@ export const locationData: Record<string, LocationEntry> = {
     localContent: {
       intro: "MRC Colony and Rock Gardens are established residential enclaves in east Hyderabad, situated between Uppal and Habsiguda along the Nagole corridor. These colonies are known for their quiet, family-oriented atmosphere and a population that includes many Defence and BHEL retirees alongside younger IT professionals. Common physiotherapy needs include degenerative joint conditions among the sizeable retired community, post-surgical rehabilitation for residents who undergo knee or hip replacements at nearby hospitals, and chronic neck and back pain among software professionals commuting to Uppal's IT parks.",
       whyLocal: "Our MRC Colony service point at B/44, Road Number 6, Rock Gardens puts us in the heart of this residential community. Unlike locations that require navigating main roads, our therapists are based within the colony itself — meaning shorter wait times and familiarity with the local layout. We serve all roads within MRC Colony, Rock Gardens, and extend coverage to Ramanthapur, Uppal Depot, and the apartments along Nagole–Uppal Road. Our therapists bring portable clinical-grade equipment and design treatment plans tailored to the specific needs of this community.",
-      accessibility: "MRC Colony is accessible from the Nagole Metro terminus (10-minute auto ride) and the Uppal Ring Road. Internal colony roads are well-maintained, making home visits straightforward even for ground-floor independent houses. We offer morning physiotherapy sessions starting at 6 AM — popular with retirees who prefer early treatment — and evening slots from 6 PM to 9 PM for working professionals returning from Uppal and HITEC City."
+      accessibility: "MRC Colony is accessible from the Nagole Metro terminus (10-minute auto ride) and the Uppal Ring Road. Internal colony roads are well-maintained, making home visits straightforward even for ground-floor independent houses. We offer morning physiotherapy sessions from 9 AM — popular with retirees who prefer early treatment — and evening slots until 9 PM for working professionals returning from Uppal and HITEC City."
     }
   },
   "jubilee-hills": {
@@ -617,7 +617,7 @@ export const locationData: Record<string, LocationEntry> = {
     localContent: {
       intro: "Kompally is one of Hyderabad's fastest-growing northern suburbs, stretching along Medchal Road with a mix of gated communities, apartment towers, and plotted developments. The NCL Enclave, Caton Residential Township, and Petbasheerabad colonies house many IT professionals who commute to HITEC City and Gachibowli, as well as retirees who moved here for the relatively quieter environment. Common physiotherapy needs include commute-related back and neck pain from long drives on the Kompally–Secunderabad–HITEC City route, osteoarthritis in the growing senior population, and sports injuries from the active gym and running groups in the gated communities.",
       whyLocal: "Our Kompally service operates from Medchal Road, Petbasheerabad, covering all of Kompally, Suchitra Circle, Bowenpally, and the new developments along the Kompally–Medchal highway. Kompally residents face a genuine challenge accessing quality physiotherapy — most specialist clinics are 45–60 minutes away in Secunderabad or Ameerpet via the congested Medchal Road. Our home visit service brings expert physiotherapy to your doorstep, eliminating the commute entirely. We carry portable TENS, ultrasound, manual therapy tools, and resistance equipment for comprehensive at-home rehabilitation.",
-      accessibility: "Kompally is accessible from Secunderabad via Suchitra Circle and from the ORR (Outer Ring Road) via the Medchal interchange. Our therapists navigate internal gated community roads efficiently, arriving within 30 minutes for most Kompally addresses. We offer early morning sessions from 6 AM for professionals heading to work and late evening sessions until 11 PM for those returning from IT offices. Weekend appointments are available for families who prefer joint rehabilitation sessions."
+      accessibility: "Kompally is accessible from Secunderabad via Suchitra Circle and from the ORR (Outer Ring Road) via the Medchal interchange. Our therapists navigate internal gated community roads efficiently, arriving within 30 minutes for most Kompally addresses. We offer early morning sessions from 9 AM - 9 PM for those returning from IT offices. Weekend appointments are available for families who prefer joint rehabilitation sessions."
     }
   },
   "secunderabad": {
@@ -802,7 +802,7 @@ export const locationData: Record<string, LocationEntry> = {
       "Located at Phoenix Greens School Rd, Kokapet",
       "Serving Kokapet, Narsingi & Financial District",
       "Portable clinical-grade equipment at your home",
-      "Flexible appointment slots 6 AM � 11 PM",
+      "Flexible appointment slots 9 AM - 9 PM",
       "Expert ortho & neuro physiotherapists"
     ],
     conditions: [
@@ -842,7 +842,7 @@ export const locationData: Record<string, LocationEntry> = {
     mapPins: [{ lat: 17.4100, lng: 78.4380, label: "Legend Physiotherapy � Banjara Hills", address: "Banjara Hills, Hyderabad", phone: "+91 99661 93413" }],
     description: "Experience premium physiotherapy care in the heart of Banjara Hills. Our specialised home visit services are designed for patients who prefer professional treatment in their own space. We cover all blocks of Banjara Hills, providing expert care for post-operative recovery, sports injuries, and chronic pain management with portable advanced equipment. Our therapists are trained to handle complex orthopaedic and neurological cases with a personalised approach.",
     seoDescription: "Expert physiotherapist home visit in Banjara Hills, Hyderabad. Legend Physiotherapy expert treatment for back pain, sports injuries, and rehabilitation at your doorstep.",
-    highlights: ["Expert therapists available in Banjara Hills", "Flexible home visit timings (6 AM - 9 PM)", "Complete rehabilitation equipment brought to your home", "Specialised care for ortho & neuro conditions"],
+    highlights: ["Expert therapists available in Banjara Hills", "Flexible home visit timings (9 AM - 9 PM)", "Complete rehabilitation equipment brought to your home", "Specialised care for ortho & neuro conditions"],
     conditions: ["Back pain relief", "Neck and shoulder pain", "Sports injuries", "Knee pain management", "Post-operative rehabilitation", "Neurological conditions"],
     services: ["Home visit physiotherapy", "Manual therapy", "TENS & electrotherapy", "Ultrasound therapy", "Sports injury rehab", "Exercise therapy"],
     nearby: "Near Durgam Cheruvu & Road No. 12, Banjara Hills",
@@ -870,7 +870,7 @@ export const locationData: Record<string, LocationEntry> = {
     nearby: "Near HITEC City & Cyber Towers, Madhapur, Hyderabad",
     localContent: {
       intro: "Madhapur is the beating heart of Hyderabad's IT industry, home to Cyber Towers, Inorbit Mall, and the sprawling HITEC City tech campuses where companies like Microsoft, Google, Amazon, and TCS employ hundreds of thousands. The residential areas around Ayyappa Society, Kavuri Hills Phase 2, and Madhapur Main Road house a young, tech-savvy population working 10-12 hour desk shifts. Ergonomic-related conditions dominate here: chronic neck stiffness from monitor posture, lower back pain from prolonged sitting, carpal tunnel syndrome, and tension headaches. Weekend warriors who hit the gym or play football at the Gachibowli stadium also frequently present with sports injuries.",
-      whyLocal: "Our Madhapur home visit service is tailored specifically for IT professionals — we offer pre-office sessions starting at 6 AM, lunchtime appointments for those working from home, and late evening slots after 8 PM for those returning from extended office hours. Our therapists include ergonomic posture assessment as part of every initial evaluation, identifying workstation adjustments that can prevent pain recurrence. We bring portable TENS, manual therapy tools, and resistance equipment to your apartment or even your office cabin if your company permits.",
+      whyLocal: "Our Madhapur home visit service is tailored specifically for IT professionals — we offer morning sessions from 9 AM, lunchtime appointments for those working from home, and evening slots until 9 PM for those returning from extended office hours. Our therapists include ergonomic posture assessment as part of every initial evaluation, identifying workstation adjustments that can prevent pain recurrence. We bring portable TENS, manual therapy tools, and resistance equipment to your apartment or even your office cabin if your company permits.",
       accessibility: "Madhapur is connected via the Madhapur Metro station, the HITEC City elevated corridor, and multiple internal roads linking to Kondapur, Gachibowli, and Jubilee Hills. Our therapists reach all of Madhapur including Ayyappa Society, Kavuri Hills, Cyber Towers vicinity, and the apartments behind Inorbit Mall within 20 minutes. WhatsApp booking is the fastest way to schedule — most Madhapur appointments are confirmed within 15 minutes."
     }
   },
@@ -1106,14 +1106,14 @@ export const locationData: Record<string, LocationEntry> = {
     mapPins: [{ lat: 17.4250, lng: 78.5150, label: "Legend Physiotherapy – Jawahar Nagar", address: "Jawahar Nagar, Hyderabad", phone: "+91 99661 93413" }],
     description: "Legend Physiotherapy's Jawahar Nagar home visit service provides expert physiotherapy care directly to your doorstep. Our certified physiotherapists specialize in treating back pain, knee pain, neck pain, sports injuries, and post-surgical rehabilitation. We bring portable clinical-grade equipment to your home, ensuring you receive the same quality of care as our clinic. Flexible appointment slots are available throughout the day to suit your schedule.",
     seoDescription: "Expert physiotherapist home visit in Jawahar Nagar, Hyderabad. Legend Physiotherapy expert treatment for back pain, knee pain, sports injuries, and post-surgery rehab at your doorstep.",
-    highlights: ["Serving Jawahar Nagar & surrounding areas", "Portable clinical equipment at your home", "Flexible appointment slots 6 AM – 11 PM", "Expert ortho & neuro physiotherapists", "Same-day appointments available"],
+    highlights: ["Serving Jawahar Nagar & surrounding areas", "Portable clinical equipment at your home", "Flexible appointment slots 9 AM - 9 PM", "Expert ortho & neuro physiotherapists", "Same-day appointments available"],
     conditions: ["Back pain & sciatica", "Knee pain & arthritis", "Neck & shoulder pain", "Post-operative rehabilitation", "Sports injuries", "Neurological rehabilitation", "Frozen shoulder", "Elderly mobility & balance"],
     services: ["Home visit physiotherapy", "Manual therapy", "TENS & electrotherapy", "Ultrasound therapy", "Exercise rehabilitation", "Neurological physiotherapy"],
     nearby: "Jawahar Nagar, Hyderabad",
     localContent: {
       intro: "Jawahar Nagar is a well-established residential colony in central-north Hyderabad, situated near RTC Cross Roads, Musheerabad, and the Indira Park area. The neighbourhood is known for its spacious independent houses, mature tree-lined streets, and a community that has lived here for generations. Many residents are retired professionals, government employees, and families with elderly members who need regular physiotherapy for age-related conditions. Knee osteoarthritis, lumbar spondylosis, and post-stroke rehabilitation are among the most common conditions we treat in Jawahar Nagar, alongside chronic pain management for residents who have delayed treatment for years.",
       whyLocal: "Our Jawahar Nagar home visit service is especially valuable for the elderly population here — many live in multi-storey independent houses without lifts, making it physically challenging to travel to a clinic. Our therapists come to your home with portable TENS, ultrasound, and manual therapy equipment, conducting comprehensive rehabilitation sessions in familiar surroundings. We cover Jawahar Nagar, Musheerabad, Kachiguda, Bholakpur, and the residential areas around RTC Cross Roads. For patients managing chronic conditions like arthritis or recovering from joint replacements, we offer regular thrice-weekly home visit packages.",
-      accessibility: "Jawahar Nagar is centrally located near RTC Cross Roads — one of Hyderabad's busiest transit junctions — with TSRTC buses, MMTS trains (Kachiguda station nearby), and auto-rickshaws providing connectivity to all parts of the city. The Musheerabad Metro station is a short ride away. Our therapists reach most Jawahar Nagar addresses within 20 minutes from our east Hyderabad base. We offer morning sessions from 6 AM that are popular with the area's early-rising retired community."
+      accessibility: "Jawahar Nagar is centrally located near RTC Cross Roads — one of Hyderabad's busiest transit junctions — with TSRTC buses, MMTS trains (Kachiguda station nearby), and auto-rickshaws providing connectivity to all parts of the city. The Musheerabad Metro station is a short ride away. Our therapists reach most Jawahar Nagar addresses within 20 minutes from our east Hyderabad base. We offer morning sessions from 9 AM that are popular with the area's retired community, with slots available until 9 PM for working families."
     }
   },
   "secunderabad-paradise": {
@@ -1197,7 +1197,7 @@ export const locationData: Record<string, LocationEntry> = {
       "Serving Himayatnagar, Narayanguda & Basheerbagh",
       "Advanced manual therapy & electrotherapy",
       "Clinic & home visit service available",
-      "Open 7 days a week, 6 AM – 11 PM"
+      "Open 7 days a week, 9 AM - 9 PM"
     ],
     conditions: [
       "Chronic back pain & sciatica",
@@ -1223,7 +1223,7 @@ export const locationData: Record<string, LocationEntry> = {
     localContent: {
       intro: "The Himayatnagar SBH Colony centre sits on Himayat Nagar Road within the AP State Housing Board colony — a well-known residential area with a mix of government employees, professionals, and long-term Hyderabad families. This location is distinct from our Domalguda branch, serving primarily the New SBH Colony, AP Housing Board, Narayanguda, and Basheerbagh residential catchment. The SBH Colony population includes many retirees from government and banking sectors who present with age-related musculoskeletal conditions, and working professionals from the Narayanguda–Red Hills commercial area dealing with desk-job-related cervical and lumbar pain.",
       whyLocal: "Dr. Sirish's SBH Colony centre offers a dedicated clinical environment for patients who prefer in-person treatment with advanced equipment. The centre provides manual therapy, TENS and IFT electrotherapy, dry needling, and ultrasound therapy — modalities that work together for conditions like frozen shoulder, chronic sciatica, and post-surgical stiffness. The SBH Colony location is particularly popular with patients from the Basheerbagh–Red Hills government office cluster who can visit during lunch breaks. For post-surgical patients from nearby NIMS, Care, and Apollo hospitals, we offer accelerated rehabilitation starting from the first week after discharge.",
-      accessibility: "The SBH Colony centre is located at 3-6-203, Himayat Nagar Road — easily identifiable within the AP State Housing Board colony. TSRTC buses along Himayat Nagar Road provide direct connectivity from Abids, Nampally, and Secunderabad. The centre operates 7 days a week from 6 AM to 11 PM, with dedicated appointment slots during lunchtime for nearby office workers. Patients who need both clinic sessions and home visits can combine both — clinic for equipment-intensive treatment and home visits for exercise-based rehabilitation on alternate days."
+      accessibility: "The SBH Colony centre is located at 3-6-203, Himayat Nagar Road — easily identifiable within the AP State Housing Board colony. TSRTC buses along Himayat Nagar Road provide direct connectivity from Abids, Nampally, and Secunderabad. The centre operates 7 days a week from 9 AM - 9 PM, with dedicated appointment slots during lunchtime for nearby office workers. Patients who need both clinic sessions and home visits can combine both — clinic for equipment-intensive treatment and home visits for exercise-based rehabilitation on alternate days."
     }
   },
 };

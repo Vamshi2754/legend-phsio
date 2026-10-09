@@ -9,7 +9,7 @@ export default function ClinicLocation() {
             Visit Our State-of-the-Art Clinic
           </h2>
           <p className="text-sm sm:text-base text-gray-500 max-w-2xl mx-auto leading-relaxed px-4">
-            Experience world-class physiotherapy at our premium clinic equipped with advanced technology and expert care
+            Experience professional physiotherapy at our premium clinic equipped with advanced technology and expert care
           </p>
         </div>
 

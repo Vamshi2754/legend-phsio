@@ -125,7 +125,7 @@ export default function Hero() {
                   </svg>
                 </div>
                 <div>
-                  <p className="text-xs sm:text-sm font-semibold text-gray-800" style={{ fontFamily: "var(--font-poppins)" }}>Best Physiotherapist</p>
+                  <p className="text-xs sm:text-sm font-semibold text-gray-800" style={{ fontFamily: "var(--font-poppins)" }}>Expert Physiotherapist</p>
                 </div>
               </div>
             </div>

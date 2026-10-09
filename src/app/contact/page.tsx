@@ -44,8 +44,8 @@ export default function ContactPage() {
                 </div>
                 <div>
                   <h3 className="font-bold text-gray-900 mb-1 sm:mb-2 text-sm sm:text-base">Phone</h3>
-                  <a href="tel:+919966193413" className="text-blue-600 hover:underline font-semibold text-sm sm:text-base break-all">
-                    +91 99661 93413
+                  <a href="tel:+918143015455" className="text-blue-600 hover:underline font-semibold text-sm sm:text-base break-all">
+                    +91 81430 15455
                   </a>
                   <p className="text-gray-600 text-xs sm:text-sm mt-1">Mon-Sun: 6:00 AM - 11:00 PM</p>
                 </div>
@@ -62,8 +62,8 @@ export default function ContactPage() {
                 </div>
                 <div>
                   <h3 className="font-bold text-gray-900 mb-1 sm:mb-2 text-sm sm:text-base">Email</h3>
-                  <a href="mailto:info@legendphysiotherapy.com" className="text-blue-600 hover:underline font-semibold text-xs sm:text-sm md:text-base break-all">
-                    info@legendphysiotherapy.com
+                  <a href="mailto:Info@legendphysiotherapy.com" className="text-blue-600 hover:underline font-semibold text-xs sm:text-sm md:text-base break-all">
+                    Info@legendphysiotherapy.com
                   </a>
                   <p className="text-gray-600 text-xs sm:text-sm mt-1">We'll respond within 24 hours</p>
                 </div>
@@ -83,9 +83,9 @@ export default function ContactPage() {
                     Legend Physiotherapy Clinic
                   </p>
                   <p className="text-gray-600 text-xs sm:text-sm mt-1">
-                    Dwarka Nagar, Green Hills Colony<br />
-                    Kothapet, LB Nagar<br />
-                    Hyderabad, Telangana 500035
+                    Shop No.2 Ground Floor, Road No: 4, HNO: 11-13-714,<br />
+                    Dwarka Nagar, Green Hills Colony, Kothapet,<br />
+                    L. B. Nagar, Hyderabad, Telangana 500102
                   </p>
                 </div>
               </div>
@@ -127,7 +127,7 @@ export default function ContactPage() {
                 Book Online
               </a>
               <a
-                href="tel:+919966193413"
+                href="tel:+918143015455"
                 className="bg-blue-800 text-white px-4 sm:px-6 py-2.5 sm:py-3 rounded-lg font-bold hover:bg-blue-900 transition-colors text-xs sm:text-sm md:text-base"
               >
                 Call Now
@@ -152,7 +152,7 @@ export default function ContactPage() {
                 </svg>
               </a>
               <a
-                href="tel:+919966193413"
+                href="tel:+918143015455"
                 aria-label="Phone"
                 title="Call"
                 className="w-9 h-9 sm:w-10 sm:h-10 bg-blue-100 hover:bg-blue-500 text-blue-600 hover:text-white rounded-lg flex items-center justify-center transition-colors"
@@ -198,7 +198,7 @@ export default function ContactPage() {
                 </svg>
               </a>
               <a
-                href="mailto:info@legendphysiotherapy.com"
+                href="mailto:Info@legendphysiotherapy.com"
                 aria-label="Email"
                 title="Email Us"
                 className="w-9 h-9 sm:w-10 sm:h-10 bg-blue-100 hover:bg-blue-500 text-blue-600 hover:text-white rounded-lg flex items-center justify-center transition-colors"
@@ -236,7 +236,7 @@ export default function ContactPage() {
                 </div>
                 <div>
                   <h4 className="font-bold text-gray-900 text-xs sm:text-sm">Legend Physiotherapy Clinic</h4>
-                  <p className="text-[10px] sm:text-xs text-gray-600 mt-1">Kothapet, LB Nagar, Hyderabad</p>
+                  <p className="text-[10px] sm:text-xs text-gray-600 mt-1">Dwarka Nagar, Kothapet, L. B. Nagar, Hyderabad 500102</p>
                   <p className="text-[9px] sm:text-[10px] text-blue-600 font-semibold mt-1 sm:mt-2 uppercase tracking-tighter">Verified Location</p>
                 </div>
               </div>
@@ -253,7 +253,7 @@ export default function ContactPage() {
               Our Physiotherapy Locations in Hyderabad
             </h2>
             <p className="text-gray-600 max-w-2xl mx-auto">
-              Find the best physiotherapy near you. We serve 200+ locations across Hyderabad with expert care.
+              Find expert physiotherapy near you. We serve 200+ locations across Hyderabad with professional care.
             </p>
           </div>
 
@@ -534,7 +534,7 @@ export default function ContactPage() {
                 key={loc.slug}
                 href={`/locations/${loc.slug}`}
                 className="p-3 rounded-lg text-center transition-all text-xs bg-gray-50 text-gray-700 hover:bg-blue-50 hover:text-blue-600 hover:shadow-md"
-                title={`Best Physiotherapy in ${loc.name}`}
+                title={`Physiotherapy in ${loc.name}`}
               >
                 <div className="font-semibold" style={{ fontFamily: "var(--font-poppins)" }}>
                   {loc.name}

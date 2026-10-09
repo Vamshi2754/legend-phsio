@@ -10,7 +10,7 @@ export const metadata: Metadata = {
     "about legend physiotherapy",
     "dr sirish physiotherapist",
     "physiotherapy clinic hyderabad",
-    "best physiotherapist hyderabad",
+    "physiotherapist hyderabad",
     "experienced physiotherapist",
     "ortho physiotherapy",
     "neuro physiotherapy",
@@ -22,7 +22,7 @@ export const metadata: Metadata = {
     type: "website",
   },
   alternates: {
-    canonical: "https://legend-physiotherapist.vercel.app/about",
+    canonical: "https://www.legendphysiotherapy.com/about",
   },
 };
 
@@ -53,7 +53,7 @@ export default function AboutPage() {
           <div className="grid md:grid-cols-2 gap-8 md:gap-12 items-center">
             <div>
               <p className="text-sm md:text-base text-gray-700 leading-relaxed mb-4">
-                Legend Physiotherapy was founded with a simple yet powerful vision: to provide world-class physiotherapy care that transforms lives. With over 20+ years of experience in orthopedic and neurological rehabilitation, we have helped thousands of patients overcome pain, recover from injuries, and regain their independence.
+                Legend Physiotherapy was founded with a simple yet powerful vision: to provide comprehensive physiotherapy care that transforms lives. With over 20+ years of experience in orthopedic and neurological rehabilitation, we have helped thousands of patients overcome pain, recover from injuries, and regain their independence.
               </p>
               <p className="text-sm md:text-base text-gray-700 leading-relaxed mb-4">
                 Led by Dr. Sirish, our team of expert physiotherapists combines advanced clinical knowledge with compassionate care. We believe that every patient deserves personalized attention and evidence-based treatment delivered in a supportive, encouraging environment.
@@ -177,7 +177,7 @@ export default function AboutPage() {
                 Our Mission
               </h3>
               <p className="text-sm md:text-base text-gray-700 leading-relaxed">
-                To provide exceptional physiotherapy care that empowers individuals to achieve pain-free, active lives. We are committed to using evidence-based practices, advanced technology, and personalized treatment plans to deliver the best possible outcomes for every patient.
+                To provide exceptional physiotherapy care that empowers individuals to achieve pain-free, active lives. We are committed to using evidence-based practices, advanced technology, and personalized treatment plans to deliver optimal outcomes for every patient.
               </p>
             </div>
             <div>
@@ -191,7 +191,7 @@ export default function AboutPage() {
                 Our Vision
               </h3>
               <p className="text-sm md:text-base text-gray-700 leading-relaxed">
-                To be Hyderabad's most trusted physiotherapy provider, recognized for clinical excellence, patient-centered care, and innovative treatment approaches. We envision a community where everyone has access to professional physiotherapy services that enhance quality of life and promote long-term wellness.
+                To be Hyderabad's trusted physiotherapy provider, recognized for clinical excellence, patient-centered care, and innovative treatment approaches. We envision a community where everyone has access to professional physiotherapy services that enhance quality of life and promote long-term wellness.
               </p>
             </div>
           </div>
@@ -237,7 +237,7 @@ export default function AboutPage() {
                   <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M17 20h5v-2a3 3 0 00-5.356-1.857M17 20H7m10 0v-2c0-.656-.126-1.283-.356-1.857M7 20H2v-2a3 3 0 015.356-1.857M7 20v-2c0-.656.126-1.283.356-1.857m0 0a5.002 5.002 0 019.288 0M15 7a3 3 0 11-6 0 3 3 0 016 0zm6 3a2 2 0 11-4 0 2 2 0 014 0zM7 10a2 2 0 11-4 0 2 2 0 014 0z" />
                 ),
                 title: "Collaboration",
-                desc: "We work as a team with patients, families, and other healthcare providers to achieve the best possible results."
+                desc: "We work as a team with patients, families, and other healthcare providers to achieve optimal results."
               },
               {
                 icon: (

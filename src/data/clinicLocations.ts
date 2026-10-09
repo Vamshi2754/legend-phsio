@@ -43,7 +43,7 @@ const clinicLocations: ClinicLocation[] = [
     lat: 17.3688,
     lng: 78.5247,
     slug: "dilsukhnagar",
-    googleMapsUrl: "https://maps.google.com/?q=Legend+Physiotherapy+at+Home+Best+Physiotherapist+Dilsukhnagar+Gaddiannaram+Hyderabad",
+    googleMapsUrl: "https://maps.google.com/?q=Legend+Physiotherapy+at+Home+Expert+Physiotherapist+Dilsukhnagar+Gaddiannaram+Hyderabad",
   },
   {
     id: "4",
@@ -98,7 +98,7 @@ const clinicLocations: ClinicLocation[] = [
     lat: 17.3699,
     lng: 78.4275,
     slug: "attapur",
-    googleMapsUrl: "https://maps.google.com/?q=Legend+Physiotherapy+at+Home+Best+Physiotherapist+near+Attapur+Hyderabad",
+    googleMapsUrl: "https://maps.google.com/?q=Legend+Physiotherapy+at+Home+Expert+Physiotherapist+near+Attapur+Hyderabad",
   },
   {
     id: "9",
@@ -131,7 +131,7 @@ const clinicLocations: ClinicLocation[] = [
     lat: 17.5472,
     lng: 78.4803,
     slug: "kompally",
-    googleMapsUrl: "https://maps.google.com/?q=Legend+Physiotherapy+Best+Physiotherapist+Rehabilitation+Services+Kompally+Hyderabad",
+    googleMapsUrl: "https://maps.google.com/?q=Legend+Physiotherapy+Expert+Physiotherapist+Rehabilitation+Services+Kompally+Hyderabad",
   },
   {
     id: "12",
@@ -142,7 +142,7 @@ const clinicLocations: ClinicLocation[] = [
     lat: 17.4456,
     lng: 78.5113,
     slug: "secunderabad",
-    googleMapsUrl: "https://maps.google.com/?q=Legend+Physiotherapy+at+Home+Best+Physiotherapist+near+Mahendra+Hills+Secunderabad",
+    googleMapsUrl: "https://maps.google.com/?q=Legend+Physiotherapy+at+Home+Expert+Physiotherapist+near+Mahendra+Hills+Secunderabad",
   },
   {
     id: "13",
@@ -175,7 +175,7 @@ const clinicLocations: ClinicLocation[] = [
     lat: 17.4440,
     lng: 78.4620,
     slug: "begumpet",
-    googleMapsUrl: "https://maps.google.com/?q=Dr+Sirish+Best+Physiotherapist+near+Secunderabad+Begumpet+Hyderabad",
+    googleMapsUrl: "https://maps.google.com/?q=Dr+Sirish+Expert+Physiotherapist+near+Secunderabad+Begumpet+Hyderabad",
   },
   {
     id: "17",
@@ -186,7 +186,7 @@ const clinicLocations: ClinicLocation[] = [
     lat: 17.3900,
     lng: 78.3400,
     slug: "kokapet",
-    googleMapsUrl: "https://maps.google.com/?q=Legend+Physiotherapy+at+Home+Best+Physiotherapist+near+Kokapet+Hyderabad",
+    googleMapsUrl: "https://maps.google.com/?q=Legend+Physiotherapy+at+Home+Expert+Physiotherapist+near+Kokapet+Hyderabad",
   },
   {
     id: "18",
@@ -197,7 +197,7 @@ const clinicLocations: ClinicLocation[] = [
     lat: 17.4250,
     lng: 78.5150,
     slug: "jawahar-nagar",
-    googleMapsUrl: "https://maps.google.com/?q=Legend+Physiotherapy+at+Home+Best+Physiotherapist+near+Jawahar+Nagar+Hyderabad",
+    googleMapsUrl: "https://maps.google.com/?q=Legend+Physiotherapy+at+Home+Expert+Physiotherapist+near+Jawahar+Nagar+Hyderabad",
   },
   {
     id: "19",
@@ -208,7 +208,7 @@ const clinicLocations: ClinicLocation[] = [
     lat: 17.4440,
     lng: 78.4620,
     slug: "secunderabad-paradise",
-    googleMapsUrl: "https://maps.google.com/?q=Dr+Sirish+Best+Physiotherapist+near+Secunderabad+Hyderabad",
+    googleMapsUrl: "https://maps.google.com/?q=Dr+Sirish+Expert+Physiotherapist+near+Secunderabad+Hyderabad",
   },
   {
     id: "20",

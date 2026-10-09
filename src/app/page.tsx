@@ -9,18 +9,19 @@ import Testimonials from "@/components/Testimonials";
 import ClinicLocation from "@/components/ClinicLocation";
 import Appointment from "@/components/Appointment";
 import Blog from "@/components/Blog";
+import FAQ from "@/components/FAQ";
 import Footer from "@/components/Footer";
 import type { Metadata } from "next";
 
 export const metadata: Metadata = {
-  title: "Best Physiotherapy Near Me in Hyderabad | Legend Physiotherapy Clinic & Home Visit",
-  description: "⭐ 4.9/5 Rating | Best physiotherapy near me in Hyderabad. Expert treatment for back pain, neck pain, knee pain, sports injuries & neuro rehab. 20+ years experience. Clinic at LB Nagar & home visits across all locations. Book appointment today!",
+  title: "Physiotherapy Near Me in Hyderabad | Legend Physiotherapy Clinic & Home Visit",
+  description: "Expert physiotherapy near me in Hyderabad. Advanced treatment for back pain, neck pain, knee pain, sports injuries & neuro rehab. 20+ years experience. Clinic at LB Nagar & home visits across all locations. Book appointment today!",
   keywords: [
     "physiotherapy near me",
-    "best physiotherapy near me",
+    "physiotherapy near me hyderabad",
     "physiotherapy in hyderabad",
-    "best physiotherapy in hyderabad",
-    "best physiotherapist in Hyderabad",
+    "physiotherapy clinic hyderabad",
+    "physiotherapist in Hyderabad",
     "physiotherapy clinic near me",
     "physiotherapy at home",
     "physiotherapy at home Hyderabad",
@@ -84,19 +85,19 @@ export const metadata: Metadata = {
     "physiotherapy for elderly at home Hyderabad",
   ],
   openGraph: {
-    title: "Best Physiotherapy Near Me in Hyderabad | Legend Physiotherapy",
-    description: "⭐ 4.9/5 Rating | Expert physiotherapy treatment for back pain, neck pain, knee pain & sports injuries. 20+ years experience. Clinic & home visits available.",
+    title: "Physiotherapy Near Me in Hyderabad | Legend Physiotherapy",
+    description: "Expert physiotherapy treatment for back pain, neck pain, knee pain & sports injuries. 20+ years experience. Clinic & home visits available.",
     type: "website",
     locale: "en_IN",
     siteName: "Legend Physiotherapy",
   },
   twitter: {
     card: "summary_large_image",
-    title: "Best Physiotherapy Near Me in Hyderabad | Legend Physiotherapy",
-    description: "⭐ 4.9/5 Rating | Expert physiotherapy treatment. 20+ years experience. Clinic & home visits available.",
+    title: "Physiotherapy Near Me in Hyderabad | Legend Physiotherapy",
+    description: "Expert physiotherapy treatment. 20+ years experience. Clinic & home visits available.",
   },
   alternates: {
-    canonical: "https://legend-physiotherapist.vercel.app",
+    canonical: "https://www.legendphysiotherapy.com",
   },
 };
 
@@ -114,6 +115,7 @@ export default function Home() {
       <ClinicLocation />
       <Appointment />
       <Blog />
+      <FAQ />
       <Footer />
     </div>
   );

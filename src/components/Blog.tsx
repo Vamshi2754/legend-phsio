@@ -60,7 +60,7 @@ const posts = [
     date: "April 28, 2026",
     category: "Treatment Options",
     image: "/assets/offline-clinic.jpg",
-    excerpt: "Compare the advantages of clinic-based and home visit physiotherapy to make the best choice for your recovery needs.",
+    excerpt: "Compare the advantages of clinic-based and home visit physiotherapy to make the right choice for your recovery needs.",
     readTime: "6 min read",
   },
   {

@@ -5,7 +5,7 @@ const stats = [
   { value: 12000, label: "Happy Patients", icon: "patients" },
   { value: 20, label: "Years of Experience", icon: "experience" },
   { value: 19, label: "Service Locations", icon: "locations" },
-  { value: 500, label: "Google Reviews (4.9★)", icon: "rating" },
+  { value: 500, label: "Google Reviews", icon: "rating" },
 ];
 
 const iconMap: Record<string, React.ReactNode> = {

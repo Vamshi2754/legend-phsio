@@ -19,16 +19,16 @@ const poppins = Poppins({
 });
 
 export const metadata: Metadata = {
-  title: "Best Physiotherapy Near Me in Hyderabad | Legend Physiotherapy Clinic & Home Visit",
-  description: "★★★★★ Best Physiotherapist in Hyderabad with 20+ years experience. Expert treatment for back pain, neck pain, knee pain, sports injuries & neuro rehabilitation. Clinic in LB Nagar & Home visits across 200+ locations. Book now!",
+  title: "Physiotherapy Near Me in Hyderabad | Legend Physiotherapy Clinic & Home Visit",
+  description: "Expert Physiotherapist in Hyderabad with 20+ years experience. Advanced treatment for back pain, neck pain, knee pain, sports injuries & neuro rehabilitation. Clinic in LB Nagar & Home visits across 200+ locations. Book now!",
   keywords: [
     "physiotherapy near me",
-    "best physiotherapist in Hyderabad",
+    "physiotherapist in Hyderabad",
     "physiotherapy near Kothapet Hyderabad",
     "physiotherapy at home Hyderabad",
     "physiotherapy home visit charges Hyderabad",
     "lady physiotherapist near me home visit",
-    "top 10 physiotherapist in Hyderabad",
+    "experienced physiotherapist in Hyderabad",
     "book physiotherapy at home",
     "physiotherapy near me for ladies",
     "back pain physiotherapy Hyderabad",
@@ -110,8 +110,8 @@ export const metadata: Metadata = {
     canonical: '/',
   },
   openGraph: {
-    title: "Best Physiotherapy Near Me in Hyderabad | Legend Physiotherapy",
-    description: "★★★★★ Expert physiotherapy with 20+ years experience. Specialized in back pain, neck pain, sports injuries & neuro rehabilitation. Clinic & home visits available.",
+    title: "Physiotherapy Near Me in Hyderabad | Legend Physiotherapy",
+    description: "Expert physiotherapy with 20+ years experience. Specialized in back pain, neck pain, sports injuries & neuro rehabilitation. Clinic & home visits available.",
     url: 'https://www.legendphysiotherapy.com',
     siteName: 'Legend Physiotherapy',
     locale: 'en_IN',
@@ -121,14 +121,14 @@ export const metadata: Metadata = {
         url: '/logo.png',
         width: 1200,
         height: 630,
-        alt: 'Legend Physiotherapy - Best Physiotherapist in Hyderabad',
+        alt: 'Legend Physiotherapy - Expert Physiotherapist in Hyderabad',
       },
     ],
   },
   twitter: {
     card: 'summary_large_image',
-    title: "Best Physiotherapy Near Me in Hyderabad | Legend Physiotherapy",
-    description: "★★★★★ Expert physiotherapy with 20+ years experience. Back pain, neck pain, sports injuries & neuro rehabilitation.",
+    title: "Physiotherapy Near Me in Hyderabad | Legend Physiotherapy",
+    description: "Expert physiotherapy with 20+ years experience. Back pain, neck pain, sports injuries & neuro rehabilitation.",
     images: ['/logo.png'],
   },
   robots: {
@@ -154,25 +154,24 @@ export default function RootLayout({
 }: Readonly<{
   children: React.ReactNode;
 }>) {
-  // Single MedicalBusiness schema (more specific than LocalBusiness)
   const businessSchema = {
     "@context": "https://schema.org",
     "@type": "MedicalBusiness",
-    "@id": "https://www.legendphysiotherapy.com",
+    "@id": "https://www.legendphysiotherapy.com/#organization",
     "name": "Legend Physiotherapy Ortho and Neuro Pain Management Clinic",
     "alternateName": "Legend Physiotherapy",
     "url": "https://www.legendphysiotherapy.com",
     "logo": "https://www.legendphysiotherapy.com/logo.png",
     "image": "https://www.legendphysiotherapy.com/logo.png",
-    "description": "Best physiotherapy clinic in Hyderabad with 20+ years experience. Expert treatment for back pain, neck pain, sports injuries, and neurological rehabilitation.",
+    "description": "Professional physiotherapy clinic in Hyderabad with 20+ years experience. Expert treatment for back pain, neck pain, sports injuries, and neurological rehabilitation.",
     "priceRange": "₹₹",
-    "telephone": "+919966193413",
-    "email": "info@legendphysiotherapy.com",
+    "telephone": "+918143015455",
+    "email": "Info@legendphysiotherapy.com",
     "address": {
       "@type": "PostalAddress",
       "streetAddress": "Shop No.2 Ground Floor, Road No: 4, HNO: 11-13-714, Dwarka Nagar, Green Hills Colony, Kothapet",
-      "addressLocality": "LB Nagar",
-      "addressRegion": "Hyderabad",
+      "addressLocality": "L. B. Nagar, Hyderabad",
+      "addressRegion": "Telangana",
       "postalCode": "500102",
       "addressCountry": "IN"
     },
@@ -210,7 +209,49 @@ export default function RootLayout({
     "areaServed": {
       "@type": "City",
       "name": "Hyderabad"
+    },
+    "founder": {
+      "@type": "Person",
+      "name": "Dr. Sirish",
+      "jobTitle": "Senior Physiotherapist",
+      "description": "Experienced physiotherapist with 20+ years in ortho and neuro rehabilitation"
+    },
+    "hasOfferCatalog": {
+      "@type": "OfferCatalog",
+      "name": "Physiotherapy Services",
+      "itemListElement": [
+        { "@type": "Offer", "itemOffered": { "@type": "MedicalTherapy", "name": "Orthopedic Physiotherapy" } },
+        { "@type": "Offer", "itemOffered": { "@type": "MedicalTherapy", "name": "Neurological Rehabilitation" } },
+        { "@type": "Offer", "itemOffered": { "@type": "MedicalTherapy", "name": "Sports Injury Rehabilitation" } },
+        { "@type": "Offer", "itemOffered": { "@type": "MedicalTherapy", "name": "Home Visit Physiotherapy" } },
+        { "@type": "Offer", "itemOffered": { "@type": "MedicalTherapy", "name": "Post-Surgical Rehabilitation" } }
+      ]
     }
+  };
+
+  const websiteSchema = {
+    "@context": "https://schema.org",
+    "@type": "WebSite",
+    "name": "Legend Physiotherapy",
+    "url": "https://www.legendphysiotherapy.com",
+    "potentialAction": {
+      "@type": "SearchAction",
+      "target": "https://www.legendphysiotherapy.com/locations/{search_term_string}",
+      "query-input": "required name=search_term_string"
+    }
+  };
+
+  const breadcrumbSchema = {
+    "@context": "https://schema.org",
+    "@type": "BreadcrumbList",
+    "itemListElement": [
+      {
+        "@type": "ListItem",
+        "position": 1,
+        "name": "Home",
+        "item": "https://www.legendphysiotherapy.com"
+      }
+    ]
   };
 
   return (
@@ -224,6 +265,14 @@ export default function RootLayout({
         <script
           type="application/ld+json"
           dangerouslySetInnerHTML={{ __html: JSON.stringify(businessSchema) }}
+        />
+        <script
+          type="application/ld+json"
+          dangerouslySetInnerHTML={{ __html: JSON.stringify(websiteSchema) }}
+        />
+        <script
+          type="application/ld+json"
+          dangerouslySetInnerHTML={{ __html: JSON.stringify(breadcrumbSchema) }}
         />
       </head>
       <body className={`${inter.variable} ${poppins.variable} antialiased`}>

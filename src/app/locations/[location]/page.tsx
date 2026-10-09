@@ -296,11 +296,11 @@ export async function generateMetadata({ params }: { params: { location: string 
   const isClinic = location.type.includes("Clinic");
   
   return {
-    title: `Best Physiotherapy in ${location.name} Near Me | ${isClinic ? 'Clinic' : 'Home Visit'} | Legend Physiotherapy`,
-    description: `★★★★★ Best Physiotherapist in ${location.name}, Hyderabad. ${location.seoDescription}. Call ${location.phone} for appointment.`,
+    title: `Physiotherapy in ${location.name} Near Me | ${isClinic ? 'Clinic' : 'Home Visit'} | Legend Physiotherapy`,
+    description: `Expert Physiotherapist in ${location.name}, Hyderabad. ${location.seoDescription}. Call ${location.phone} for appointment.`,
     keywords: [
       `physiotherapy in ${location.name}`,
-      `best physiotherapist in ${location.name}`,
+      `physiotherapist in ${location.name}`,
       `physiotherapy near ${location.name}`,
       `physiotherapy clinic ${location.name}`,
       `home visit physiotherapy ${location.name}`,
@@ -308,7 +308,7 @@ export async function generateMetadata({ params }: { params: { location: string 
       `knee pain physiotherapy ${location.name}`,
       `sports injury ${location.name}`,
       `neuro rehabilitation ${location.name}`,
-      `best physiotherapy near me`,
+      `physiotherapy near me`,
       `physiotherapist near me ${location.name}`,
       location.name,
       ...location.nearby.split(',').map(n => n.trim()),
@@ -317,7 +317,7 @@ export async function generateMetadata({ params }: { params: { location: string 
       canonical: `/locations/${params.location}`,
     },
     openGraph: {
-      title: `Best Physiotherapy in ${location.name} | Legend Physiotherapy`,
+      title: `Physiotherapy in ${location.name} | Legend Physiotherapy`,
       description: location.seoDescription,
       url: `/locations/${params.location}`,
       siteName: 'Legend Physiotherapy',
@@ -328,13 +328,13 @@ export async function generateMetadata({ params }: { params: { location: string 
           url: '/logo.png',
           width: 1200,
           height: 630,
-          alt: `Best Physiotherapy in ${location.name}`,
+          alt: `Physiotherapy in ${location.name}`,
         },
       ],
     },
     twitter: {
       card: 'summary_large_image',
-      title: `Best Physiotherapy in ${location.name} | Legend Physiotherapy`,
+      title: `Physiotherapy in ${location.name} | Legend Physiotherapy`,
       description: location.seoDescription,
       images: ['/logo.png'],
     },
@@ -361,8 +361,58 @@ export default function LocationPage({ params }: { params: { location: string } 
 
   const isClinic = location.type.includes("Clinic");
 
+  const locationSchema = {
+    "@context": "https://schema.org",
+    "@type": isClinic ? "MedicalBusiness" : "ProfessionalService",
+    "name": `Legend Physiotherapy - ${location.name}`,
+    "description": location.seoDescription,
+    "url": `https://www.legendphysiotherapy.com/locations/${params.location}`,
+    "telephone": location.phone.replace(/\s/g, ''),
+    "email": "Info@legendphysiotherapy.com",
+    "address": {
+      "@type": "PostalAddress",
+      "streetAddress": location.address.split(',').slice(0, -3).join(','),
+      "addressLocality": location.name + ", Hyderabad",
+      "addressRegion": "Telangana",
+      "addressCountry": "IN"
+    },
+    ...(location.mapPins?.[0] ? {
+      "geo": {
+        "@type": "GeoCoordinates",
+        "latitude": location.mapPins[0].lat,
+        "longitude": location.mapPins[0].lng
+      }
+    } : {}),
+    "openingHoursSpecification": {
+      "@type": "OpeningHoursSpecification",
+      "dayOfWeek": ["Monday", "Tuesday", "Wednesday", "Thursday", "Friday", "Saturday", "Sunday"],
+      "opens": "06:00",
+      "closes": "23:00"
+    },
+    "parentOrganization": {
+      "@type": "MedicalBusiness",
+      "@id": "https://www.legendphysiotherapy.com/#organization"
+    },
+    "areaServed": {
+      "@type": "Place",
+      "name": location.name + ", Hyderabad, Telangana"
+    }
+  };
+
+  const breadcrumbSchema = {
+    "@context": "https://schema.org",
+    "@type": "BreadcrumbList",
+    "itemListElement": [
+      { "@type": "ListItem", "position": 1, "name": "Home", "item": "https://www.legendphysiotherapy.com" },
+      { "@type": "ListItem", "position": 2, "name": "Locations", "item": "https://www.legendphysiotherapy.com/locations" },
+      { "@type": "ListItem", "position": 3, "name": `Physiotherapy in ${location.name}`, "item": `https://www.legendphysiotherapy.com/locations/${params.location}` }
+    ]
+  };
+
   return (
     <div className="min-h-screen">
+      <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(locationSchema) }} />
+      <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(breadcrumbSchema) }} />
       <Header />
 
       {/* Hero Section */}
@@ -378,7 +428,7 @@ export default function LocationPage({ params }: { params: { location: string } 
               <svg className="w-4 h-4 md:w-5 md:h-5 text-yellow-300" fill="currentColor" viewBox="0 0 20 20">
                 <path d="M9.049 2.927c.3-.921 1.603-.921 1.902 0l1.07 3.292a1 1 0 00.95.69h3.462c.969 0 1.371 1.24.588 1.81l-2.8 2.034a1 1 0 00-.364 1.118l1.07 3.292c.3.921-.755 1.688-1.54 1.118l-2.8-2.034a1 1 0 00-1.175 0l-2.8 2.034c-.784.57-1.838-.197-1.539-1.118l1.07-3.292a1 1 0 00-.364-1.118L2.98 8.72c-.783-.57-.38-1.81.588-1.81h3.461a1 1 0 00.951-.69l1.07-3.292z" />
               </svg>
-              <span className="text-xs md:text-sm font-semibold">Best Physiotherapy Near {location.name}</span>
+              <span className="text-xs md:text-sm font-semibold">Physiotherapy Near {location.name}</span>
             </div>
 
             <h1 className="text-3xl sm:text-4xl md:text-5xl lg:text-6xl font-bold mb-4 md:mb-6 leading-tight" style={{ fontFamily: "var(--font-poppins)" }}>
@@ -434,20 +484,20 @@ export default function LocationPage({ params }: { params: { location: string } 
         </div>
       </section>
 
-      {/* Best Physiotherapy in Location - Blog Section */}
+      {/* Physiotherapy in Location - Blog Section */}
       <section className="py-12 md:py-20 bg-white">
         <div className="max-w-4xl mx-auto px-4 sm:px-6">
           <h2 className="text-3xl md:text-4xl font-bold text-gray-800 mb-6 md:mb-8" style={{ fontFamily: "var(--font-poppins)" }}>
-            Best Physiotherapy in {location.name}
+            Physiotherapy in {location.name}
           </h2>
 
           <div className="space-y-4 md:space-y-6 text-sm md:text-base text-gray-700 leading-relaxed">
             <p>
-              Looking for the best physiotherapy in {location.name}? Legend Physiotherapy stands out as the premier choice for comprehensive rehabilitation and pain management services. Our {location.type.toLowerCase()} combines cutting-edge treatment techniques with personalized care, ensuring every patient receives the attention and expertise they deserve. With over 20+ years of experience led by Dr. Sirish, we have successfully treated thousands of patients across Hyderabad, helping them regain mobility, reduce pain, and improve their quality of life.
+              Looking for expert physiotherapy in {location.name}? Legend Physiotherapy stands out as a trusted choice for comprehensive rehabilitation and pain management services. Our {location.type.toLowerCase()} combines cutting-edge treatment techniques with personalized care, ensuring every patient receives the attention and expertise they deserve. With over 20+ years of experience led by Dr. Sirish, we have successfully treated thousands of patients across Hyderabad, helping them regain mobility, reduce pain, and improve their quality of life.
             </p>
 
             <p>
-              What makes us the best physiotherapy provider in {location.name} is our holistic approach to treatment. We don't just address symptoms; we identify and treat the root cause of your condition. Our comprehensive assessment process includes detailed evaluation of your movement patterns, strength, flexibility, and functional limitations. Based on this thorough analysis, we create a customized treatment plan that combines manual therapy, therapeutic exercises, advanced modalities, and patient education to achieve optimal results.
+              What sets our physiotherapy apart in {location.name} is our holistic approach to treatment. We don't just address symptoms; we identify and treat the root cause of your condition. Our comprehensive assessment process includes detailed evaluation of your movement patterns, strength, flexibility, and functional limitations. Based on this thorough analysis, we create a customized treatment plan that combines manual therapy, therapeutic exercises, advanced modalities, and patient education to achieve optimal results.
             </p>
 
             <p>
@@ -455,7 +505,7 @@ export default function LocationPage({ params }: { params: { location: string } 
             </p>
 
             <p>
-              Convenience is another factor that sets us apart as the best physiotherapy option in {location.name}. {location.type.includes("Home") 
+              Convenience is another factor that sets our physiotherapy apart in {location.name}. {location.type.includes("Home") 
                 ? `Our home visit service brings professional physiotherapy care directly to your doorstep, eliminating the stress and difficulty of traveling when you're in pain or recovering from surgery. We bring all necessary equipment to your home, ensuring you receive the same quality of care as you would in a clinical setting. Our flexible scheduling accommodates your busy lifestyle, with appointments available from early morning to late evening, seven days a week.`
                 : `Our state-of-the-art clinic is equipped with advanced technology including robotic physiotherapy systems, spinal decompression tables, and high-intensity laser therapy. For patients who prefer treatment at home, we also offer professional home visit services across Hyderabad. This flexibility ensures that everyone can access the care they need, regardless of their circumstances.`
               }
@@ -537,7 +587,7 @@ export default function LocationPage({ params }: { params: { location: string } 
                 Proven Track Record of Success
               </h3>
               <p className="text-sm md:text-base text-gray-700 leading-relaxed">
-                With thousands of successful treatments and a 4.9/5 patient satisfaction rating, our results speak for themselves. Patients in {location.name} consistently report significant pain reduction, improved mobility, and faster recovery times. Our evidence-based approach, combined with compassionate care, has made us the trusted choice for physiotherapy in the area. Read our patient testimonials to see how we've helped people just like you return to pain-free, active lives.
+                With thousands of successful treatments, our results speak for themselves. Patients in {location.name} consistently report significant pain reduction, improved mobility, and faster recovery times. Our evidence-based approach, combined with compassionate care, has made us the trusted choice for physiotherapy in the area. Read our patient testimonials to see how we've helped people just like you return to pain-free, active lives.
               </p>
             </div>
           </div>
@@ -837,7 +887,7 @@ export default function LocationPage({ params }: { params: { location: string } 
               Our Physiotherapy Locations in Hyderabad
             </h2>
             <p className="text-sm md:text-base text-gray-600 max-w-2xl mx-auto">
-              Find the best physiotherapy near you. We serve 200+ locations across Hyderabad with expert care.
+              Find expert physiotherapy near you. We serve 200+ locations across Hyderabad with professional care.
             </p>
           </div>
 
@@ -857,10 +907,10 @@ export default function LocationPage({ params }: { params: { location: string } 
                       ? "bg-gray-50 text-gray-700 hover:bg-blue-50 hover:text-blue-600 hover:shadow-md"
                       : "bg-gray-50 text-gray-500 hover:bg-gray-100 hover:text-gray-700"
                   }`}
-                  title={`Best Physiotherapy in ${loc.name}`}
+                  title={`Physiotherapy in ${loc.name}`}
                 >
                   <div className="font-semibold" style={{ fontFamily: "var(--font-poppins)" }}>
-                    Best Physiotherapy in {loc.name}
+                    Physiotherapy in {loc.name}
                   </div>
                   <div className="text-[10px] md:text-xs mt-1 opacity-80">
                     {hasFullData ? "View Details" : "Contact Us"}

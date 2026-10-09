@@ -24,7 +24,7 @@ export const metadata: Metadata = {
     type: "website",
   },
   alternates: {
-    canonical: "https://legend-physiotherapist.vercel.app/blog",
+    canonical: "https://www.legendphysiotherapy.com/blog",
   },
 };
 

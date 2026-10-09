@@ -458,7 +458,7 @@ export default function Footer() {
           </h4>
           <ul className="space-y-3 text-sm">
             {[
-              { day: "Monday – Sunday", hours: "6:00 am – 11:00 pm" },
+              { day: "Monday – Sunday", hours: "9:00 am – 9:00 pm" },
               { day: "Emergency 24/7", hours: "+91 81430 15455" },
             ].map((item) => (
               <li key={item.day} className="flex justify-between text-gray-400 border-b border-gray-800 pb-2 last:border-0">

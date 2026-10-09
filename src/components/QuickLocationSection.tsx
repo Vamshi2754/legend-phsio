@@ -74,7 +74,7 @@ export default function QuickLocationSection() {
                   <div>
                     <span className="font-bold text-gray-900 block text-xs uppercase text-gray-500 tracking-wider">Clinic Timing</span>
                     <p className="text-gray-700 font-semibold">
-                      Mon – Sun: 6:00 AM – 11:00 PM <span className="text-green-600 font-bold">(Open 7 Days)</span>
+                      Mon – Sun: 9:00 AM – 9:00 PM <span className="text-green-600 font-bold">(Open 7 Days)</span>
                     </p>
                   </div>
                 </div>

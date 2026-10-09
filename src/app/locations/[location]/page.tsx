@@ -386,8 +386,8 @@ export default function LocationPage({ params }: { params: { location: string } 
     "openingHoursSpecification": {
       "@type": "OpeningHoursSpecification",
       "dayOfWeek": ["Monday", "Tuesday", "Wednesday", "Thursday", "Friday", "Saturday", "Sunday"],
-      "opens": "06:00",
-      "closes": "23:00"
+      "opens": "09:00",
+      "closes": "21:00"
     },
     "parentOrganization": {
       "@type": "MedicalBusiness",

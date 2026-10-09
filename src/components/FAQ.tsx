@@ -16,7 +16,7 @@ const faqs = [
   },
   {
     question: "How do I book a physiotherapy appointment?",
-    answer: "You can book an appointment online through our website, call us at +91 81430 15455, or WhatsApp us at +91 99661 93413. We are available Monday to Sunday from 6:00 AM to 11:00 PM."
+    answer: "You can book an appointment online through our website, call us at +91 81430 15455, or WhatsApp us at +91 99661 93413. We are available Monday to Sunday from 9:00 AM to 9:00 PM."
   },
   {
     question: "What conditions do you treat with physiotherapy?",

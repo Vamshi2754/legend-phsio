@@ -69,7 +69,7 @@ export default function ClinicLocation() {
                       +91 8143015455
                     </a>
                   </div>
-                  <p className="text-gray-500 text-xs mt-1">Mon-Sun: 6:00 AM - 11:00 PM</p>
+                  <p className="text-gray-500 text-xs mt-1">Mon-Sun: 9:00 AM - 9:00 PM</p>
                 </div>
               </div>
 
@@ -83,7 +83,7 @@ export default function ClinicLocation() {
                   <p className="font-semibold text-gray-900 text-sm sm:text-base mb-1">Opening Hours</p>
                   <p className="text-gray-600 text-xs sm:text-sm">
                     Monday - Sunday<br />
-                    6:00 AM - 11:00 PM<br />
+                    9:00 AM - 9:00 PM<br />
                     <span className="text-green-600 font-semibold">Open 7 Days a Week</span>
                   </p>
                 </div>

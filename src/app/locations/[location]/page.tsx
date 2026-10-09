@@ -492,24 +492,28 @@ export default function LocationPage({ params }: { params: { location: string } 
           </h2>
 
           <div className="space-y-4 md:space-y-6 text-sm md:text-base text-gray-700 leading-relaxed">
-            <p>
-              Looking for expert physiotherapy in {location.name}? Legend Physiotherapy stands out as a trusted choice for comprehensive rehabilitation and pain management services. Our {location.type.toLowerCase()} combines cutting-edge treatment techniques with personalized care, ensuring every patient receives the attention and expertise they deserve. With over 20+ years of experience led by Dr. Sirish, we have successfully treated thousands of patients across Hyderabad, helping them regain mobility, reduce pain, and improve their quality of life.
-            </p>
-
-            <p>
-              What sets our physiotherapy apart in {location.name} is our holistic approach to treatment. We don't just address symptoms; we identify and treat the root cause of your condition. Our comprehensive assessment process includes detailed evaluation of your movement patterns, strength, flexibility, and functional limitations. Based on this thorough analysis, we create a customized treatment plan that combines manual therapy, therapeutic exercises, advanced modalities, and patient education to achieve optimal results.
-            </p>
-
-            <p>
-              Our team of certified physiotherapists specializes in both orthopaedic and neurological rehabilitation, making us uniquely qualified to handle a wide range of conditions. Whether you're recovering from surgery, managing chronic pain, rehabilitating after a sports injury, or dealing with neurological conditions like stroke or Parkinson's disease, we have the expertise and equipment to help you achieve your recovery goals. We use evidence-based treatment protocols that are proven to deliver results, combined with compassionate care that makes every patient feel valued and supported.
-            </p>
-
-            <p>
-              Convenience is another factor that sets our physiotherapy apart in {location.name}. {location.type.includes("Home") 
-                ? `Our home visit service brings professional physiotherapy care directly to your doorstep, eliminating the stress and difficulty of traveling when you're in pain or recovering from surgery. We bring all necessary equipment to your home, ensuring you receive the same quality of care as you would in a clinical setting. Our flexible scheduling accommodates your busy lifestyle, with appointments available from early morning to late evening, seven days a week.`
-                : `Our state-of-the-art clinic is equipped with advanced technology including robotic physiotherapy systems, spinal decompression tables, and high-intensity laser therapy. For patients who prefer treatment at home, we also offer professional home visit services across Hyderabad. This flexibility ensures that everyone can access the care they need, regardless of their circumstances.`
-              }
-            </p>
+            {location.localContent ? (
+              <>
+                <p>{location.localContent.intro}</p>
+                <p>{location.localContent.whyLocal}</p>
+                <p>{location.localContent.accessibility}</p>
+              </>
+            ) : (
+              <>
+                <p>
+                  Looking for expert physiotherapy in {location.name}? Legend Physiotherapy stands out as a trusted choice for comprehensive rehabilitation and pain management services. Our {location.type.toLowerCase()} combines cutting-edge treatment techniques with personalized care, ensuring every patient receives the attention and expertise they deserve. With over 20+ years of experience led by Dr. Sirish, we have successfully treated thousands of patients across Hyderabad, helping them regain mobility, reduce pain, and improve their quality of life.
+                </p>
+                <p>
+                  Our team of certified physiotherapists specializes in both orthopaedic and neurological rehabilitation, treating conditions from chronic back pain and sports injuries to stroke recovery and Parkinson's disease. We use evidence-based protocols combined with compassionate care.
+                </p>
+                <p>
+                  {location.type.includes("Home")
+                    ? `Our home visit service brings professional physiotherapy care directly to your doorstep in ${location.name}, with appointments available from early morning to late evening, seven days a week.`
+                    : `Our clinic is equipped with advanced technology including robotic physiotherapy systems, spinal decompression tables, and high-intensity laser therapy. Home visit services are also available across Hyderabad.`
+                  }
+                </p>
+              </>
+            )}
           </div>
         </div>
       </section>

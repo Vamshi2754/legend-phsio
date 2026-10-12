@@ -6,6 +6,7 @@ const posts = [
     image: "/assets/backpain2.jpg",
     excerpt: "Should you get surgery or physiotherapy for a herniated slip disc or sciatica? Discover why 85%+ of slip disc patients in Hyderabad recover completely using non-surgical robotic physiotherapy.",
     readTime: "8 min read",
+    slug: "physiotherapy-vs-surgery-slip-disc-sciatica-hyderabad",
   },
   {
     title: "Robotic Physiotherapy vs Traditional Physical Therapy in Hyderabad: Which Heals Faster?",
@@ -14,6 +15,7 @@ const posts = [
     image: "/assets/bed.jpg",
     excerpt: "Compare traditional manual physiotherapy with cutting-edge robotic rehabilitation in Hyderabad. Learn how robotic pain management accelerates recovery for stroke, paralysis, and knee arthritis.",
     readTime: "7 min read",
+    slug: "robotic-physiotherapy-vs-traditional-physical-therapy-hyderabad",
   },
   {
     title: "Top 5 Physiotherapy Exercises for Lower Back Pain Relief",
@@ -22,6 +24,7 @@ const posts = [
     image: "/assets/backpain2.jpg",
     excerpt: "Discover proven physiotherapy techniques that provide effective relief from chronic lower back pain and improve spinal health.",
     readTime: "5 min read",
+    slug: "top-5-physiotherapy-exercises-for-lower-back-pain-relief",
   },
   {
     title: "Recovery After Sports Injuries: A Physiotherapy Guide",
@@ -30,6 +33,7 @@ const posts = [
     image: "/assets/physiotherpy.jpg",
     excerpt: "Learn how structured physiotherapy programs accelerate healing and help athletes return to peak performance safely.",
     readTime: "4 min read",
+    slug: "recovery-after-sports-injuries-a-physiotherapy-guide",
   },
   {
     title: "Improving Mobility and Flexibility: Physiotherapy Techniques for Seniors",
@@ -38,6 +42,7 @@ const posts = [
     image: "/assets/neckpain.jpg",
     excerpt: "Gentle physiotherapy methods to enhance mobility, balance, and independence while reducing fall risk in older adults.",
     readTime: "6 min read",
+    slug: "improving-mobility-and-flexibility-physiotherapy-techniques-for-seniors",
   },
   {
     title: "Hospital Ward Physiotherapy: Essential Care for Bedridden Patients",
@@ -46,6 +51,7 @@ const posts = [
     image: "/assets/wardroom.jpg",
     excerpt: "Comprehensive guide to bedside physiotherapy, respiratory care, and early mobilization programs for hospitalized patients.",
     readTime: "7 min read",
+    slug: "home-physiotherapy-services",
   },
   {
     title: "Home Physiotherapy Services: Bringing Expert Care to Your Doorstep",
@@ -54,6 +60,7 @@ const posts = [
     image: "/assets/nurse.jpg",
     excerpt: "Explore the benefits of professional home physiotherapy services and how they provide convenient, effective treatment at home.",
     readTime: "5 min read",
+    slug: "home-physiotherapy-services",
   },
   {
     title: "Clinic vs Home Physiotherapy: Which is Right for You?",
@@ -62,6 +69,7 @@ const posts = [
     image: "/assets/offline-clinic.jpg",
     excerpt: "Compare the advantages of clinic-based and home visit physiotherapy to make the right choice for your recovery needs.",
     readTime: "6 min read",
+    slug: "clinic-visits",
   },
   {
     title: "Neurological Rehabilitation: Recovery After Stroke and Brain Injury",
@@ -70,6 +78,7 @@ const posts = [
     image: "/assets/bed.jpg",
     excerpt: "Advanced neurological physiotherapy techniques for stroke recovery, paralysis rehabilitation, and regaining independence.",
     readTime: "8 min read",
+    slug: "benefits-of-manual-therapy",
   },
   {
     title: "Sports Injury Prevention: Essential Physiotherapy Tips for Athletes",
@@ -78,6 +87,7 @@ const posts = [
     image: "/assets/doctor2.jpg",
     excerpt: "Expert physiotherapy strategies to prevent common sports injuries and maintain peak athletic performance throughout the season.",
     readTime: "5 min read",
+    slug: "sports-injury-rehab",
   },
   {
     title: "Shoulder Pain Relief: Effective Physiotherapy for Frozen Shoulder",
@@ -86,6 +96,7 @@ const posts = [
     image: "/assets/shoulderpain2.jpg",
     excerpt: "Proven physiotherapy treatments for frozen shoulder, rotator cuff injuries, and chronic shoulder pain with lasting results.",
     readTime: "6 min read",
+    slug: "neck-and-shoulder-care",
   },
   {
     title: "Knee Arthritis Management: Physiotherapy Solutions That Work",
@@ -94,6 +105,7 @@ const posts = [
     image: "/assets/kneepain2.jpg",
     excerpt: "Comprehensive physiotherapy approach to managing knee osteoarthritis, reducing pain, and improving mobility without surgery.",
     readTime: "7 min read",
+    slug: "knee-pain-management",
   },
   {
     title: "Post-Operative Physiotherapy: Accelerating Your Surgical Recovery",
@@ -102,6 +114,7 @@ const posts = [
     image: "/assets/backpain.jpg",
     excerpt: "Essential physiotherapy protocols for post-surgical recovery, including ACL reconstruction, joint replacement, and spinal surgery.",
     readTime: "8 min read",
+    slug: "rehabilitation-after-surgery",
   },
   {
     title: "Cervical Spondylosis Treatment: Physiotherapy for Neck Pain",
@@ -110,6 +123,7 @@ const posts = [
     image: "/assets/shoulderpain.jpg",
     excerpt: "Effective physiotherapy techniques for cervical spondylosis, neck stiffness, and chronic neck pain with proven outcomes.",
     readTime: "6 min read",
+    slug: "posture-correction-guide",
   },
   {
     title: "Geriatric Physiotherapy: Maintaining Independence in Senior Years",
@@ -118,6 +132,7 @@ const posts = [
     image: "/assets/homeservices.jpg",
     excerpt: "Specialized physiotherapy programs for elderly patients focusing on balance, strength, fall prevention, and quality of life.",
     readTime: "7 min read",
+    slug: "home-physiotherapy-services",
   },
 ];
 
@@ -191,7 +206,7 @@ export default function Blog() {
                 <p className="text-gray-500 text-sm leading-relaxed mb-5 line-clamp-2">{post.excerpt}</p>
 
                 <div className="flex items-center justify-end">
-                  <a href={`/blog/${post.title.toLowerCase().replace(/\s+/g, '-').replace(/:/g, '')}`} className="text-blue-500 text-xs font-semibold hover:underline">
+                  <a href={`/blog/${post.slug}`} className="text-blue-500 text-xs font-semibold hover:underline">
                     Read More →
                   </a>
                 </div>

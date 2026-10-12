@@ -5,6 +5,7 @@ const services = [
     desc: "Expert treatment for lower back pain. Walk pain-free in 2-3 weeks with our advanced manual therapy and corrective exercises.",
     color: "blue",
     image: "/assets/backpain.jpg",
+    slug: "back-pain-relief",
   },
   {
     icon: "neck",
@@ -12,6 +13,7 @@ const services = [
     desc: "Relief from cervical spondylosis, neck stiffness, and frozen shoulder through personalized rehabilitation plans.",
     color: "teal",
     image: "/assets/shoulderpain.jpg",
+    slug: "neck-and-shoulder-care",
   },
   {
     icon: "sports",
@@ -19,6 +21,7 @@ const services = [
     desc: "Return to peak performance. From ACL tears to ankle sprains, recover with strength conditioning and injury prevention.",
     color: "red",
     image: "/assets/physiotherpy.jpg",
+    slug: "sports-injury-rehab",
   },
   {
     icon: "knee",
@@ -26,6 +29,7 @@ const services = [
     desc: "Specialized care for knee pain, arthritis, and post-operative rehab. Regain mobility and strength.",
     color: "indigo",
     image: "/assets/kneepain2.jpg",
+    slug: "knee-pain-management",
   },
   {
     icon: "home",
@@ -33,6 +37,7 @@ const services = [
     desc: "Professional physiotherapy brought to your doorstep. Available across all areas with all necessary equipment.",
     color: "purple",
     image: "/assets/nurse.jpg",
+    slug: "home-visit-services",
   },
   {
     icon: "clinic",
@@ -40,6 +45,7 @@ const services = [
     desc: "State-of-the-art facility with advanced equipment and premium clinical environment for optimal recovery.",
     color: "orange",
     image: "/assets/offline-clinic.jpg",
+    slug: "clinic-visits",
   },
 ];
 
@@ -97,7 +103,7 @@ export default function Services() {
                     {svc.title}
                   </h3>
                   <p className="text-gray-500 leading-relaxed text-xs sm:text-sm mb-4 sm:mb-5">{svc.desc}</p>
-                  <a href={`/blog/${svc.title.toLowerCase().replace(/\s+/g, '-').replace(/&/g, 'and')}`} className={`${c.text} font-semibold text-xs sm:text-sm flex items-center gap-1 hover:gap-2 transition-all`}>
+                  <a href={`/blog/${svc.slug}`} className={`${c.text} font-semibold text-xs sm:text-sm flex items-center gap-1 hover:gap-2 transition-all`}>
                     Read More
                     <svg className="w-3 h-3 sm:w-4 sm:h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                       <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M9 5l7 7-7 7" />

@@ -1,6 +1,5 @@
-"use client";
-
-import { useParams } from "next/navigation";
+import { notFound } from "next/navigation";
+import { Metadata } from "next";
 import Header from "@/components/Header";
 import Footer from "@/components/Footer";
 import { blogPosts } from "@/data/blogData";
@@ -11,40 +10,47 @@ interface ContentSection {
   items?: string[];
 }
 
-export default function BlogPost() {
-  const params = useParams();
-  const slug = Array.isArray(params.slug) ? params.slug[0] : params.slug;
-  
+export async function generateStaticParams() {
+  return Object.keys(blogPosts).map((slug) => ({ slug }));
+}
+
+export async function generateMetadata({ params }: { params: Promise<{ slug: string }> }): Promise<Metadata> {
+  const { slug } = await params;
+  const post = blogPosts[slug as keyof typeof blogPosts];
+  if (!post) return { title: "Blog Post Not Found" };
+
+  return {
+    title: `${post.title} | Legend Physiotherapy Blog`,
+    description: post.excerpt,
+    openGraph: {
+      title: post.title,
+      description: post.excerpt,
+      type: "article",
+      images: [{ url: post.image }],
+    },
+  };
+}
+
+export default async function BlogPost({ params }: { params: Promise<{ slug: string }> }) {
+  const { slug } = await params;
   const post = slug ? blogPosts[slug as keyof typeof blogPosts] : undefined;
 
   if (!post) {
-    return (
-      <div className="min-h-screen bg-white">
-        <Header />
-        <div className="max-w-4xl mx-auto px-6 py-20 text-center">
-          <h1 className="text-3xl font-bold mb-4">Blog Post Not Found</h1>
-          <p className="text-gray-600 mb-6">The blog post you're looking for doesn't exist.</p>
-          <a href="/" className="text-blue-600 font-bold hover:underline">
-            Back to Home
-          </a>
-        </div>
-        <Footer />
-      </div>
-    );
+    notFound();
   }
 
   return (
     <div className="min-h-screen bg-white">
       <Header />
-      
+
       {/* Hero Section */}
       <div className="bg-gradient-to-r from-blue-600 to-blue-700 text-white py-16">
         <div className="max-w-4xl mx-auto px-6">
-          <a href="/" className="inline-flex items-center gap-2 text-white/80 hover:text-white mb-6 transition-colors">
+          <a href="/blog" className="inline-flex items-center gap-2 text-white/80 hover:text-white mb-6 transition-colors">
             <svg className="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24">
               <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M10 19l-7-7m0 0l7-7m-7 7h18" />
             </svg>
-            Back to Home
+            Back to Blog
           </a>
           <span className="inline-block bg-white/20 text-white text-xs font-semibold px-3 py-1 rounded-full mb-4">
             {post.category}

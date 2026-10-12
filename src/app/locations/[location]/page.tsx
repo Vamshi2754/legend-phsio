@@ -1,4 +1,4 @@
-import { notFound } from "next/navigation";
+import { notFound, redirect } from "next/navigation";
 import { Metadata } from "next";
 import Header from "@/components/Header";
 import Footer from "@/components/Footer";
@@ -289,12 +289,13 @@ export async function generateStaticParams() {
 }
 
 // Generate metadata for SEO
-export async function generateMetadata({ params }: { params: { location: string } }): Promise<Metadata> {
-  const location = locationData[params.location];
+export async function generateMetadata({ params }: { params: Promise<{ location: string }> }): Promise<Metadata> {
+  const { location: locationSlug } = await params;
+  const location = locationData[locationSlug];
   if (!location) return { title: "Location Not Found" };
 
   const isClinic = location.type.includes("Clinic");
-  
+
   return {
     title: `Physiotherapy in ${location.name} Near Me | ${isClinic ? 'Clinic' : 'Home Visit'} | Legend Physiotherapy`,
     description: `Expert Physiotherapist in ${location.name}, Hyderabad. ${location.seoDescription}. Call ${location.phone} for appointment.`,
@@ -314,12 +315,12 @@ export async function generateMetadata({ params }: { params: { location: string 
       ...location.nearby.split(',').map(n => n.trim()),
     ],
     alternates: {
-      canonical: `/locations/${params.location}`,
+      canonical: `/locations/${locationSlug}`,
     },
     openGraph: {
       title: `Physiotherapy in ${location.name} | Legend Physiotherapy`,
       description: location.seoDescription,
-      url: `/locations/${params.location}`,
+      url: `/locations/${locationSlug}`,
       siteName: 'Legend Physiotherapy',
       locale: 'en_IN',
       type: 'website',
@@ -352,11 +353,12 @@ export async function generateMetadata({ params }: { params: { location: string 
   };
 }
 
-export default function LocationPage({ params }: { params: { location: string } }) {
-  const location: LocationEntry | undefined = locationData[params.location];
+export default async function LocationPage({ params }: { params: Promise<{ location: string }> }) {
+  const { location: locationSlug } = await params;
+  const location: LocationEntry | undefined = locationData[locationSlug];
 
   if (!location) {
-    notFound();
+    redirect('/contact');
   }
 
   const isClinic = location.type.includes("Clinic");
@@ -366,7 +368,7 @@ export default function LocationPage({ params }: { params: { location: string } 
     "@type": isClinic ? "MedicalBusiness" : "ProfessionalService",
     "name": `Legend Physiotherapy - ${location.name}`,
     "description": location.seoDescription,
-    "url": `https://www.legendphysiotherapy.com/locations/${params.location}`,
+    "url": `https://www.legendphysiotherapy.com/locations/${locationSlug}`,
     "telephone": location.phone.replace(/\s/g, ''),
     "email": "Info@legendphysiotherapy.com",
     "address": {
@@ -405,7 +407,7 @@ export default function LocationPage({ params }: { params: { location: string } 
     "itemListElement": [
       { "@type": "ListItem", "position": 1, "name": "Home", "item": "https://www.legendphysiotherapy.com" },
       { "@type": "ListItem", "position": 2, "name": "Locations", "item": "https://www.legendphysiotherapy.com/locations" },
-      { "@type": "ListItem", "position": 3, "name": `Physiotherapy in ${location.name}`, "item": `https://www.legendphysiotherapy.com/locations/${params.location}` }
+      { "@type": "ListItem", "position": 3, "name": `Physiotherapy in ${location.name}`, "item": `https://www.legendphysiotherapy.com/locations/${locationSlug}` }
     ]
   };
 
@@ -905,7 +907,7 @@ export default function LocationPage({ params }: { params: { location: string } 
                   key={loc.slug}
                   href={href}
                   className={`p-3 md:p-4 rounded-lg text-center transition-all text-xs md:text-sm ${
-                    loc.slug === params.location
+                    loc.slug === locationSlug
                       ? "bg-blue-500 text-white shadow-lg"
                       : hasFullData
                       ? "bg-gray-50 text-gray-700 hover:bg-blue-50 hover:text-blue-600 hover:shadow-md"

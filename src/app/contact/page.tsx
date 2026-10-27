@@ -219,11 +219,12 @@ export default function ContactPage() {
           </h2>
           <div className="bg-white rounded-2xl shadow-xl overflow-hidden border border-gray-200 h-[400px] sm:h-[500px] relative">
             <iframe
-              src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3808.312389658252!2d78.54522800000001!3d17.373909!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3bcb98e79c020591%3A0x6b63d9177651a027!2sLegend%20Physiotherapy%20Ortho%20and%20Neuro%20Pain%20Management%20Clinic!5e0!3m2!1sen!2sin!4v1714815600000!5m2!1sen!2sin"
+              src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3807.5!2d78.5457583!3d17.3597024!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3bcb990043784b77%3A0x55126327d4caeb32!2sLegend%20Physiotherapy%20Ortho%20and%20Neuro%20Pain%20Management%20Clinic%20%7C%20Kothapet%20%7C%20Lb%20Nagar!5e0!3m2!1sen!2sin!4v1"
               className="w-full h-full border-0"
               allowFullScreen
               loading="lazy"
               referrerPolicy="no-referrer-when-downgrade"
+              title="Legend Physiotherapy, Kothapet on Google Maps"
             ></iframe>
             
             {/* Location Marker Overlay */}
@@ -253,7 +254,7 @@ export default function ContactPage() {
               Our Physiotherapy Locations in Hyderabad
             </h2>
             <p className="text-gray-600 max-w-2xl mx-auto">
-              Find expert physiotherapy near you. We serve 200+ locations across Hyderabad with professional care.
+              Find expert physiotherapy near you. We serve all major areas across Hyderabad with professional care.
             </p>
           </div>
 

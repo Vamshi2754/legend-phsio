@@ -71,12 +71,22 @@ export default function Hero() {
           <span className="inline-block bg-white/20 backdrop-blur-sm text-white text-xs sm:text-sm font-semibold px-3 sm:px-4 py-1 sm:py-1.5 rounded-full mb-4 sm:mb-5 tracking-widest uppercase">
             {slide.badge}
           </span>
-          <h1 className="text-2xl sm:text-3xl md:text-4xl lg:text-5xl xl:text-6xl font-bold leading-tight mb-4 sm:mb-6" style={{ fontFamily: "'Georgia', 'Palatino Linotype', serif", fontStyle: "italic", letterSpacing: "-0.01em" }}>
-            {slide.title}
+          <h1 className="text-2xl sm:text-3xl md:text-4xl lg:text-5xl xl:text-6xl font-bold leading-tight mb-2 sm:mb-3" style={{ fontFamily: "var(--font-poppins)", letterSpacing: "-0.01em" }}>
+            Physiotherapy Clinic in Kothapet, LB Nagar, Hyderabad
           </h1>
-          <p className="text-white/85 text-sm sm:text-base lg:text-lg leading-relaxed mb-6 sm:mb-8 max-w-xl">
-            {slide.subtitle}
+          <p className="text-lg sm:text-xl md:text-2xl lg:text-3xl font-bold leading-tight mb-4 sm:mb-6" style={{ fontFamily: "'Georgia', 'Palatino Linotype', serif", fontStyle: "italic", letterSpacing: "-0.01em" }}>
+            {slide.title}
           </p>
+          {current === 0 && (
+            <p className="text-white/90 text-sm sm:text-base leading-relaxed mb-4 max-w-xl">
+              Legend Physiotherapy is an ortho and neuro physiotherapy clinic in Dwarka Nagar, Kothapet, a few minutes from LB Nagar and Dilsukhnagar. Dr Sirish and our team treat back and neck pain, knee and shoulder problems, sciatica, sports injuries, stroke and post-surgery rehabilitation. Visit the clinic, open daily 9 am to 9 pm, or book a home visit across East Hyderabad. Call +91 81430 15455.
+            </p>
+          )}
+          {current !== 0 && (
+            <p className="text-white/85 text-sm sm:text-base lg:text-lg leading-relaxed mb-6 sm:mb-8 max-w-xl">
+              {slide.subtitle}
+            </p>
+          )}
           <div className="flex flex-wrap gap-3 sm:gap-4">
             <a href="https://legendphysiotherapyorthoandneuropainmanagementclinic.setmore.com?utm_source=qr-code&utm_medium=settings-share-bp" target="_blank" rel="noopener noreferrer" className="bg-white text-blue-600 px-6 sm:px-8 py-3 sm:py-4 rounded-lg font-bold hover:bg-blue-50 transition-colors inline-flex items-center gap-2 text-sm sm:text-base shadow-xl border-2 border-white" style={{ fontFamily: "var(--font-poppins)" }}>
               <svg className="w-4 h-4 sm:w-5 sm:h-5" fill="currentColor" viewBox="0 0 20 20" aria-hidden="true">
@@ -149,8 +159,7 @@ export default function Hero() {
               color: "bg-blue-500",
               title: "Emergency Cases",
               desc: "24/7 emergency care always available",
-              value: "+91 9966193413",
-              value2: "+91 8143015455",
+              value: "+91 8143015455",
               isPhone: true,
             },
             {

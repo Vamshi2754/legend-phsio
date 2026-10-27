@@ -14,8 +14,8 @@ import Footer from "@/components/Footer";
 import type { Metadata } from "next";
 
 export const metadata: Metadata = {
-  title: "Physiotherapy Near Me in Hyderabad | Legend Physiotherapy Clinic & Home Visit",
-  description: "Expert physiotherapy near me in Hyderabad. Advanced treatment for back pain, neck pain, knee pain, sports injuries & neuro rehab. 20+ years experience. Clinic at LB Nagar & home visits across all locations. Book appointment today!",
+  title: "Physiotherapy Clinic in Kothapet, LB Nagar | Legend Physio",
+  description: "Physiotherapy clinic in Kothapet, LB Nagar, Hyderabad for back, neck, knee, shoulder and neuro rehab, plus home visits. Call +91 81430 15455 to book.",
   keywords: [
     "physiotherapy near me",
     "physiotherapy near me hyderabad",
@@ -85,19 +85,21 @@ export const metadata: Metadata = {
     "physiotherapy for elderly at home Hyderabad",
   ],
   openGraph: {
-    title: "Physiotherapy Near Me in Hyderabad | Legend Physiotherapy",
-    description: "Expert physiotherapy treatment for back pain, neck pain, knee pain & sports injuries. 20+ years experience. Clinic & home visits available.",
+    title: "Physiotherapy Clinic in Kothapet, LB Nagar | Legend Physio",
+    description: "Physiotherapy clinic in Kothapet, LB Nagar, Hyderabad for back, neck, knee, shoulder and neuro rehab, plus home visits.",
     type: "website",
     locale: "en_IN",
     siteName: "Legend Physiotherapy",
+    url: "/",
+    images: [{ url: "/og-image.jpg", width: 1200, height: 630, alt: "Legend Physiotherapy clinic, Kothapet" }],
   },
   twitter: {
     card: "summary_large_image",
-    title: "Physiotherapy Near Me in Hyderabad | Legend Physiotherapy",
-    description: "Expert physiotherapy treatment. 20+ years experience. Clinic & home visits available.",
+    title: "Physiotherapy Clinic in Kothapet, LB Nagar | Legend Physio",
+    description: "Physiotherapy clinic in Kothapet, LB Nagar, Hyderabad for back, neck, knee, shoulder and neuro rehab, plus home visits.",
   },
   alternates: {
-    canonical: "https://www.legendphysiotherapy.com",
+    canonical: "/",
   },
 };
 

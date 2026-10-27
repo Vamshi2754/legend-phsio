@@ -323,7 +323,7 @@ export default function Footer() {
   return (
     <footer id="contact" className="bg-gray-900 text-white">
       {/* Main footer */}
-      <div className="max-w-7xl mx-auto px-6 py-16 grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-10">
+      <div className="max-w-7xl mx-auto px-6 py-16 grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-5 gap-10">
         {/* Brand */}
         <div>
           <a href="/" className="flex items-center gap-2 mb-5 group">
@@ -438,6 +438,34 @@ export default function Footer() {
               { label: "About", href: "/about" },
               { label: "Blog", href: "/blog" },
               { label: "Contact Us", href: "/contact" }
+            ].map((link) => (
+              <li key={link.label}>
+                <a href={link.href} className="text-gray-400 hover:text-blue-400 text-sm flex items-center gap-2 transition-colors">
+                  <svg className="w-3 h-3 text-blue-500" fill="currentColor" viewBox="0 0 20 20">
+                    <path fillRule="evenodd" d="M7.293 14.707a1 1 0 010-1.414L10.586 10 7.293 6.707a1 1 0 011.414-1.414l4 4a1 1 0 010 1.414l-4 4a1 1 0 01-1.414 0z" clipRule="evenodd" />
+                  </svg>
+                  {link.label}
+                </a>
+              </li>
+            ))}
+          </ul>
+        </div>
+
+        {/* Conditions */}
+        <div>
+          <h4 className="font-semibold text-white mb-5 text-sm uppercase tracking-wider" style={{ fontFamily: "var(--font-poppins)" }}>
+            Conditions We Treat
+          </h4>
+          <ul className="space-y-3">
+            {[
+              { label: "Knee Pain", href: "/knee-pain-physiotherapy-lb-nagar" },
+              { label: "Back Pain", href: "/back-pain-physiotherapy-lb-nagar" },
+              { label: "Neck & Cervical", href: "/neck-pain-cervical-physiotherapy-lb-nagar" },
+              { label: "Sciatica & Slip Disc", href: "/sciatica-physiotherapy-lb-nagar" },
+              { label: "Shoulder Pain", href: "/shoulder-pain-physiotherapy-lb-nagar" },
+              { label: "Sports Injury", href: "/sports-injury-rehabilitation-lb-nagar" },
+              { label: "Neuro & Stroke Rehab", href: "/neuro-rehabilitation-lb-nagar" },
+              { label: "Post-Surgery Rehab", href: "/post-surgery-rehabilitation-lb-nagar" },
             ].map((link) => (
               <li key={link.label}>
                 <a href={link.href} className="text-gray-400 hover:text-blue-400 text-sm flex items-center gap-2 transition-colors">

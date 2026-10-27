@@ -5,7 +5,7 @@ const stats = [
   { value: 12000, label: "Happy Patients", icon: "patients" },
   { value: 20, label: "Years of Experience", icon: "experience" },
   { value: 19, label: "Service Locations", icon: "locations" },
-  { value: 500, label: "Google Reviews", icon: "rating" },
+  { value: 470, label: "Google Reviews", icon: "rating" },
 ];
 
 const iconMap: Record<string, React.ReactNode> = {
@@ -16,7 +16,7 @@ const iconMap: Record<string, React.ReactNode> = {
 };
 
 function useCountUp(target: number, duration = 2000, trigger: boolean) {
-  const [count, setCount] = useState(0);
+  const [count, setCount] = useState(target);
   useEffect(() => {
     if (!trigger) return;
     let start = 0;

@@ -16,7 +16,7 @@ const doctors = [
     image: doctorImg,
     social: {
       whatsapp: "919966193413",
-      phone: "+919966193413",
+      phone: "+918143015455",
       instagram: "https://www.instagram.com/dr.sirish_legend_physio?stkn=MWRmeHFlZnY3ZXBxZQ==",
       facebook: "https://www.facebook.com/share/1DTdMkDcju/",
       linkedin: "https://www.linkedin.com/in/sirish-physiotherapist?utm_source=share_via&utm_content=profile&utm_medium=member_android",

@@ -19,8 +19,8 @@ const poppins = Poppins({
 });
 
 export const metadata: Metadata = {
-  title: "Physiotherapy Near Me in Hyderabad | Legend Physiotherapy Clinic & Home Visit",
-  description: "Expert Physiotherapist in Hyderabad with 20+ years experience. Advanced treatment for back pain, neck pain, knee pain, sports injuries & neuro rehabilitation. Clinic in LB Nagar & Home visits across 200+ locations. Book now!",
+  title: "Physiotherapy Clinic in Kothapet, LB Nagar | Legend Physio",
+  description: "Physiotherapy clinic in Kothapet, LB Nagar, Hyderabad for back, neck, knee, shoulder and neuro rehab, plus home visits. Call +91 81430 15455 to book.",
   keywords: [
     "physiotherapy near me",
     "physiotherapist in Hyderabad",
@@ -110,26 +110,26 @@ export const metadata: Metadata = {
     canonical: '/',
   },
   openGraph: {
-    title: "Physiotherapy Near Me in Hyderabad | Legend Physiotherapy",
-    description: "Expert physiotherapy with 20+ years experience. Specialized in back pain, neck pain, sports injuries & neuro rehabilitation. Clinic & home visits available.",
+    title: "Physiotherapy Clinic in Kothapet, LB Nagar | Legend Physio",
+    description: "Physiotherapy clinic in Kothapet, LB Nagar, Hyderabad for back, neck, knee, shoulder and neuro rehab, plus home visits.",
     url: 'https://www.legendphysiotherapy.com',
     siteName: 'Legend Physiotherapy',
     locale: 'en_IN',
     type: 'website',
     images: [
       {
-        url: '/logo.png',
+        url: '/og-image.jpg',
         width: 1200,
         height: 630,
-        alt: 'Legend Physiotherapy - Expert Physiotherapist in Hyderabad',
+        alt: 'Legend Physiotherapy clinic, Kothapet',
       },
     ],
   },
   twitter: {
     card: 'summary_large_image',
-    title: "Physiotherapy Near Me in Hyderabad | Legend Physiotherapy",
-    description: "Expert physiotherapy with 20+ years experience. Back pain, neck pain, sports injuries & neuro rehabilitation.",
-    images: ['/logo.png'],
+    title: "Physiotherapy Clinic in Kothapet, LB Nagar | Legend Physio",
+    description: "Physiotherapy clinic in Kothapet, LB Nagar, Hyderabad for back, neck, knee, shoulder and neuro rehab, plus home visits.",
+    images: ['/og-image.jpg'],
   },
   robots: {
     index: true,
@@ -156,7 +156,7 @@ export default function RootLayout({
 }>) {
   const businessSchema = {
     "@context": "https://schema.org",
-    "@type": "MedicalBusiness",
+    "@type": "Physiotherapy",
     "@id": "https://www.legendphysiotherapy.com/#organization",
     "name": "Legend Physiotherapy Ortho and Neuro Pain Management Clinic",
     "alternateName": "Legend Physiotherapy",
@@ -177,8 +177,8 @@ export default function RootLayout({
     },
     "geo": {
       "@type": "GeoCoordinates",
-      "latitude": 17.373909,
-      "longitude": 78.545228
+      "latitude": 17.3596851,
+      "longitude": 78.5457377
     },
     "openingHoursSpecification": [
       {
@@ -189,27 +189,12 @@ export default function RootLayout({
       }
     ],
     "sameAs": [
-      "https://www.instagram.com/dr.sirish_legend_physio?stkn=MWRmeHFlZnY3ZXBxZQ==",
+      "https://www.instagram.com/dr.sirish_legend_physio/",
       "https://www.facebook.com/share/1DTdMkDcju/",
-      "https://www.linkedin.com/in/sirish-physiotherapist?utm_source=share_via&utm_content=profile&utm_medium=member_android"
+      "https://www.linkedin.com/in/sirish-physiotherapist/"
     ],
-    "aggregateRating": {
-      "@type": "AggregateRating",
-      "ratingValue": "5.0",
-      "reviewCount": "2400",
-      "bestRating": "5",
-      "worstRating": "1"
-    },
-    "medicalSpecialty": [
-      "Physiotherapy",
-      "Orthopedic Rehabilitation",
-      "Neurological Rehabilitation",
-      "Sports Medicine"
-    ],
-    "areaServed": {
-      "@type": "City",
-      "name": "Hyderabad"
-    },
+    "medicalSpecialty": ["Musculoskeletal", "Neurologic"],
+    "areaServed": ["Kothapet", "LB Nagar", "Dilsukhnagar", "Nagole", "Vanasthalipuram", "Hyderabad"],
     "founder": {
       "@type": "Person",
       "name": "Dr. Sirish",
@@ -260,8 +245,8 @@ export default function RootLayout({
         <link rel="icon" href="/favicon.png" type="image/png" />
         <meta name="geo.region" content="IN-TG" />
         <meta name="geo.placename" content="Hyderabad" />
-        <meta name="geo.position" content="17.373909;78.545228" />
-        <meta name="ICBM" content="17.373909, 78.545228" />
+        <meta name="geo.position" content="17.3596851;78.5457377" />
+        <meta name="ICBM" content="17.3596851, 78.5457377" />
         <script
           type="application/ld+json"
           dangerouslySetInnerHTML={{ __html: JSON.stringify(businessSchema) }}

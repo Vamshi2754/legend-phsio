@@ -297,8 +297,8 @@ export async function generateMetadata({ params }: { params: Promise<{ location:
   const isClinic = location.type.includes("Clinic");
 
   return {
-    title: `Physiotherapy in ${location.name} Near Me | ${isClinic ? 'Clinic' : 'Home Visit'} | Legend Physiotherapy`,
-    description: `Expert Physiotherapist in ${location.name}, Hyderabad. ${location.seoDescription}. Call ${location.phone} for appointment.`,
+    title: `Physiotherapy in ${location.name}, Hyderabad | Legend Physiotherapy`,
+    description: `Physiotherapy clinic near ${location.name}, in Kothapet, for back, neck, knee and sports injuries, plus neuro rehab and home visits. Call +91 81430 15455.`,
     keywords: [
       `physiotherapy in ${location.name}`,
       `physiotherapist in ${location.name}`,
@@ -318,7 +318,7 @@ export async function generateMetadata({ params }: { params: Promise<{ location:
       canonical: `/locations/${locationSlug}`,
     },
     openGraph: {
-      title: `Physiotherapy in ${location.name} | Legend Physiotherapy`,
+      title: `Physiotherapy in ${location.name}, Hyderabad | Legend Physiotherapy`,
       description: location.seoDescription,
       url: `/locations/${locationSlug}`,
       siteName: 'Legend Physiotherapy',
@@ -326,7 +326,7 @@ export async function generateMetadata({ params }: { params: Promise<{ location:
       type: 'website',
       images: [
         {
-          url: '/logo.png',
+          url: '/og-image.jpg',
           width: 1200,
           height: 630,
           alt: `Physiotherapy in ${location.name}`,
@@ -335,9 +335,9 @@ export async function generateMetadata({ params }: { params: Promise<{ location:
     },
     twitter: {
       card: 'summary_large_image',
-      title: `Physiotherapy in ${location.name} | Legend Physiotherapy`,
+      title: `Physiotherapy in ${location.name}, Hyderabad | Legend Physiotherapy`,
       description: location.seoDescription,
-      images: ['/logo.png'],
+      images: ['/og-image.jpg'],
     },
     robots: {
       index: true,
@@ -362,6 +362,16 @@ export default async function LocationPage({ params }: { params: Promise<{ locat
   }
 
   const isClinic = location.type.includes("Clinic");
+
+  const defaultFaqs = [
+    { question: `How much does physiotherapy cost in ${location.name}?`, answer: `Physiotherapy session fees at Legend Physiotherapy for ${location.name} patients start from ₹500 for a home visit. Clinic sessions at our Kothapet facility may vary based on the treatment required. Call +91 81430 15455 for exact pricing.` },
+    { question: `Do you provide home visit physiotherapy in ${location.name}?`, answer: `Yes, Legend Physiotherapy provides professional home visit physiotherapy across ${location.name} and surrounding areas. Our therapists bring portable TENS, ultrasound, and rehabilitation equipment to your doorstep. Sessions are available 7 days a week, 9 AM to 9 PM.` },
+    { question: `What conditions do you treat in ${location.name}?`, answer: `We treat back pain, knee pain, neck pain, frozen shoulder, sciatica, sports injuries, post-surgery rehabilitation, stroke recovery, and neurological conditions for patients in ${location.name}. Dr. Sirish and our team specialise in both orthopaedic and neurological rehabilitation.` },
+    { question: `How do I book a physiotherapy appointment in ${location.name}?`, answer: `You can book via WhatsApp, call +91 81430 15455, or visit our Kothapet clinic directly. Same-day appointments are often available for urgent cases.` },
+    { question: `What areas do you serve around ${location.name}?`, answer: `We serve ${location.nearby} and surrounding areas. Our ${location.type.toLowerCase()} covers patients throughout the ${location.name} region of Hyderabad.` },
+    { question: `Do you offer ${location.type.includes("Home") ? "clinic visits" : "home visits"} as well?`, answer: location.type.includes("Home") ? `Yes! While we specialise in home visits in ${location.name}, we also have our flagship clinic at Kothapet with advanced robotic physiotherapy and spinal decompression equipment.` : `Yes! In addition to our ${location.name} clinic services, we offer professional home visit physiotherapy for patients who prefer treatment at home or have difficulty travelling.` },
+  ];
+  const faqs = location.faqs || defaultFaqs;
 
   const locationSchema = {
     "@context": "https://schema.org",
@@ -434,7 +444,7 @@ export default async function LocationPage({ params }: { params: Promise<{ locat
             </div>
 
             <h1 className="text-3xl sm:text-4xl md:text-5xl lg:text-6xl font-bold mb-4 md:mb-6 leading-tight" style={{ fontFamily: "var(--font-poppins)" }}>
-              {location.fullName}
+              Physiotherapy {isClinic ? 'Clinic for' : 'Home Visits in'} {location.name}{isClinic ? ', in Kothapet' : ''}
             </h1>
 
             <p className="text-base md:text-xl text-blue-100 mb-6 md:mb-8 leading-relaxed">
@@ -829,55 +839,22 @@ export default async function LocationPage({ params }: { params: Promise<{ locat
       {/* FAQ Section */}
       <section className="py-12 md:py-20 bg-gray-50">
         <div className="max-w-4xl mx-auto px-4 sm:px-6">
-          <div className="text-center mb-8 md:mb-12">
-            <h2 className="text-3xl md:text-4xl font-bold text-gray-800 mb-3 md:mb-4" style={{ fontFamily: "var(--font-poppins)" }}>
-              Frequently Asked Questions
-            </h2>
-            <p className="text-sm md:text-base text-gray-600">
-              Common questions about physiotherapy services in {location.name}
-            </p>
-          </div>
-
+          <h2 className="text-3xl md:text-4xl font-bold text-gray-800 mb-8" style={{ fontFamily: "var(--font-poppins)" }}>
+            Frequently Asked Questions About Physiotherapy in {location.name}
+          </h2>
           <div className="space-y-3 md:space-y-4">
-            {[
-              {
-                q: `What areas do you serve around ${location.name}?`,
-                a: `We serve ${location.nearby} and surrounding areas. Our ${location.type.toLowerCase()} is conveniently located to serve patients throughout the region.`
-              },
-              {
-                q: "How long does each physiotherapy session last?",
-                a: "Each session typically lasts 45-60 minutes, depending on your condition and treatment plan. Your first assessment may take slightly longer as we conduct a comprehensive evaluation."
-              },
-              {
-                q: "Do you accept insurance?",
-                a: "Yes, we work with most major insurance providers. We can provide detailed invoices and documentation for insurance reimbursement. Please contact us to verify your specific coverage."
-              },
-              {
-                q: "How many sessions will I need?",
-                a: "The number of sessions varies based on your condition, severity, and individual response to treatment. Most patients see significant improvement within 6-12 sessions, though some conditions may require more or less."
-              },
-              {
-                q: "What should I wear to my physiotherapy appointment?",
-                a: "Wear comfortable, loose-fitting clothing that allows easy access to the area being treated. For lower body treatments, shorts are recommended. For upper body, a tank top or t-shirt works well."
-              },
-              {
-                q: `Do you offer ${location.type.includes("Home") ? "clinic visits" : "home visits"} as well?`,
-                a: location.type.includes("Home") 
-                  ? "Yes! While we specialize in home visits, we also have clinic facilities available. For advanced treatments requiring specialized equipment, we can arrange clinic appointments."
-                  : "Yes! In addition to our clinic services, we offer professional home visit physiotherapy for patients who prefer treatment at home or have difficulty traveling."
-              }
-            ].map((faq, index) => (
+            {faqs.map((faq, index) => (
               <details key={index} className="group bg-white rounded-lg md:rounded-xl shadow-sm overflow-hidden">
-                <summary className="flex items-center justify-between p-4 md:p-6 cursor-pointer hover:bg-blue-50 transition-colors">
+                <summary className="flex items-center justify-between p-4 md:p-6 cursor-pointer hover:bg-blue-50 transition-colors list-none">
                   <h3 className="text-sm md:text-base font-semibold text-gray-800 pr-4" style={{ fontFamily: "var(--font-poppins)" }}>
-                    {faq.q}
+                    {faq.question}
                   </h3>
                   <svg className="w-4 h-4 md:w-5 md:h-5 text-blue-500 flex-shrink-0 group-open:rotate-180 transition-transform" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                     <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M19 9l-7 7-7-7" />
                   </svg>
                 </summary>
                 <div className="px-4 md:px-6 pb-4 md:pb-6 text-sm md:text-base text-gray-600 leading-relaxed">
-                  {faq.a}
+                  {faq.answer}
                 </div>
               </details>
             ))}
@@ -893,7 +870,7 @@ export default async function LocationPage({ params }: { params: Promise<{ locat
               Our Physiotherapy Locations in Hyderabad
             </h2>
             <p className="text-sm md:text-base text-gray-600 max-w-2xl mx-auto">
-              Find expert physiotherapy near you. We serve 200+ locations across Hyderabad with professional care.
+              Find expert physiotherapy near you. We serve all major areas across Hyderabad with professional care.
             </p>
           </div>
 
@@ -952,58 +929,14 @@ export default async function LocationPage({ params }: { params: Promise<{ locat
           __html: JSON.stringify({
             "@context": "https://schema.org",
             "@type": "FAQPage",
-            "mainEntity": [
-              {
-                "@type": "Question",
-                "name": `What areas do you serve around ${location.name}?`,
-                "acceptedAnswer": {
-                  "@type": "Answer",
-                  "text": `We serve ${location.nearby} and surrounding areas. Our ${location.type.toLowerCase()} is conveniently located to serve patients throughout the region.`
-                }
-              },
-              {
-                "@type": "Question",
-                "name": "How long does each physiotherapy session last?",
-                "acceptedAnswer": {
-                  "@type": "Answer",
-                  "text": "Each session typically lasts 45-60 minutes, depending on your condition and treatment plan. Your first assessment may take slightly longer as we conduct a comprehensive evaluation."
-                }
-              },
-              {
-                "@type": "Question",
-                "name": "Do you accept insurance?",
-                "acceptedAnswer": {
-                  "@type": "Answer",
-                  "text": "Yes, we work with most major insurance providers. We can provide detailed invoices and documentation for insurance reimbursement. Please contact us to verify your specific coverage."
-                }
-              },
-              {
-                "@type": "Question",
-                "name": "How many sessions will I need?",
-                "acceptedAnswer": {
-                  "@type": "Answer",
-                  "text": "The number of sessions varies based on your condition, severity, and individual response to treatment. Most patients see significant improvement within 6-12 sessions, though some conditions may require more or less."
-                }
-              },
-              {
-                "@type": "Question",
-                "name": "What should I wear to my physiotherapy appointment?",
-                "acceptedAnswer": {
-                  "@type": "Answer",
-                  "text": "Wear comfortable, loose-fitting clothing that allows easy access to the area being treated. For lower body treatments, shorts are recommended. For upper body, a tank top or t-shirt works well."
-                }
-              },
-              {
-                "@type": "Question",
-                "name": `Do you offer ${location.type.includes("Home") ? "clinic visits" : "home visits"} as well?`,
-                "acceptedAnswer": {
-                  "@type": "Answer",
-                  "text": location.type.includes("Home") 
-                    ? "Yes! While we specialize in home visits, we also have clinic facilities available. For advanced treatments requiring specialized equipment, we can arrange clinic appointments."
-                    : "Yes! In addition to our clinic services, we offer professional home visit physiotherapy for patients who prefer treatment at home or have difficulty traveling."
-                }
+            "mainEntity": faqs.map(faq => ({
+              "@type": "Question",
+              "name": faq.question,
+              "acceptedAnswer": {
+                "@type": "Answer",
+                "text": faq.answer
               }
-            ]
+            }))
           })
         }}
       />

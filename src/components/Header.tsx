@@ -7,8 +7,19 @@ const navLinks = [
   { label: "Home", href: "/" },
   { label: "Services", href: "/#services" },
   { label: "About", href: "/about" },
-  { label: "Blog", href: "/#blog" },
+  { label: "Blog", href: "/blog" },
   { label: "Contact", href: "/contact" },
+];
+
+const conditionLinks = [
+  { label: "Knee Pain", href: "/knee-pain-physiotherapy-lb-nagar" },
+  { label: "Back Pain", href: "/back-pain-physiotherapy-lb-nagar" },
+  { label: "Neck & Cervical", href: "/neck-pain-cervical-physiotherapy-lb-nagar" },
+  { label: "Sciatica & Slip Disc", href: "/sciatica-physiotherapy-lb-nagar" },
+  { label: "Shoulder & Frozen Shoulder", href: "/shoulder-pain-physiotherapy-lb-nagar" },
+  { label: "Sports Injury", href: "/sports-injury-rehabilitation-lb-nagar" },
+  { label: "Neuro & Stroke Rehab", href: "/neuro-rehabilitation-lb-nagar" },
+  { label: "Post-Surgery Rehab", href: "/post-surgery-rehabilitation-lb-nagar" },
 ];
 
 // Dynamically generate locations from locationData
@@ -165,6 +176,35 @@ export default function Header() {
               </a>
             ))}
 
+            {/* Conditions Dropdown */}
+            <div className="relative group">
+              <button
+                className="text-gray-700 font-medium hover:text-blue-500 transition-colors text-sm flex items-center gap-1 cursor-pointer"
+                style={{ fontFamily: "var(--font-poppins)" }}
+              >
+                Conditions
+                <svg className="w-4 h-4 group-hover:rotate-180 transition-transform duration-300" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                  <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M19 14l-7 7m0 0l-7-7m7 7V3" />
+                </svg>
+              </button>
+              <div className="absolute left-0 mt-2 w-64 bg-gradient-to-br from-white to-blue-50 rounded-2xl shadow-2xl opacity-0 invisible group-hover:opacity-100 group-hover:visible transition-all duration-300 z-50 border-2 border-blue-100 py-3 pointer-events-none group-hover:pointer-events-auto">
+                <div className="px-3 py-2">
+                  <p className="text-xs font-bold text-blue-600 uppercase tracking-wider mb-3 px-3">We Treat</p>
+                  <div className="grid grid-cols-1 gap-1">
+                    {conditionLinks.map((condition) => (
+                      <Link
+                        key={condition.href}
+                        href={condition.href}
+                        className="px-4 py-3 text-gray-700 hover:bg-blue-500 hover:text-white text-sm rounded-xl transition-all duration-200 block pointer-events-auto font-medium"
+                      >
+                        {condition.label}
+                      </Link>
+                    ))}
+                  </div>
+                </div>
+              </div>
+            </div>
+
             {/* Locations Dropdown */}
             <div className="relative group">
               <button
@@ -243,6 +283,23 @@ export default function Header() {
                 {link.label}
               </a>
             ))}
+
+            {/* Mobile Conditions */}
+            <div className="py-2.5 border-b border-gray-50">
+              <p className="text-sm sm:text-base text-gray-700 font-medium mb-2">Conditions</p>
+              <div className="pl-4 space-y-1">
+                {conditionLinks.map((condition) => (
+                  <a
+                    key={condition.href}
+                    href={condition.href}
+                    className="block py-1.5 text-sm text-gray-600 hover:text-blue-500"
+                    onClick={() => setMobileOpen(false)}
+                  >
+                    {condition.label}
+                  </a>
+                ))}
+              </div>
+            </div>
 
             {/* Mobile Locations */}
             <div className="py-2.5 border-b border-gray-50">

@@ -367,7 +367,7 @@ export default function Testimonials() {
                   </svg>
                 ))}
               </div>
-              <p className="text-white/80 text-xs">Based on 2,400+ reviews</p>
+              <p className="text-white/80 text-xs">Rated 5.0 on Google</p>
             </div>
           </div>
         </div>

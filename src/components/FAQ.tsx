@@ -4,11 +4,11 @@ import { useState } from "react";
 const faqs = [
   {
     question: "What types of physiotherapy do you offer in Hyderabad?",
-    answer: "We offer orthopedic physiotherapy, neurological rehabilitation, sports injury treatment, post-surgical recovery, spinal decompression therapy, robotic physiotherapy, and home visit physiotherapy services across 200+ locations in Hyderabad."
+    answer: "We offer orthopedic physiotherapy, neurological rehabilitation, sports injury treatment, post-surgical recovery, spinal decompression therapy, robotic physiotherapy, and home visit physiotherapy services across Hyderabad."
   },
   {
     question: "Do you provide home visit physiotherapy in Hyderabad?",
-    answer: "Yes, we provide professional home visit physiotherapy across all areas of Hyderabad including LB Nagar, Dilsukhnagar, Gachibowli, Kukatpally, Secunderabad, Banjara Hills, and 200+ other locations. Our experienced physiotherapists bring equipment to your doorstep."
+    answer: "Yes, we provide professional home visit physiotherapy across all areas of Hyderabad including LB Nagar, Dilsukhnagar, Gachibowli, Kukatpally, Secunderabad, Banjara Hills, and many other areas. Our experienced physiotherapists bring equipment to your doorstep."
   },
   {
     question: "How much does physiotherapy cost per session in Hyderabad?",
@@ -28,7 +28,7 @@ const faqs = [
   },
   {
     question: "How experienced is your physiotherapy team?",
-    answer: "Our team is led by Dr. Sirish with over 20 years of experience in ortho and neuro rehabilitation. We have treated over 12,000 patients with a consistent 5-star rating from 2,400+ Google reviews."
+    answer: "Our team is led by Dr. Sirish with over 20 years of experience in ortho and neuro rehabilitation. We have treated thousands of patients with a consistent 5-star rating on Google."
   },
   {
     question: "Do you offer lady physiotherapist for home visits?",

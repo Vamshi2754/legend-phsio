@@ -62,11 +62,8 @@ export default function ClinicLocation() {
                 <div>
                   <p className="font-semibold text-gray-900 text-sm sm:text-base mb-1">Phone</p>
                   <div className="space-y-1">
-                    <a href="tel:+919966193413" className="block text-green-600 hover:underline font-bold text-sm sm:text-base">
-                      +91 9966193413
-                    </a>
                     <a href="tel:+918143015455" className="block text-green-600 hover:underline font-bold text-sm sm:text-base">
-                      +91 8143015455
+                      +91 81430 15455
                     </a>
                   </div>
                   <p className="text-gray-500 text-xs mt-1">Mon-Sun: 9:00 AM - 9:00 PM</p>

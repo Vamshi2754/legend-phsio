@@ -45,6 +45,23 @@ export default function sitemap(): MetadataRoute.Sitemap {
     },
   ]
 
+  // Condition / service pages
+  const conditionPages = [
+    'knee-pain-physiotherapy-lb-nagar',
+    'back-pain-physiotherapy-lb-nagar',
+    'neck-pain-cervical-physiotherapy-lb-nagar',
+    'sciatica-physiotherapy-lb-nagar',
+    'shoulder-pain-physiotherapy-lb-nagar',
+    'sports-injury-rehabilitation-lb-nagar',
+    'neuro-rehabilitation-lb-nagar',
+    'post-surgery-rehabilitation-lb-nagar',
+  ].map((slug) => ({
+    url: `${baseUrl}/${slug}`,
+    lastModified: new Date(),
+    changeFrequency: 'monthly' as const,
+    priority: 0.9,
+  }))
+
   // Location pages - HIGH PRIORITY for SEO
   const locationPages = Object.keys(locationData).map((slug) => ({
     url: `${baseUrl}/locations/${slug}`,
@@ -61,5 +78,5 @@ export default function sitemap(): MetadataRoute.Sitemap {
     priority: 0.7,
   }))
 
-  return [...staticPages, ...locationPages, ...blogPages]
+  return [...staticPages, ...conditionPages, ...locationPages, ...blogPages]
 }

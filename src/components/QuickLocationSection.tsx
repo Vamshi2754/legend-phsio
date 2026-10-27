@@ -57,9 +57,6 @@ export default function QuickLocationSection() {
                   <div>
                     <span className="font-bold text-gray-900 block text-xs uppercase text-gray-500 tracking-wider">Phone / Emergency Care</span>
                     <div className="flex flex-wrap gap-x-4 gap-y-1 mt-0.5 font-bold text-green-700 text-sm">
-                      <a href="tel:+919966193413" className="hover:underline flex items-center gap-1">
-                        +91 99661 93413
-                      </a>
                       <a href="tel:+918143015455" className="hover:underline flex items-center gap-1">
                         +91 81430 15455
                       </a>
@@ -93,7 +90,7 @@ export default function QuickLocationSection() {
                   <ExternalLink className="w-3.5 h-3.5 opacity-80" />
                 </a>
                 <a
-                  href="tel:+919966193413"
+                  href="tel:+918143015455"
                   className="bg-green-600 hover:bg-green-700 text-white px-5 py-3 rounded-xl font-bold text-sm shadow-md hover:shadow-lg transition-all flex items-center justify-center gap-2"
                 >
                   <Phone className="w-4 h-4" />

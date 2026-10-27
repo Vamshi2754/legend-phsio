@@ -1,8 +1,8 @@
 import type { Metadata } from "next";
 
 export const metadata: Metadata = {
-  title: "Contact Us | Legend Physiotherapy Clinic Hyderabad | Call +91 81430 15455",
-  description: "Contact Legend Physiotherapy for expert physiotherapy treatment in Hyderabad. Clinic at LB Nagar & home visits across 200+ locations. Call +91 81430 15455 or WhatsApp for appointment. Available Mon-Sun 9am-9pm.",
+  title: "Contact Legend Physiotherapy | Kothapet, LB Nagar, Hyderabad",
+  description: "Visit Legend Physiotherapy at Dwarka Nagar, Kothapet, LB Nagar, Hyderabad. Open daily 9 am to 9 pm. Call +91 81430 15455 to book a clinic or home visit.",
   keywords: [
     "contact physiotherapy clinic",
     "physiotherapy clinic hyderabad contact",
@@ -14,12 +14,12 @@ export const metadata: Metadata = {
     "physiotherapy home visit hyderabad",
   ],
   openGraph: {
-    title: "Contact Us | Legend Physiotherapy Clinic Hyderabad",
-    description: "Contact Legend Physiotherapy for expert treatment. Clinic at LB Nagar & home visits across 200+ locations. Call +91 81430 15455",
+    title: "Contact Legend Physiotherapy | Kothapet, LB Nagar, Hyderabad",
+    description: "Visit Legend Physiotherapy at Dwarka Nagar, Kothapet, LB Nagar, Hyderabad. Open daily 9 am to 9 pm. Call +91 81430 15455.",
     type: "website",
   },
   alternates: {
-    canonical: "https://www.legendphysiotherapy.com/contact",
+    canonical: "/contact",
   },
 };
 

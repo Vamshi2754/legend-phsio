@@ -7,14 +7,14 @@ export default function FloatingContact() {
     <aside aria-label="Quick contact links" className="fixed right-0 top-1/2 -translate-y-1/2 z-50 flex flex-col shadow-2xl rounded-l-2xl overflow-hidden border-l border-y border-white/30 backdrop-blur-sm">
       {/* 1. Call Button */}
       <a
-        href="tel:+919966193413"
+        href="tel:+918143015455"
         aria-label="Call Us Directly"
         title="Call Us"
         className="w-12 sm:w-14 h-12 sm:h-14 bg-[#2563eb] hover:bg-[#1d4ed8] text-white flex items-center justify-center transition-all duration-300 hover:-translate-x-1 group relative rounded-tl-2xl border-b border-white/10"
       >
         <Phone className="w-5 h-5 sm:w-6 sm:h-6 fill-current" />
         <span className="absolute right-full mr-3 bg-gray-900/95 text-white text-xs font-bold px-3 py-1.5 rounded-lg shadow-xl opacity-0 group-hover:opacity-100 transition-opacity whitespace-nowrap pointer-events-none">
-          Call Now (+91 99661 93413)
+          Call Now (+91 81430 15455)
         </span>
       </a>
 

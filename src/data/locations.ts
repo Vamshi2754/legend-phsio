@@ -29,6 +29,7 @@ export interface LocationEntry {
     whyLocal: string;
     accessibility: string;
   };
+  faqs?: { question: string; answer: string }[];
 }
 
 export const locationData: Record<string, LocationEntry> = {
@@ -95,7 +96,7 @@ export const locationData: Record<string, LocationEntry> = {
     fullName: "Legend Physiotherapy Home Visit Service | Nagole, Hyderabad",
     type: "Home Visit",
     title: "Legend Physiotherapy Home Visit Service | Nagole",
-    phone: "+91 99661 93413",
+    phone: "+91 81430 15455",
     whatsapp: "919966193413",
     address: "NUMBER 1A, 2-4-813, New Nagole Main Rd, Snehapuri, Snehapuri Colony, Nagole, Hyderabad, Telangana 500068",
     mapEmbed: "https://maps.google.com/maps?q=NUMBER+1A+2-4-813+New+Nagole+Main+Rd+Snehapuri+Snehapuri+Colony+Nagole+Hyderabad+Telangana+500068&output=embed",
@@ -105,7 +106,7 @@ export const locationData: Record<string, LocationEntry> = {
         lng: 78.5580,
         label: "Legend Physiotherapy � Nagole",
         address: "NUMBER 1A, 2-4-813, New Nagole Main Rd, Snehapuri Colony, Nagole, Hyderabad",
-        phone: "+91 99661 93413"
+        phone: "+91 81430 15455"
       }
     ],
     description: "Legend Physiotherapy's Nagole home visit service brings certified physiotherapy care directly to your doorstep in Nagole, Snehapuri Colony, and surrounding areas. Our expert therapists are trained in orthopaedic and neurological rehabilitation, providing personalised treatment plans for back pain, knee pain, post-surgical recovery, and sports injuries. We use portable clinical-grade equipment including TENS, ultrasound, and resistance therapy tools, ensuring you receive the same quality of care as our clinic � in the comfort of your home. Flexible morning and evening slots are available to suit your schedule.",
@@ -199,7 +200,7 @@ export const locationData: Record<string, LocationEntry> = {
     fullName: "Legend Physiotherapy Home Visit Service Near Habsiguda, Hyderabad",
     type: "Home Visit",
     title: "Legend Physiotherapy Home Visit Service Near Habsiguda, Hyderabad",
-    phone: "+91 99661 93413",
+    phone: "+91 81430 15455",
     whatsapp: "919966193413",
     address: "1-4-37, Captain Veera Raja Reddy Marg, Vasant Vihar, Habsiguda, Hyderabad, Telangana 500007",
     mapEmbed: "https://maps.google.com/maps?q=1-4-37+Captain+Veera+Raja+Reddy+Marg+Vasant+Vihar+Habsiguda+Hyderabad+Telangana+500007&output=embed",
@@ -209,7 +210,7 @@ export const locationData: Record<string, LocationEntry> = {
         lng: 78.5490,
         label: "Legend Physiotherapy � Habsiguda",
         address: "1-4-37, Captain Veera Raja Reddy Marg, Vasant Vihar, Habsiguda, Hyderabad",
-        phone: "+91 99661 93413"
+        phone: "+91 81430 15455"
       }
     ],
     description: "Legend Physiotherapy's Habsiguda home visit service covers Vasant Vihar, Habsiguda, Tarnaka, and Uppal areas. Our certified physiotherapists provide expert treatment for orthopaedic and neurological conditions at your home. Located on Captain Veera Raja Reddy Marg, our team is well-positioned to reach patients quickly across the east Hyderabad corridor. We specialise in post-operative rehabilitation, sports injury recovery, and chronic pain management, using portable clinical equipment to deliver hospital-quality care at your doorstep.",
@@ -303,7 +304,7 @@ export const locationData: Record<string, LocationEntry> = {
     fullName: "Legend Physiotherapy Home Visit Service | Abids, Hyderabad",
     type: "Home Visit",
     title: "Legend Physiotherapy Home Visit Service abids",
-    phone: "+91 99661 93413",
+    phone: "+91 81430 15455",
     whatsapp: "919966193413",
     address: "3rd Floor, Triveni Complex, Swapna Theater, Abids Road, opposite Santhosh, Sultan Bazar, Abids, Hyderabad, Telangana 500001",
     mapEmbed: "https://maps.google.com/maps?q=3rd+Floor+Triveni+Complex+Swapna+Theater+Abids+Road+opposite+Santhosh+Sultan+Bazar+Abids+Hyderabad+Telangana+500001&output=embed",
@@ -313,7 +314,7 @@ export const locationData: Record<string, LocationEntry> = {
         lng: 78.4730,
         label: "Legend Physiotherapy � Abids",
         address: "3rd Floor, Triveni Complex, Swapna Theater, Abids Road, opposite Santhosh, Sultan Bazar, Abids, Hyderabad",
-        phone: "+91 99661 93413"
+        phone: "+91 81430 15455"
       }
     ],
     description: "Legend Physiotherapy's Abids centre is located on the 3rd Floor of Triveni Complex, Abids Road, opposite Santhosh, Sultan Bazar � in the heart of central Hyderabad. We serve patients across Abids, Sultan Bazar, Koti, Nampally, and Lakdi Ka Pul. Our physiotherapists are experts in treating chronic pain, post-surgical rehabilitation, and neurological conditions. The Abids location also provides home visit services for patients who prefer treatment at home. With central Hyderabad's best connectivity, reaching us is easy from any part of the city.",
@@ -355,7 +356,7 @@ export const locationData: Record<string, LocationEntry> = {
     fullName: "Legend Physiotherapy � Physiotherapy Clinic in Himayatnagar, Hyderabad",
     type: "Home Visit",
     title: "Legend Physiotherapy - physio therapy center & physiotherapy clinic in Himayatnagar",
-    phone: "+91 99661 93413",
+    phone: "+91 81430 15455",
     whatsapp: "919966193413",
     address: "3-6-459/A, Street No. 5, beside Hyundai Showroom, Devi Laxmi Bagh, Domalguda, Himayatnagar, Hyderabad, Telangana 500029",
     mapEmbed: "https://maps.google.com/maps?q=3-6-459+Street+No.+5+beside+Hyundai+Showroom+Devi+Laxmi+Bagh+Domalguda+Himayatnagar+Hyderabad+Telangana+500029&output=embed",
@@ -365,14 +366,14 @@ export const locationData: Record<string, LocationEntry> = {
         lng: 78.4820,
         label: "Branch 1 � Domalguda, beside Hyundai Showroom",
         address: "3-6-459/A, Street No. 5, beside Hyundai Showroom, Devi Laxmi Bagh, Domalguda, Himayatnagar",
-        phone: "+91 99661 93413"
+        phone: "+91 81430 15455"
       },
       {
         lat: 17.4030,
         lng: 78.4800,
         label: "Branch 2 � Himayat Nagar Rd, New SBH Colony",
         address: "3-6-203, Himayat Nagar Rd, New SBH Colony, AP State Housing Board, Himayatnagar",
-        phone: "+91 99661 93413"
+        phone: "+91 81430 15455"
       }
     ],
     description: "Legend Physiotherapy operates two branches in Himayatnagar, making it the most accessible physiotherapy provider in central Hyderabad. Branch 1 is located at 3-6-459/A, Street No. 5, beside the Hyundai Showroom, Devi Laxmi Bagh, Domalguda. Branch 2 is at 3-6-203, Himayat Nagar Road, New SBH Colony, AP State Housing Board. Together, these two centres serve patients across Himayatnagar, Domalguda, Narayanguda, Himayath Nagar, and Basheerbagh. Our expert physiotherapists treat orthopaedic and neurological conditions using advanced manual therapy, electrotherapy, and customised rehabilitation programmes. Home visit services are also available for patients who prefer treatment at home.",
@@ -417,7 +418,7 @@ export const locationData: Record<string, LocationEntry> = {
     fullName: "Legend Physiotherapy at Home | Expert Physiotherapist near Attapur, Hyderabad",
     type: "Home Visit",
     title: "Legend Physiotherapy at Home | Expert Physiotherapist near Attapur, Hyderabad",
-    phone: "+91 99661 93413",
+    phone: "+91 81430 15455",
     whatsapp: "919966193413",
     address: "Pillar No. 13, Janpriya, Anandi Devi Complex, 3-5-1, Upparpally Rd, Hyderguda, Hyderaguda, Hyderabad, Telangana 500048",
     mapEmbed: "https://maps.google.com/maps?q=pillar+no.+13+janpriya+Anandi+Devi+complex+3-5-1+Upparpally+Rd+Hyderguda+Hyderaguda+Hyderabad+Telangana+500048&output=embed",
@@ -427,7 +428,7 @@ export const locationData: Record<string, LocationEntry> = {
         lng: 78.4450,
         label: "Legend Physiotherapy � Attapur / Hyderguda",
         address: "Pillar No. 13, Janpriya, Anandi Devi Complex, Upparpally Rd, Hyderguda, Hyderabad",
-        phone: "+91 99661 93413"
+        phone: "+91 81430 15455"
       }
     ],
     description: "Legend Physiotherapy's Attapur home visit service is based at Anandi Devi Complex, Upparpally Road, Hyderguda � near Pillar No. 13. We serve patients across Attapur, Hyderguda, Upparpally, Rajendra Nagar, and Mehdipatnam. Our certified physiotherapists provide expert home visit treatment for back pain, knee pain, post-surgical recovery, and neurological rehabilitation. We bring portable clinical equipment to your home, ensuring you receive the same quality of care as our clinic. Flexible appointment slots are available throughout the day.",
@@ -469,7 +470,7 @@ export const locationData: Record<string, LocationEntry> = {
     fullName: "Legend Physiotherapy Home Visit Service | MRC Colony, Rock Gardens, Hyderabad",
     type: "Home Visit",
     title: "Legend Physiotherapy - Physio therapy center Home Visit Service",
-    phone: "+91 99661 93413",
+    phone: "+91 81430 15455",
     whatsapp: "919966193413",
     address: "B/44 Road Number 6, MRC Colony, Rock Gardens, Shop Number 2-3-734, Hyderabad, Telangana 500104",
     mapEmbed: "https://maps.google.com/maps?q=B+44+road+number+6+MRC+colony+rock+gardens+Shop+number+2-3-734+Hyderabad+Telangana+500104&output=embed",
@@ -479,7 +480,7 @@ export const locationData: Record<string, LocationEntry> = {
         lng: 78.5600,
         label: "Legend Physiotherapy � MRC Colony, Rock Gardens",
         address: "B/44 Road Number 6, MRC Colony, Rock Gardens, Hyderabad",
-        phone: "+91 99661 93413"
+        phone: "+91 81430 15455"
       }
     ],
     description: "Legend Physiotherapy's MRC Colony home visit service is located at B/44, Road Number 6, MRC Colony, Rock Gardens � serving one of Hyderabad's well-established residential communities. We provide expert physiotherapy home visits for patients across MRC Colony, Rock Gardens, Uppal, and Habsiguda. Our therapists specialise in orthopaedic rehabilitation, chronic pain management, and neurological physiotherapy. We bring portable clinical equipment to your home, providing TENS, ultrasound, manual therapy, and personalised exercise programmes.",
@@ -573,7 +574,7 @@ export const locationData: Record<string, LocationEntry> = {
     fullName: "Legend Physiotherapy | Expert Physiotherapist & Rehabilitation Services near Kompally, Hyderabad",
     type: "Home Visit",
     title: "Legend Physiotherapy | Expert Physiotherapist And Rehabilitation Services Near | Kompally | Hyderabad",
-    phone: "+91 99661 93413",
+    phone: "+91 81430 15455",
     whatsapp: "919966193413",
     address: "Plot No. 34, 34/A, Medchal Rd, Petbasheerabad, NCL Enclave South, Caton Residential Twp, Kompally, Secunderabad, Telangana 500055",
     mapEmbed: "https://maps.google.com/maps?q=Plot+No.+34+34A+Medchal+Rd+Petbasheerabad+NCL+Enclave+South+Caton+Residential+Twp+Kompally+Secunderabad+Telangana+500055&output=embed",
@@ -583,7 +584,7 @@ export const locationData: Record<string, LocationEntry> = {
         lng: 78.4650,
         label: "Legend Physiotherapy � Kompally",
         address: "Plot No. 34, 34/A, Medchal Rd, Petbasheerabad, NCL Enclave South, Kompally, Secunderabad",
-        phone: "+91 99661 93413"
+        phone: "+91 81430 15455"
       }
     ],
     description: "Legend Physiotherapy's Kompally branch is located at Plot No. 34, Medchal Road, Petbasheerabad, NCL Enclave South � serving the rapidly growing residential communities of Kompally, Suchitra, Petbasheerabad, and Medchal Road corridor. Our expert physiotherapists provide comprehensive rehabilitation services for orthopaedic and neurological conditions. We specialise in post-surgical recovery, sports injury rehabilitation, geriatric physiotherapy, and chronic pain management. Home visit services are available across Kompally and surrounding areas with portable clinical equipment.",
@@ -625,7 +626,7 @@ export const locationData: Record<string, LocationEntry> = {
     fullName: "Legend Physiotherapy at Home | Expert Physiotherapist near Mahendra Hills, Secunderabad",
     type: "Home Visit",
     title: "Legend Physiotherapy at Home | Expert Physiotherapist near Mahendra Hills, Secunderabad",
-    phone: "+91 99661 93413",
+    phone: "+91 81430 15455",
     whatsapp: "919966193413",
     address: "Government Institute Of Electronics, Dhanalaxmi Colony, Trimoorthy Colony, Coop, East Marredpally, Secunderabad, Telangana 500026",
     mapEmbed: "https://maps.google.com/maps?q=Government+Institute+Of+Electronics+Dhanalaxmi+Colony+Trimoorthy+Colony+East+Marredpally+Secunderabad+Telangana+500026&output=embed",
@@ -635,7 +636,7 @@ export const locationData: Record<string, LocationEntry> = {
         lng: 78.5050,
         label: "Legend Physiotherapy � Mahendra Hills / East Marredpally",
         address: "Dhanalaxmi Colony, Trimoorthy Colony, East Marredpally, Secunderabad",
-        phone: "+91 99661 93413"
+        phone: "+91 81430 15455"
       }
     ],
     description: "Legend Physiotherapy's Secunderabad home visit service is based near Mahendra Hills, East Marredpally � serving Dhanalaxmi Colony, Trimoorthy Colony, East Marredpally, West Marredpally, Sindhi Colony, and Begumpet. Our certified physiotherapists provide expert home visit treatment for orthopaedic and neurological conditions. We specialise in post-surgical rehabilitation, chronic pain management, and geriatric physiotherapy. Portable clinical equipment is brought to your home for a complete clinical experience.",
@@ -783,7 +784,7 @@ export const locationData: Record<string, LocationEntry> = {
     fullName: "Legend Physiotherapy at Home | Expert Physiotherapist near Kokapet, Hyderabad",
     type: "Home Visit",
     title: "Legend Physiotherapy at Home | Expert Physiotherapist near kokapet, Hyderabad",
-    phone: "+91 99661 93413",
+    phone: "+91 81430 15455",
     whatsapp: "919966193413",
     address: "Plot No. 14, Phoenix Greens School Rd, Power Welfare Society, Kokapet, Hyderabad, Telangana 500075",
     mapEmbed: "https://maps.google.com/maps?q=Plot+No+14+Phoenix+Greens+School+Rd+Power+Welfare+Society+Kokapet+Hyderabad+Telangana+500075&output=embed",
@@ -793,7 +794,7 @@ export const locationData: Record<string, LocationEntry> = {
         lng: 78.3450,
         label: "Legend Physiotherapy � Kokapet",
         address: "Plot No. 14, Phoenix Greens School Rd, Power Welfare Society, Kokapet, Hyderabad",
-        phone: "+91 99661 93413"
+        phone: "+91 81430 15455"
       }
     ],
     description: "Legend Physiotherapy's Kokapet home visit service is located at Plot No. 14, Phoenix Greens School Road, Power Welfare Society � serving the fast-growing residential communities of Kokapet, Narsingi, Financial District, Gachibowli, and Manikonda. Our certified physiotherapists provide expert home visit treatment for back pain, knee pain, post-surgical recovery, sports injuries, and neurological rehabilitation. We bring portable clinical-grade equipment to your home, ensuring a complete clinical experience. Flexible appointment slots are available to suit your schedule.",
@@ -835,11 +836,11 @@ export const locationData: Record<string, LocationEntry> = {
     fullName: "Dr Sirish | Physiotherapy center | Physiotherapy near Banjara Hills Hyderabad",
     type: "Home Visit",
     title: "Dr Sirish | Physiotherapy center | Physiotherapy near Banjara Hills Hyderabad",
-    phone: "+91 99661 93413",
+    phone: "+91 81430 15455",
     whatsapp: "919966193413",
     address: "Banjara Hills, Hyderabad, Telangana",
     mapEmbed: "https://maps.google.com/maps?q=Banjara+Hills+Hyderabad+Telangana&t=&z=15&ie=UTF8&iwloc=&output=embed",
-    mapPins: [{ lat: 17.4100, lng: 78.4380, label: "Legend Physiotherapy � Banjara Hills", address: "Banjara Hills, Hyderabad", phone: "+91 99661 93413" }],
+    mapPins: [{ lat: 17.4100, lng: 78.4380, label: "Legend Physiotherapy � Banjara Hills", address: "Banjara Hills, Hyderabad", phone: "+91 81430 15455" }],
     description: "Experience premium physiotherapy care in the heart of Banjara Hills. Our specialised home visit services are designed for patients who prefer professional treatment in their own space. We cover all blocks of Banjara Hills, providing expert care for post-operative recovery, sports injuries, and chronic pain management with portable advanced equipment. Our therapists are trained to handle complex orthopaedic and neurological cases with a personalised approach.",
     seoDescription: "Expert physiotherapist home visit in Banjara Hills, Hyderabad. Legend Physiotherapy expert treatment for back pain, sports injuries, and rehabilitation at your doorstep.",
     highlights: ["Expert therapists available in Banjara Hills", "Flexible home visit timings (9 AM - 9 PM)", "Complete rehabilitation equipment brought to your home", "Specialised care for ortho & neuro conditions"],
@@ -857,11 +858,11 @@ export const locationData: Record<string, LocationEntry> = {
     fullName: "Legend Physiotherapy Home Visit | Expert Physiotherapist in Madhapur, Hyderabad",
     type: "Home Visit",
     title: "Legend Physiotherapy Home Visit Service | Madhapur",
-    phone: "+91 99661 93413",
+    phone: "+91 81430 15455",
     whatsapp: "919966193413",
     address: "Madhapur, Hyderabad, Telangana",
     mapEmbed: "https://maps.google.com/maps?q=Madhapur+HITEC+City+Hyderabad+Telangana&t=&z=15&ie=UTF8&iwloc=&output=embed",
-    mapPins: [{ lat: 17.4500, lng: 78.3820, label: "Legend Physiotherapy � Madhapur", address: "Madhapur, HITEC City, Hyderabad", phone: "+91 99661 93413" }],
+    mapPins: [{ lat: 17.4500, lng: 78.3820, label: "Legend Physiotherapy � Madhapur", address: "Madhapur, HITEC City, Hyderabad", phone: "+91 81430 15455" }],
     description: "Serving the IT hub of Hyderabad, our Madhapur home visit service specialises in ergonomic-related pains and corporate health. We provide quick and effective physiotherapy for software professionals dealing with back strain, neck stiffness, and repetitive stress injuries. Our flexible scheduling allows for sessions before or after office hours, and we bring portable clinical equipment to your home or office.",
     seoDescription: "Expert physiotherapist home visit in Madhapur, Hyderabad. Legend Physiotherapy expert treatment for back pain, neck pain, ergonomic injuries, and sports rehab.",
     highlights: ["Serving Madhapur and HITEC City areas", "Ergonomic assessment included", "Late evening slots for IT professionals", "Portable clinical equipment at your home"],
@@ -879,11 +880,11 @@ export const locationData: Record<string, LocationEntry> = {
     fullName: "Legend Physiotherapy Home Visit | Expert Physiotherapist in Gachibowli, Hyderabad",
     type: "Home Visit",
     title: "Legend Physiotherapy Home Visit Service | Gachibowli",
-    phone: "+91 99661 93413",
+    phone: "+91 81430 15455",
     whatsapp: "919966193413",
     address: "Gachibowli, Hyderabad, Telangana",
     mapEmbed: "https://maps.google.com/maps?q=Gachibowli+Financial+District+Hyderabad+Telangana&t=&z=15&ie=UTF8&iwloc=&output=embed",
-    mapPins: [{ lat: 17.4400, lng: 78.3480, label: "Legend Physiotherapy � Gachibowli", address: "Gachibowli, Financial District, Hyderabad", phone: "+91 99661 93413" }],
+    mapPins: [{ lat: 17.4400, lng: 78.3480, label: "Legend Physiotherapy � Gachibowli", address: "Gachibowli, Financial District, Hyderabad", phone: "+91 81430 15455" }],
     description: "Gachibowli residents can now access advanced physiotherapy at home. We focus on sports injury recovery and geriatric care for the growing community in Gachibowli and Financial District. Our therapists come equipped with advanced modalities like TENS and Ultrasound to ensure a clinical experience in your living room.",
     seoDescription: "Expert physiotherapist home visit in Gachibowli, Hyderabad. Legend Physiotherapy expert treatment for back pain, sports injuries, and geriatric rehab at your doorstep.",
     highlights: ["Trained therapists in Gachibowli & Financial District", "Full mobile clinic setup at your home", "Geriatric specialised care", "Sports injury experts"],
@@ -901,11 +902,11 @@ export const locationData: Record<string, LocationEntry> = {
     fullName: "Legend Physiotherapy Home Visit | Expert Physiotherapist in Kondapur, Hyderabad",
     type: "Home Visit",
     title: "Legend Physiotherapy Home Visit Service | Kondapur",
-    phone: "+91 99661 93413",
+    phone: "+91 81430 15455",
     whatsapp: "919966193413",
     address: "Kondapur, Hyderabad, Telangana",
     mapEmbed: "https://maps.google.com/maps?q=Kondapur+Hyderabad+Telangana&t=&z=15&ie=UTF8&iwloc=&output=embed",
-    mapPins: [{ lat: 17.4600, lng: 78.3650, label: "Legend Physiotherapy � Kondapur", address: "Kondapur, Hyderabad", phone: "+91 99661 93413" }],
+    mapPins: [{ lat: 17.4600, lng: 78.3650, label: "Legend Physiotherapy � Kondapur", address: "Kondapur, Hyderabad", phone: "+91 81430 15455" }],
     description: "Our Kondapur home visit service is a preferred choice for families seeking reliable physiotherapy. We specialise in paediatric physiotherapy and post-maternity care in Kondapur. Our team ensures a safe and comfortable environment for treatment, focusing on long-term wellness and preventive exercises.",
     seoDescription: "Expert physiotherapist home visit in Kondapur, Hyderabad. Legend Physiotherapy expert treatment for back pain, knee pain, and family physiotherapy at your doorstep.",
     highlights: ["Experienced therapists serving Kondapur", "Quick 2-hour response for urgent cases", "Holistic treatment approach", "Family-centric physiotherapy"],
@@ -923,11 +924,11 @@ export const locationData: Record<string, LocationEntry> = {
     fullName: "Legend Physiotherapy Home Visit | Expert Physiotherapist in Kukatpally, Hyderabad",
     type: "Home Visit",
     title: "Legend Physiotherapy Home Visit Service | Kukatpally",
-    phone: "+91 99661 93413",
+    phone: "+91 81430 15455",
     whatsapp: "919966193413",
     address: "Kukatpally, Hyderabad, Telangana",
     mapEmbed: "https://maps.google.com/maps?q=Kukatpally+KPHB+Hyderabad+Telangana&t=&z=15&ie=UTF8&iwloc=&output=embed",
-    mapPins: [{ lat: 17.4850, lng: 78.4080, label: "Legend Physiotherapy � Kukatpally", address: "Kukatpally, KPHB, Hyderabad", phone: "+91 99661 93413" }],
+    mapPins: [{ lat: 17.4850, lng: 78.4080, label: "Legend Physiotherapy � Kukatpally", address: "Kukatpally, KPHB, Hyderabad", phone: "+91 81430 15455" }],
     description: "Legend Physiotherapy provides extensive coverage in Kukatpally, offering home visits for all age groups. We are known for our effective stroke rehabilitation and joint replacement recovery programmes in the Kukatpally area. Our therapists work closely with patients to regain independence and mobility.",
     seoDescription: "Expert physiotherapist home visit in Kukatpally, Hyderabad. Legend Physiotherapy expert treatment for back pain, stroke rehab, and post-surgery recovery at your doorstep.",
     highlights: ["Licensed therapists in Kukatpally & KPHB", "Post-surgery specialist team", "Modern exercise equipment at home", "Affordable long-term packages"],
@@ -945,11 +946,11 @@ export const locationData: Record<string, LocationEntry> = {
     fullName: "Legend Physiotherapy Home Visit | Expert Physiotherapist in Miyapur, Hyderabad",
     type: "Home Visit",
     title: "Legend Physiotherapy Home Visit Service | Miyapur",
-    phone: "+91 99661 93413",
+    phone: "+91 81430 15455",
     whatsapp: "919966193413",
     address: "Miyapur, Hyderabad, Telangana",
     mapEmbed: "https://maps.google.com/maps?q=Miyapur+Hyderabad+Telangana&t=&z=15&ie=UTF8&iwloc=&output=embed",
-    mapPins: [{ lat: 17.4950, lng: 78.3580, label: "Legend Physiotherapy � Miyapur", address: "Miyapur, Hyderabad", phone: "+91 99661 93413" }],
+    mapPins: [{ lat: 17.4950, lng: 78.3580, label: "Legend Physiotherapy � Miyapur", address: "Miyapur, Hyderabad", phone: "+91 81430 15455" }],
     description: "Our Miyapur home visit services cater to the growing residential communities along the Miyapur-Bachupally corridor. We provide expert care for arthritis management and mobility issues, ensuring that elderly patients receive compassionate and effective treatment in the comfort of their homes.",
     seoDescription: "Expert physiotherapist home visit in Miyapur, Hyderabad. Legend Physiotherapy expert treatment for back pain, arthritis, and geriatric rehab at your doorstep.",
     highlights: ["Certified therapists serving Miyapur", "Home visit convenience", "Comprehensive assessment", "Geriatric care specialists"],
@@ -967,11 +968,11 @@ export const locationData: Record<string, LocationEntry> = {
     fullName: "Legend Physiotherapy Home Visit | Expert Physiotherapist in Ameerpet, Hyderabad",
     type: "Home Visit",
     title: "Legend Physiotherapy Home Visit Service | Ameerpet",
-    phone: "+91 99661 93413",
+    phone: "+91 81430 15455",
     whatsapp: "919966193413",
     address: "Ameerpet, Hyderabad, Telangana",
     mapEmbed: "https://maps.google.com/maps?q=Ameerpet+Hyderabad+Telangana&t=&z=15&ie=UTF8&iwloc=&output=embed",
-    mapPins: [{ lat: 17.4380, lng: 78.4480, label: "Legend Physiotherapy � Ameerpet", address: "Ameerpet, Hyderabad", phone: "+91 99661 93413" }],
+    mapPins: [{ lat: 17.4380, lng: 78.4480, label: "Legend Physiotherapy � Ameerpet", address: "Ameerpet, Hyderabad", phone: "+91 81430 15455" }],
     description: "Expert physiotherapy services at your doorstep in Ameerpet. Our therapists are trained in the latest rehabilitation techniques, specifically targeting occupational-related pains common in this bustling commercial hub. We bring portable equipment to provide a complete clinical experience.",
     seoDescription: "Expert physiotherapist home visit in Ameerpet, Hyderabad. Legend Physiotherapy expert treatment for back pain, occupational injuries, and rehabilitation at your doorstep.",
     highlights: ["Trained therapists in Ameerpet & SR Nagar", "Customised treatment plans", "Equipment brought to your home", "Professional follow-ups and progress monitoring"],
@@ -989,11 +990,11 @@ export const locationData: Record<string, LocationEntry> = {
     fullName: "Legend Physiotherapy Home Visit | Expert Physiotherapist in Tarnaka, Hyderabad",
     type: "Home Visit",
     title: "Legend Physiotherapy Home Visit Service | Tarnaka",
-    phone: "+91 99661 93413",
+    phone: "+91 81430 15455",
     whatsapp: "919966193413",
     address: "Tarnaka, Hyderabad, Telangana",
     mapEmbed: "https://maps.google.com/maps?q=Tarnaka+Hyderabad+Telangana&t=&z=15&ie=UTF8&iwloc=&output=embed",
-    mapPins: [{ lat: 17.4200, lng: 78.5380, label: "Legend Physiotherapy � Tarnaka", address: "Tarnaka, Hyderabad", phone: "+91 99661 93413" }],
+    mapPins: [{ lat: 17.4200, lng: 78.5380, label: "Legend Physiotherapy � Tarnaka", address: "Tarnaka, Hyderabad", phone: "+91 81430 15455" }],
     description: "Quality physiotherapy services available in Tarnaka with expert therapists providing comprehensive care. We serve the academic and residential community of Tarnaka, offering specialised programmes for sports injuries and spine care.",
     seoDescription: "Expert physiotherapist home visit in Tarnaka, Hyderabad. Legend Physiotherapy expert treatment for back pain, sports injuries, and spine care at your doorstep.",
     highlights: ["Certified therapists in Tarnaka & OU area", "Quick booking process", "Modern therapeutic techniques", "Ongoing support and exercise guidance"],
@@ -1011,11 +1012,11 @@ export const locationData: Record<string, LocationEntry> = {
     fullName: "Legend Physiotherapy Home Visit | Expert Physiotherapist in Uppal, Hyderabad",
     type: "Home Visit",
     title: "Legend Physiotherapy Home Visit Service | Uppal",
-    phone: "+91 99661 93413",
+    phone: "+91 81430 15455",
     whatsapp: "919966193413",
     address: "Uppal, Hyderabad, Telangana",
     mapEmbed: "https://maps.google.com/maps?q=Uppal+Hyderabad+Telangana&t=&z=15&ie=UTF8&iwloc=&output=embed",
-    mapPins: [{ lat: 17.4050, lng: 78.5590, label: "Legend Physiotherapy � Uppal", address: "Uppal, Hyderabad", phone: "+91 99661 93413" }],
+    mapPins: [{ lat: 17.4050, lng: 78.5590, label: "Legend Physiotherapy � Uppal", address: "Uppal, Hyderabad", phone: "+91 81430 15455" }],
     description: "Expert physiotherapy services for Uppal area residents with professional home visit options. We are dedicated to providing quality rehabilitation services for musculoskeletal issues and post-surgical recovery in the Uppal region.",
     seoDescription: "Expert physiotherapist home visit in Uppal, Hyderabad. Legend Physiotherapy expert treatment for back pain, knee pain, and post-surgery rehab at your doorstep.",
     highlights: ["Serving Uppal & Habsiguda vicinity", "Experienced and compassionate therapists", "Convenient and punctual home visits", "Affordable pricing for quality care"],
@@ -1033,11 +1034,11 @@ export const locationData: Record<string, LocationEntry> = {
     fullName: "Legend Physiotherapy Home Visit | Expert Physiotherapist in Mehdipatnam, Hyderabad",
     type: "Home Visit",
     title: "Legend Physiotherapy Home Visit Service | Mehdipatnam",
-    phone: "+91 99661 93413",
+    phone: "+91 81430 15455",
     whatsapp: "919966193413",
     address: "Mehdipatnam, Hyderabad, Telangana",
     mapEmbed: "https://maps.google.com/maps?q=Mehdipatnam+Hyderabad+Telangana&t=&z=15&ie=UTF8&iwloc=&output=embed",
-    mapPins: [{ lat: 17.3900, lng: 78.4380, label: "Legend Physiotherapy � Mehdipatnam", address: "Mehdipatnam, Hyderabad", phone: "+91 99661 93413" }],
+    mapPins: [{ lat: 17.3900, lng: 78.4380, label: "Legend Physiotherapy � Mehdipatnam", address: "Mehdipatnam, Hyderabad", phone: "+91 81430 15455" }],
     description: "Residents of Mehdipatnam can now experience the expertise of Legend Physiotherapy in their own homes. We specialise in comprehensive treatment plans for musculoskeletal pain and sports-related injuries, ensuring a personalised approach for every patient in the Mehdipatnam area.",
     seoDescription: "Expert physiotherapist home visit in Mehdipatnam, Hyderabad. Legend Physiotherapy expert treatment for back pain, sports injuries, and rehabilitation at your doorstep.",
     highlights: ["Experienced team serving Mehdipatnam & Asif Nagar", "Comprehensive and personalised treatment plans", "Professional home visit facilities", "Dedicated patient care and follow-up"],
@@ -1055,11 +1056,11 @@ export const locationData: Record<string, LocationEntry> = {
     fullName: "Legend Physiotherapy Home Visit | Expert Physiotherapist in Tolichowki, Hyderabad",
     type: "Home Visit",
     title: "Legend Physiotherapy Home Visit Service | Tolichowki",
-    phone: "+91 99661 93413",
+    phone: "+91 81430 15455",
     whatsapp: "919966193413",
     address: "Tolichowki, Hyderabad, Telangana",
     mapEmbed: "https://maps.google.com/maps?q=Tolichowki+Hyderabad+Telangana&t=&z=15&ie=UTF8&iwloc=&output=embed",
-    mapPins: [{ lat: 17.3850, lng: 78.4180, label: "Legend Physiotherapy � Tolichowki", address: "Tolichowki, Hyderabad", phone: "+91 99661 93413" }],
+    mapPins: [{ lat: 17.3850, lng: 78.4180, label: "Legend Physiotherapy � Tolichowki", address: "Tolichowki, Hyderabad", phone: "+91 81430 15455" }],
     description: "Our Tolichowki home visit division provides professional physiotherapy services with a focus on recovery and long-term health. We offer expert treatment for acute and chronic pain, utilising modern therapeutic techniques to ensure optimal outcomes for our patients in Tolichowki.",
     seoDescription: "Expert physiotherapist home visit in Tolichowki, Hyderabad. Legend Physiotherapy expert treatment for back pain, chronic pain, and injury rehab at your doorstep.",
     highlights: ["Serving Tolichowki & Seven Tombs area", "Certified and compassionate therapists", "Modern treatment methods and equipment", "Reliable and punctual service"],
@@ -1077,11 +1078,11 @@ export const locationData: Record<string, LocationEntry> = {
     fullName: "Legend Physiotherapy Home Visit | Expert Physiotherapist in Manikonda, Hyderabad",
     type: "Home Visit",
     title: "Legend Physiotherapy Home Visit Service | Manikonda",
-    phone: "+91 99661 93413",
+    phone: "+91 81430 15455",
     whatsapp: "919966193413",
     address: "Manikonda, Hyderabad, Telangana",
     mapEmbed: "https://maps.google.com/maps?q=Manikonda+Hyderabad+Telangana&t=&z=15&ie=UTF8&iwloc=&output=embed",
-    mapPins: [{ lat: 17.3980, lng: 78.3780, label: "Legend Physiotherapy – Manikonda", address: "Manikonda, Hyderabad", phone: "+91 99661 93413" }],
+    mapPins: [{ lat: 17.3980, lng: 78.3780, label: "Legend Physiotherapy – Manikonda", address: "Manikonda, Hyderabad", phone: "+91 81430 15455" }],
     description: "Professional physiotherapy services in Manikonda, delivering expert care to your doorstep. We specialise in back and spine health, ensuring that residents of Manikonda have access to quality rehabilitation services without the need to travel.",
     seoDescription: "Expert physiotherapist home visit in Manikonda, Hyderabad. Legend Physiotherapy expert treatment for back pain, spine care, and post-surgery rehab at your doorstep.",
     highlights: ["Serving Manikonda & Puppalguda area", "Certified and experienced therapists", "Professional and patient-focused service", "Dedicated to long-term recovery"],
@@ -1099,11 +1100,11 @@ export const locationData: Record<string, LocationEntry> = {
     fullName: "Legend Physiotherapy at Home | Expert Physiotherapist near Jawahar Nagar, Hyderabad",
     type: "Home Visit",
     title: "Legend Physiotherapy at Home | Expert Physiotherapist near Jawahar Nagar, Hyderabad",
-    phone: "+91 99661 93413",
+    phone: "+91 81430 15455",
     whatsapp: "919966193413",
     address: "Jawahar Nagar, Hyderabad, Telangana",
     mapEmbed: "https://maps.google.com/maps?q=Jawahar+Nagar+Hyderabad+Telangana&t=&z=15&ie=UTF8&iwloc=&output=embed",
-    mapPins: [{ lat: 17.4250, lng: 78.5150, label: "Legend Physiotherapy – Jawahar Nagar", address: "Jawahar Nagar, Hyderabad", phone: "+91 99661 93413" }],
+    mapPins: [{ lat: 17.4250, lng: 78.5150, label: "Legend Physiotherapy – Jawahar Nagar", address: "Jawahar Nagar, Hyderabad", phone: "+91 81430 15455" }],
     description: "Legend Physiotherapy's Jawahar Nagar home visit service provides expert physiotherapy care directly to your doorstep. Our certified physiotherapists specialize in treating back pain, knee pain, neck pain, sports injuries, and post-surgical rehabilitation. We bring portable clinical-grade equipment to your home, ensuring you receive the same quality of care as our clinic. Flexible appointment slots are available throughout the day to suit your schedule.",
     seoDescription: "Expert physiotherapist home visit in Jawahar Nagar, Hyderabad. Legend Physiotherapy expert treatment for back pain, knee pain, sports injuries, and post-surgery rehab at your doorstep.",
     highlights: ["Serving Jawahar Nagar & surrounding areas", "Portable clinical equipment at your home", "Flexible appointment slots 9 AM - 9 PM", "Expert ortho & neuro physiotherapists", "Same-day appointments available"],
@@ -1176,7 +1177,7 @@ export const locationData: Record<string, LocationEntry> = {
     fullName: "Dr Sirish | Professional Physiotherapy center Himayatnagar",
     type: "Clinic & Home Visit",
     title: "Dr Sirish | Professional Physiotherapy center Himayatnagar",
-    phone: "+91 99661 93413",
+    phone: "+91 81430 15455",
     whatsapp: "919966193413",
     address: "3-6-203, Himayat Nagar Rd, New SBH Colony, AP State Housing Board, Himayatnagar, Hyderabad, Telangana 500029",
     mapEmbed: "https://maps.google.com/maps?q=3-6-203+Himayat+Nagar+Rd+New+SBH+Colony+AP+State+Housing+Board+Himayatnagar+Hyderabad+Telangana+500029&output=embed",
@@ -1186,7 +1187,7 @@ export const locationData: Record<string, LocationEntry> = {
         lng: 78.4895,
         label: "Dr Sirish – Himayatnagar SBH Colony",
         address: "3-6-203, Himayat Nagar Rd, New SBH Colony, AP State Housing Board, Himayatnagar",
-        phone: "+91 99661 93413"
+        phone: "+91 81430 15455"
       }
     ],
     description: "Dr Sirish's physiotherapy center at Himayatnagar is located at 3-6-203, Himayat Nagar Road, New SBH Colony, AP State Housing Board – serving patients across Himayatnagar, Narayanguda, and Basheerbagh. This dedicated center provides expert orthopaedic and neurological rehabilitation with advanced manual therapy, electrotherapy, and customised treatment programmes. Dr. Sirish's team specializes in treating chronic pain, post-surgical recovery, sports injuries, and neurological conditions. Home visit services are also available for patients who prefer treatment at home.",
@@ -1224,6 +1225,58 @@ export const locationData: Record<string, LocationEntry> = {
       intro: "The Himayatnagar SBH Colony centre sits on Himayat Nagar Road within the AP State Housing Board colony — a well-known residential area with a mix of government employees, professionals, and long-term Hyderabad families. This location is distinct from our Domalguda branch, serving primarily the New SBH Colony, AP Housing Board, Narayanguda, and Basheerbagh residential catchment. The SBH Colony population includes many retirees from government and banking sectors who present with age-related musculoskeletal conditions, and working professionals from the Narayanguda–Red Hills commercial area dealing with desk-job-related cervical and lumbar pain.",
       whyLocal: "Dr. Sirish's SBH Colony centre offers a dedicated clinical environment for patients who prefer in-person treatment with advanced equipment. The centre provides manual therapy, TENS and IFT electrotherapy, dry needling, and ultrasound therapy — modalities that work together for conditions like frozen shoulder, chronic sciatica, and post-surgical stiffness. The SBH Colony location is particularly popular with patients from the Basheerbagh–Red Hills government office cluster who can visit during lunch breaks. For post-surgical patients from nearby NIMS, Care, and Apollo hospitals, we offer accelerated rehabilitation starting from the first week after discharge.",
       accessibility: "The SBH Colony centre is located at 3-6-203, Himayat Nagar Road — easily identifiable within the AP State Housing Board colony. TSRTC buses along Himayat Nagar Road provide direct connectivity from Abids, Nampally, and Secunderabad. The centre operates 7 days a week from 9 AM - 9 PM, with dedicated appointment slots during lunchtime for nearby office workers. Patients who need both clinic sessions and home visits can combine both — clinic for equipment-intensive treatment and home visits for exercise-based rehabilitation on alternate days."
+    }
+  },
+  "vanasthalipuram": {
+    name: "Vanasthalipuram",
+    fullName: "Legend Physiotherapy Home Visit Service | Vanasthalipuram, Hyderabad",
+    type: "Home Visit",
+    title: "Legend Physiotherapy Home Visit Service | Vanasthalipuram",
+    phone: "+91 81430 15455",
+    whatsapp: "918143015455",
+    address: "Vanasthalipuram Bus Depot Rd, Vanasthalipuram, Hyderabad, Telangana 500070",
+    mapEmbed: "https://maps.google.com/maps?q=Vanasthalipuram+Bus+Depot+Rd+Vanasthalipuram+Hyderabad+Telangana+500070&output=embed",
+    mapPins: [
+      {
+        lat: 17.3350,
+        lng: 78.5580,
+        label: "Legend Physiotherapy – Vanasthalipuram",
+        address: "Vanasthalipuram Bus Depot Rd, Vanasthalipuram, Hyderabad",
+        phone: "+91 81430 15455"
+      }
+    ],
+    description: "Legend Physiotherapy's Vanasthalipuram home visit service brings certified physiotherapy care directly to your doorstep across Vanasthalipuram, Meerpet, BN Reddy Nagar, Jillellaguda, and Badangpet. Our expert therapists, operating from our flagship LB Nagar clinic, are trained in orthopaedic and neurological rehabilitation and carry portable clinical-grade equipment including TENS, ultrasound, and resistance therapy tools. Whether you need treatment for chronic back pain, post-surgical recovery, or stroke rehabilitation, we deliver the same quality of care as our clinic — in the comfort of your home. Flexible morning and evening slots are available 7 days a week.",
+    seoDescription: "Expert physiotherapist home visit in Vanasthalipuram, Hyderabad. Legend Physiotherapy provides treatment for back pain, knee pain, sports injuries, and post-surgery recovery at your doorstep. Call now.",
+    highlights: [
+      "Certified physiotherapists serving Vanasthalipuram & Meerpet",
+      "Portable clinical-grade equipment brought to your home",
+      "Quick reach from LB Nagar clinic via Sagar Ring Road",
+      "Flexible slots: 9 AM - 9 PM, 7 days a week",
+      "Same-day appointments available"
+    ],
+    conditions: [
+      "Back pain & sciatica",
+      "Knee pain & arthritis",
+      "Neck pain & cervical spondylosis",
+      "Frozen shoulder",
+      "Sports injuries",
+      "Post-operative rehabilitation",
+      "Stroke rehabilitation",
+      "Elderly mobility & balance"
+    ],
+    services: [
+      "Home visit physiotherapy",
+      "Manual therapy",
+      "TENS & electrotherapy",
+      "Ultrasound therapy",
+      "Exercise rehabilitation",
+      "Neurological physiotherapy"
+    ],
+    nearby: "Vanasthalipuram Bus Depot, Meerpet, BN Reddy Nagar, Sagar Ring Road, Hyderabad",
+    localContent: {
+      intro: "Vanasthalipuram is one of south-east Hyderabad's largest residential suburbs, stretching along Sagar Ring Road between LB Nagar and Badangpet. The area around the Vanasthalipuram bus depot — including Meerpet, BN Reddy Nagar, Jillellaguda, and the newer apartment complexes along the ring road — is home to a growing population of IT professionals commuting to HITEC City and Gachibowli, young families in gated communities, and a well-established senior citizen community in the older independent house colonies. Common physiotherapy needs here include lower back pain from long commutes, knee osteoarthritis among elderly residents climbing apartment stairs, sports injuries from local cricket grounds, and post-surgical rehabilitation for patients discharged from nearby LB Nagar hospitals.",
+      whyLocal: "Our home visit team operates from the Legend Physiotherapy flagship clinic in Kothapet, LB Nagar, reaching Vanasthalipuram addresses within 15–20 minutes via the Sagar Ring Road corridor. We carry portable TENS units, ultrasound machines, and therapeutic resistance equipment — everything needed for a full rehabilitation session at your home. Our coverage extends across Vanasthalipuram, Meerpet, BN Reddy Nagar, Jillellaguda, Badangpet, and the Sagar Ring Road apartment complexes. For patients who can travel, our LB Nagar clinic offers hospital-grade robotic physiotherapy and spinal decompression that portable equipment cannot replicate.",
+      accessibility: "Vanasthalipuram is well-connected via the Sagar Ring Road and TSRTC buses from the Vanasthalipuram bus depot to LB Nagar, Dilsukhnagar, and Mehdipatnam. The upcoming metro extension will further improve connectivity. Our home visit service eliminates the need to navigate the congested Vanasthalipuram–LB Nagar stretch, bringing treatment directly to your door. We offer slots from 9 AM to 9 PM, seven days a week, with priority scheduling for post-surgical patients and elderly residents who need regular sessions. Book via WhatsApp for same-day appointments — our team typically confirms within 30 minutes."
     }
   },
 };

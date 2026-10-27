@@ -3,7 +3,7 @@ import type { Metadata } from "next";
 
 export const metadata: Metadata = {
     title: "Book Physiotherapy Appointment Online | Legend Physiotherapy Hyderabad",
-    description: "Book your physiotherapy appointment online instantly. Expert treatment for back pain, neck pain, knee pain & sports injuries. 20+ years experience. Clinic at LB Nagar & home visits across Hyderabad. Same-day appointments available. Call +91 99661 93413",
+    description: "Book your physiotherapy appointment online instantly. Expert treatment for back pain, neck pain, knee pain & sports injuries. 20+ years experience. Clinic at LB Nagar & home visits across Hyderabad. Same-day appointments available. Call +91 81430 15455",
     keywords: [
         "book physiotherapy appointment",
         "physiotherapy appointment online",
@@ -122,13 +122,13 @@ export default function BookAppointmentPage() {
                             <h3 className="text-xl font-bold mb-4">Quick Contact</h3>
                             <div className="space-y-4">
                                 <a
-                                    href="tel:+919966193413"
+                                    href="tel:+918143015455"
                                     className="flex items-center gap-3 p-3 bg-blue-500 rounded-lg hover:bg-blue-700 transition-colors"
                                 >
                                     <svg className="w-5 h-5" fill="currentColor" viewBox="0 0 24 24">
                                         <path d="M6.62 10.79c1.44 2.83 3.76 5.14 6.59 6.59l2.2-2.2c.27-.27.67-.36 1.02-.24 1.12.37 2.33.57 3.57.57.55 0 1 .45 1 1V20c0 .55-.45 1-1 1-9.39 0-17-7.61-17-17 0-.55.45-1 1-1h3.5c.55 0 1 .45 1 1 0 1.25.2 2.45.57 3.57.11.35.03.74-.25 1.02l-2.2 2.2z" />
                                     </svg>
-                                    <span className="font-bold">+91 99661 93413</span>
+                                    <span className="font-bold">+91 81430 15455</span>
                                 </a>
                                 <a
                                     href="https://wa.me/919966193413"
@@ -201,10 +201,10 @@ export default function BookAppointmentPage() {
                     <p className="text-gray-600 mb-4">Still have questions? Contact us directly</p>
                     <div className="flex flex-col sm:flex-row gap-4 justify-center">
                         <a
-                            href="tel:+919966193413"
+                            href="tel:+918143015455"
                             className="bg-blue-600 text-white px-8 py-3 rounded-lg font-bold hover:bg-blue-700 transition-colors"
                         >
-                            Call +91 99661 93413
+                            Call +91 81430 15455
                         </a>
                         <a
                             href="https://wa.me/919966193413"

@@ -131,7 +131,7 @@ export default function BookingPopup() {
               
               <div className="flex gap-2">
                 <a
-                  href="tel:+919966193413"
+                  href="tel:+918143015455"
                   className="flex-1 bg-white/20 hover:bg-white/30 text-white py-2 rounded-lg font-semibold text-xs transition-all flex items-center justify-center gap-1 border border-white/30"
                   onClick={handleClose}
                 >

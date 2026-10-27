@@ -32,6 +32,17 @@ const nextConfig: NextConfig = {
         destination: 'https://www.legendphysiotherapy.com/:path*',
         permanent: true,
       },
+      {
+        source: '/:path*',
+        has: [
+          {
+            type: 'host',
+            value: 'legendphysiotherapy.com',
+          },
+        ],
+        destination: 'https://www.legendphysiotherapy.com/:path*',
+        permanent: true,
+      },
     ];
   },
 } as NextConfig;

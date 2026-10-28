@@ -301,14 +301,13 @@ export default function SportsInjuryPage() {
                 </a>
               </p>
               <p>
-                <strong>WhatsApp:</strong>{" "}
                 <a
                   href="https://wa.me/919966193413"
                   target="_blank"
                   rel="noopener noreferrer"
-                  className="text-green-600 hover:underline"
+                  className="text-green-600 hover:underline font-semibold"
                 >
-                  +91 99661 93413
+                  WhatsApp Us
                 </a>
               </p>
             </div>

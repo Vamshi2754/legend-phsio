@@ -82,7 +82,7 @@ export default function ShoulderPainPage() {
               Book a Shoulder Assessment: Call +91 81430 15455
             </a>
             <a
-              href="https://wa.me/919966193413"
+              href="https://wa.me/918143015455"
               target="_blank"
               rel="noopener noreferrer"
               className="bg-green-500 text-white px-6 py-3 rounded-lg font-bold hover:bg-green-600 transition-colors"
@@ -296,7 +296,7 @@ export default function ShoulderPainPage() {
               </p>
               <p>
                 <a
-                  href="https://wa.me/919966193413"
+                  href="https://wa.me/918143015455"
                   target="_blank"
                   rel="noopener noreferrer"
                   className="text-green-600 hover:underline font-semibold"
@@ -338,7 +338,7 @@ export default function ShoulderPainPage() {
               Call +91 81430 15455
             </a>
             <a
-              href="https://wa.me/919966193413"
+              href="https://wa.me/918143015455"
               target="_blank"
               rel="noopener noreferrer"
               className="bg-green-500 text-white px-8 py-4 rounded-lg font-bold hover:bg-green-600 transition-colors"

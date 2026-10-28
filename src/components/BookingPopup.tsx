@@ -141,7 +141,7 @@ export default function BookingPopup() {
                   Call Us
                 </a>
                 <a
-                  href="https://wa.me/919966193413"
+                  href="https://wa.me/918143015455"
                   target="_blank"
                   rel="noopener noreferrer"
                   className="flex-1 bg-green-500 hover:bg-green-600 text-white py-2 rounded-lg font-semibold text-xs transition-all flex items-center justify-center gap-1 shadow-lg"

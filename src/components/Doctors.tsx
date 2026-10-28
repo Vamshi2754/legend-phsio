@@ -15,7 +15,7 @@ const doctors = [
     bio: "Dr. Sirish brings extensive experience in treating complex orthopedic and neurological conditions. His patient-centered approach and commitment to evidence-based practice have helped thousands achieve pain-free, active lives.",
     image: doctorImg,
     social: {
-      whatsapp: "919966193413",
+      whatsapp: "918143015455",
       phone: "+918143015455",
       instagram: "https://www.instagram.com/dr.sirish_legend_physio?stkn=MWRmeHFlZnY3ZXBxZQ==",
       facebook: "https://www.facebook.com/share/1DTdMkDcju/",

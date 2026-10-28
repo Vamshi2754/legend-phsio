@@ -128,7 +128,7 @@ export default function AboutPage() {
 
                 <div className="flex gap-2 md:gap-3">
                   <a
-                    href="https://wa.me/919966193413"
+                    href="https://wa.me/918143015455"
                     target="_blank"
                     rel="noopener noreferrer"
                     className="w-8 h-8 md:w-10 md:h-10 bg-green-100 hover:bg-green-500 text-green-600 hover:text-white rounded-lg flex items-center justify-center transition-colors"

@@ -131,7 +131,7 @@ export default function BookAppointmentPage() {
                                     <span className="font-bold">+91 81430 15455</span>
                                 </a>
                                 <a
-                                    href="https://wa.me/919966193413"
+                                    href="https://wa.me/918143015455"
                                     className="flex items-center gap-3 p-3 bg-green-500 rounded-lg hover:bg-green-600 transition-colors"
                                 >
                                     <svg className="w-5 h-5" fill="currentColor" viewBox="0 0 24 24">
@@ -207,7 +207,7 @@ export default function BookAppointmentPage() {
                             Call +91 81430 15455
                         </a>
                         <a
-                            href="https://wa.me/919966193413"
+                            href="https://wa.me/918143015455"
                             className="bg-green-600 text-white px-8 py-3 rounded-lg font-bold hover:bg-green-700 transition-colors"
                         >
                             WhatsApp Us

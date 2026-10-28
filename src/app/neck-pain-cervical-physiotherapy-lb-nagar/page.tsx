@@ -299,7 +299,7 @@ export default function NeckPainPage() {
                 Call Now
               </a>
               <a
-                href="https://wa.me/919966193413"
+                href="https://wa.me/918143015455"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="bg-green-500 text-white px-5 py-2.5 rounded-lg font-semibold text-sm hover:bg-green-600 transition-colors"

@@ -9,231 +9,217 @@ interface Testimonial {
   text: string;
 }
 
-// 30+ Humanized Reviews with SEO Keywords
+// Real Google Reviews from Legend Physiotherapy GMB listing (5.0 rating, 470+ reviews)
 const allReviews: Testimonial[] = [
   {
-    name: "Srinivas Rao",
-    role: "Back Pain Treatment",
-    gender: "male",
-    rating: 5,
-    text: "Excellent physiotherapy near me! After 8 months of chronic back pain, Dr. Sirish's treatment at Legend Physiotherapy changed everything. Within 3 weeks, I was completely pain-free. Highly recommend this physiotherapy clinic!",
-  },
-  {
-    name: "Priya Kumari",
-    role: "Neck Pain Relief",
+    name: "Maha Lakshmi",
+    role: "Rheumatoid Arthritis",
     gender: "female",
     rating: 5,
-    text: "Excellent physiotherapist in Hyderabad! Just 4 sessions of neck pain physiotherapy and I'm a believer. Outstanding physiotherapy treatment. Professional and caring team at Legend Physiotherapy.",
+    text: "I am suffering from rheumatoid arthritis from past 20 years and was unable to walk without support from past 3 months. After treatment at Legend Physiotherapy, I am now able to walk with walker. Very grateful to the team.",
   },
   {
-    name: "Rajesh Kumar",
-    role: "Home Visit Physiotherapy",
-    gender: "male",
-    rating: 5,
-    text: "Wonderful physiotherapy home visit service! My elderly parents couldn't travel, so Legend Physiotherapy came to our home. The physiotherapist was incredibly punctual and patient. Great decision for home physiotherapy!",
-  },
-  {
-    name: "Aditya Verma",
-    role: "Sports Injury Recovery",
-    gender: "male",
-    rating: 5,
-    text: "Excellent physiotherapist for sports injuries! My ACL tear recovery was amazing. The sports injury physiotherapy program is legit. I'm back playing football fully. Outstanding physiotherapy clinic in Hyderabad!",
-  },
-  {
-    name: "Meera Reddy",
-    role: "Neuro Rehabilitation",
-    gender: "female",
-    rating: 5,
-    text: "Excellent neuro physiotherapy! After my father's stroke, Legend Physiotherapy provided exceptional neurological rehabilitation at home. The physiotherapist treated him with compassion. Truly outstanding physiotherapy near me!",
-  },
-  {
-    name: "Vikram Sharma",
-    role: "Frozen Shoulder Treatment",
-    gender: "male",
-    rating: 5,
-    text: "Amazing physiotherapy for frozen shoulder! Two weeks ago I couldn't lift my arm. Now I'm pain-free with full mobility. Highly skilled physiotherapist in Hyderabad for shoulder pain treatment!",
-  },
-  {
-    name: "Lakshmi Devi",
-    role: "Knee Pain Treatment",
-    gender: "female",
-    rating: 5,
-    text: "Excellent physiotherapy for knee pain! I had severe osteoarthritis and couldn't walk properly. After treatment at Legend Physiotherapy clinic, I can walk pain-free. Outstanding knee pain physiotherapy!",
-  },
-  {
-    name: "Ramesh Babu",
-    role: "Sciatica Treatment",
-    gender: "male",
-    rating: 5,
-    text: "Expert physiotherapist for sciatica! I suffered from sciatica pain for months. The physiotherapy treatment at Legend Physiotherapy made a huge difference. Outstanding physiotherapy near me in LB Nagar!",
-  },
-  {
-    name: "Anjali Patel",
-    role: "Post-Surgery Rehab",
-    gender: "female",
-    rating: 5,
-    text: "Excellent post-operative physiotherapy! After my knee surgery, the rehabilitation program was superb. The physiotherapist guided me through every step. Highly recommend this physiotherapy clinic!",
-  },
-  {
-    name: "Karthik Reddy",
-    role: "Lower Back Pain",
-    gender: "male",
-    rating: 5,
-    text: "Excellent physiotherapy for lower back pain! I work from home and developed chronic back pain. Legend Physiotherapy's treatment was amazing. Highly skilled physiotherapist in Hyderabad!",
-  },
-  {
-    name: "Divya Sharma",
-    role: "Cervical Spondylosis",
-    gender: "female",
-    rating: 5,
-    text: "Excellent physiotherapy for cervical spondylosis! My neck pain was unbearable. After physiotherapy treatment at Legend Physiotherapy, I'm completely pain-free. Highly recommend!",
-  },
-  {
-    name: "Suresh Kumar",
-    role: "Slip Disc Treatment",
-    gender: "male",
-    rating: 5,
-    text: "Expert physiotherapist for slip disc! I had a herniated disc and couldn't walk. The physiotherapy treatment was exceptional. Outstanding physiotherapy clinic near me in Hyderabad!",
-  },
-  {
-    name: "Kavitha Rao",
-    role: "Arthritis Management",
-    gender: "female",
-    rating: 5,
-    text: "Wonderful physiotherapy for arthritis! My joint pain was severe. Legend Physiotherapy's treatment improved my mobility significantly. Excellent physiotherapist in Hyderabad!",
-  },
-  {
-    name: "Venkat Swamy",
-    role: "Tennis Elbow Treatment",
-    gender: "male",
-    rating: 5,
-    text: "Amazing physiotherapy for tennis elbow! I couldn't use my arm properly. After treatment at Legend Physiotherapy, I'm back to normal. Outstanding physiotherapy near me!",
-  },
-  {
-    name: "Swathi Reddy",
-    role: "Pregnancy Physiotherapy",
-    gender: "female",
-    rating: 5,
-    text: "Wonderful physiotherapy during pregnancy! The prenatal physiotherapy helped with my back pain. The physiotherapist was gentle and caring. Highly recommend Legend Physiotherapy!",
-  },
-  {
-    name: "Prasad Rao",
+    name: "Sravya Samanapelli",
     role: "Ankle Sprain Recovery",
-    gender: "male",
-    rating: 5,
-    text: "Excellent physiotherapy for ankle sprain! My recovery was faster than expected. The sports physiotherapy program is outstanding. Highly skilled physiotherapist in Hyderabad!",
-  },
-  {
-    name: "Nandini Kumar",
-    role: "Posture Correction",
     gender: "female",
     rating: 5,
-    text: "Excellent physiotherapy for posture correction! My slouching caused severe back pain. Legend Physiotherapy's treatment fixed my posture. Outstanding physiotherapy clinic!",
+    text: "I recovered from an ankle sprain with balance and strength training at Legend Physiotherapy. The treatment helped me return to sports. Excellent physiotherapy and very professional team.",
   },
   {
-    name: "Harish Babu",
-    role: "Paralysis Rehabilitation",
-    gender: "male",
-    rating: 5,
-    text: "Expert physiotherapist for paralysis! After my stroke, the neuro physiotherapy at home was exceptional. I regained mobility thanks to Legend Physiotherapy. Outstanding physiotherapy near me!",
-  },
-  {
-    name: "Padma Lakshmi",
-    role: "Geriatric Physiotherapy",
-    gender: "female",
-    rating: 5,
-    text: "Wonderful physiotherapy for elderly! My mother needed physiotherapy at home. The physiotherapist was patient and professional. Excellent home visit physiotherapy service!",
-  },
-  {
-    name: "Naveen Kumar",
-    role: "Ligament Tear Recovery",
-    gender: "male",
-    rating: 5,
-    text: "Amazing physiotherapy for ligament tear! My ACL recovery was smooth. The sports injury physiotherapy is exceptional. Outstanding physiotherapy clinic in Hyderabad!",
-  },
-  {
-    name: "Rekha Sharma",
-    role: "Migraine Relief",
-    gender: "female",
-    rating: 5,
-    text: "Great physiotherapy for migraine! The neck and shoulder physiotherapy reduced my headaches significantly. Excellent treatment at Legend Physiotherapy!",
-  },
-  {
-    name: "Mohan Reddy",
-    role: "Hip Pain Treatment",
-    gender: "male",
-    rating: 5,
-    text: "Expert physiotherapist for hip pain! I couldn't walk without pain. After physiotherapy treatment, I'm walking normally. Outstanding physiotherapy near me in Hyderabad!",
-  },
-  {
-    name: "Sangeetha Devi",
-    role: "Carpal Tunnel Syndrome",
-    gender: "female",
-    rating: 5,
-    text: "Excellent physiotherapy for carpal tunnel! My wrist pain was affecting my work. Legend Physiotherapy's treatment was perfect. Highly skilled physiotherapist in Hyderabad!",
-  },
-  {
-    name: "Ravi Teja",
-    role: "Muscle Strain Recovery",
-    gender: "male",
-    rating: 5,
-    text: "Excellent physiotherapy for muscle strain! The sports physiotherapy helped me recover quickly. I'm back to gym training. Highly recommend Legend Physiotherapy!",
-  },
-  {
-    name: "Madhavi Reddy",
+    name: "Rakshi Shyamrao",
     role: "Plantar Fasciitis",
     gender: "female",
     rating: 5,
-    text: "Amazing physiotherapy for plantar fasciitis! My heel pain was unbearable. After treatment at Legend Physiotherapy, I can walk pain-free. Outstanding physiotherapy clinic!",
+    text: "My plantar fasciitis was treated with stretching, strengthening and gait correction exercises. The pain reduced drastically after the treatment. Highly recommend Legend Physiotherapy.",
   },
   {
-    name: "Sai Kumar",
-    role: "Whiplash Injury",
+    name: "Raghu Malyala",
+    role: "Knee Osteoarthritis",
     gender: "male",
     rating: 5,
-    text: "Expert physiotherapist for whiplash! After my accident, the neck physiotherapy was exceptional. I recovered fully. Outstanding physiotherapy near me in Hyderabad!",
+    text: "I had early knee osteoarthritis and after treatment at Legend Physiotherapy, I can now climb stairs without discomfort. The improvement has been remarkable.",
   },
   {
-    name: "Bhavani Devi",
-    role: "Balance Training",
+    name: "Lokendra Mandloi",
+    role: "Pain Relief",
+    gender: "male",
+    rating: 5,
+    text: "My grandfather got immense pain relief here. Good doctors, good environment, good service. Very happy with the treatment at Legend Physiotherapy.",
+  },
+  {
+    name: "Sayali Joshi",
+    role: "Clinic Visit",
     gender: "female",
     rating: 5,
-    text: "Wonderful physiotherapy for balance issues! My elderly mother's fall risk reduced significantly. The geriatric physiotherapy at home was excellent. Highly recommend!",
+    text: "Professional treatment with quick results. The doctor explained everything clearly and the clinic is very clean. I got relief much faster than expected.",
   },
   {
-    name: "Krishna Murthy",
-    role: "Rotator Cuff Injury",
+    name: "Shahid Afrid Mohammad",
+    role: "Sciatica Treatment",
     gender: "male",
     rating: 5,
-    text: "Excellent physiotherapy for rotator cuff! My shoulder injury healed perfectly. The physiotherapist at Legend Physiotherapy is highly skilled. Outstanding physiotherapy clinic!",
+    text: "I had sciatica and it was treated gently at Legend Physiotherapy. Now the pain is almost gone. Very thankful for the care and attention.",
   },
   {
-    name: "Vasundhara Reddy",
-    role: "TMJ Disorder",
+    name: "Buram Dinesh",
+    role: "Post-ACL Surgery Rehab",
+    gender: "male",
+    rating: 5,
+    text: "I had ACL reconstruction surgery and did my rehab at Legend Physiotherapy. Now I can walk and climb stairs easily. The recovery program was excellent.",
+  },
+  {
+    name: "Prashanth Raparthi",
+    role: "Lower Back Pain",
+    gender: "male",
+    rating: 5,
+    text: "I had chronic lower back pain and it improved within a week of treatment. Now I can sit and walk comfortably again. Highly recommend this clinic.",
+  },
+  {
+    name: "Shiva Kumar",
+    role: "Shoulder Pain",
+    gender: "male",
+    rating: 5,
+    text: "I had shoulder pain from heavy lifting at work. After physiotherapy at Legend, the pain improved significantly. Now I can work without discomfort.",
+  },
+  {
+    name: "Podishetty Likvith",
+    role: "Neck Pain",
+    gender: "male",
+    rating: 5,
+    text: "I had neck stiffness from constant phone use. It eased in just a few sessions at Legend Physiotherapy. Highly satisfied with the results.",
+  },
+  {
+    name: "Rishik Bandari",
+    role: "Cervical Pain",
+    gender: "male",
+    rating: 5,
+    text: "My cervical pain and headaches have eased after treatment at Legend Physiotherapy. Feeling much better now. The team is very knowledgeable.",
+  },
+  {
+    name: "Sateesh",
+    role: "Muscle Stiffness",
+    gender: "male",
+    rating: 5,
+    text: "I had muscle stiffness after gym workouts. The physiotherapy treatment resolved it completely. Very thankful for the care at Legend Physiotherapy.",
+  },
+  {
+    name: "Saketh Paka",
+    role: "Wrist Pain",
+    gender: "male",
+    rating: 5,
+    text: "I had wrist pain from constant typing at work. After treatment at Legend Physiotherapy, I can now work without pain. Great treatment.",
+  },
+  {
+    name: "Sathvika Kavali",
+    role: "Knee Stiffness",
     gender: "female",
     rating: 5,
-    text: "Excellent physiotherapy for TMJ! My jaw pain was severe. The specialized physiotherapy treatment at Legend Physiotherapy worked wonders. Outstanding physiotherapist!",
+    text: "My knee stiffness is improving steadily. Slowly I can bend my knee better now and walking is easier. Thank you Legend Physiotherapy team.",
   },
   {
-    name: "Chandra Sekhar",
-    role: "Parkinson's Physiotherapy",
+    name: "Vamshikrishna Gaddam",
+    role: "Hand Weakness",
     gender: "male",
     rating: 5,
-    text: "Expert physiotherapist for Parkinson's! The neuro physiotherapy improved my father's mobility. The home visit service is outstanding. Excellent physiotherapy near me!",
+    text: "I had hand weakness and after treatment, I can feel some strength coming back now. The physiotherapy at Legend is helping me recover well.",
   },
   {
-    name: "Jyothi Lakshmi",
-    role: "Fibromyalgia Management",
+    name: "Karthik",
+    role: "Back Pain Relief",
+    gender: "male",
+    rating: 5,
+    text: "I had back pain after long hours of travel. The treatment at Legend Physiotherapy gave good relief. Professional and caring team.",
+  },
+  {
+    name: "Shubham Sharma",
+    role: "Leg Injury Recovery",
+    gender: "male",
+    rating: 5,
+    text: "I had a leg injury and they treated me very well. They got my damaged leg cured. Excellent work by the Legend Physiotherapy team.",
+  },
+  {
+    name: "Konda Rajkumar",
+    role: "Home Visit Physiotherapy",
+    gender: "male",
+    rating: 5,
+    text: "I had hand pain and consulted their home visiting service. The service was great and I had good recovery. My hand is fine now.",
+  },
+  {
+    name: "Kuldeep Sharma",
+    role: "Home Visit Service",
+    gender: "male",
+    rating: 5,
+    text: "They give home service and they are very accurate with the treatment. Convenient and professional physiotherapy at your doorstep.",
+  },
+  {
+    name: "Mallareddy Pasunuri",
+    role: "Post-Surgery Rehab",
+    gender: "male",
+    rating: 5,
+    text: "I took physiotherapy treatment from Dr. Sirish for my lumbar spondylitis post-surgery discectomy. The rehabilitation was excellent and thorough.",
+  },
+  {
+    name: "Karthik Nukapongu",
+    role: "General Treatment",
+    gender: "male",
+    rating: 5,
+    text: "Nice treatment and they really care about us. I like that passion in their work. Very dedicated physiotherapy team at Legend.",
+  },
+  {
+    name: "Dhanavath Ranga",
+    role: "Ankle Sprain",
+    gender: "male",
+    rating: 5,
+    text: "Best treatment for my ankle sprain. Thank you doctor for the excellent care at Legend Physiotherapy. Recovered quickly.",
+  },
+  {
+    name: "Peddi Manognya",
+    role: "General Physiotherapy",
     gender: "female",
     rating: 5,
-    text: "Amazing physiotherapy for fibromyalgia! My chronic pain reduced significantly. Legend Physiotherapy's holistic approach is excellent. Highly skilled physiotherapist in Hyderabad!",
+    text: "Very good service at Legend Physiotherapy. The environment is friendly and the staff is very welcoming. Highly recommend.",
   },
   {
-    name: "Balaji Rao",
-    role: "Disc Bulge Treatment",
+    name: "Yashwanth Ellandula",
+    role: "Back Pain Treatment",
     gender: "male",
     rating: 5,
-    text: "Excellent physiotherapy for disc bulge! I avoided surgery thanks to the outstanding treatment. The physiotherapist at Legend Physiotherapy is highly experienced. Highly recommend!",
+    text: "Best treatment for back pain I have received. The physiotherapy at Legend is professional and effective. Feeling much better.",
+  },
+  {
+    name: "Manish Charry",
+    role: "Pain Management",
+    gender: "male",
+    rating: 5,
+    text: "Good treatment, the best I have ever received. Legend Physiotherapy really knows their work. Very satisfied with the results.",
+  },
+  {
+    name: "Bollampally Pranay",
+    role: "Referred Patient",
+    gender: "male",
+    rating: 5,
+    text: "My friend referred me to Legend Physiotherapy and I joined for treatment. Got great results within just 3 days. Highly recommend.",
+  },
+  {
+    name: "Naveen Polla",
+    role: "Physiotherapy Treatment",
+    gender: "male",
+    rating: 5,
+    text: "The physiotherapy here is very good and excellent. Professional treatment and caring staff at Legend Physiotherapy clinic.",
+  },
+  {
+    name: "Dhanush",
+    role: "General Treatment",
+    gender: "male",
+    rating: 5,
+    text: "The treatment given here is very good and excellent. I had a great experience at Legend Physiotherapy. Highly recommend.",
+  },
+  {
+    name: "Amgothu Sathish",
+    role: "Ankle Sprain Treatment",
+    gender: "male",
+    rating: 5,
+    text: "Best treatment for ankle sprain at Legend Physiotherapy. The recovery was fast and the team was very supportive throughout.",
   },
 ];
 
@@ -260,184 +246,175 @@ const AvatarIcon = ({ gender }: { gender: string }) => {
 };
 
 export default function Testimonials() {
-  const [active, setActive] = useState(0);
-  const scrollContainerRef = useRef<HTMLDivElement>(null);
+  const [activeIndex, setActiveIndex] = useState(0);
+  const scrollRef = useRef<HTMLDivElement>(null);
 
   // Auto-scroll for horizontal reviews
+  const [scrollPosition, setScrollPosition] = useState(0);
+  const horizontalScrollRef = useRef<HTMLDivElement>(null);
+
   useEffect(() => {
-    const container = scrollContainerRef.current;
-    if (!container) return;
-
-    const scrollWidth = container.scrollWidth;
-    const clientWidth = container.clientWidth;
-    let scrollPosition = 0;
-
-    const scroll = () => {
-      scrollPosition += 1;
-      if (scrollPosition >= scrollWidth - clientWidth) {
-        scrollPosition = 0;
-      }
-      container.scrollLeft = scrollPosition;
-    };
-
-    const interval = setInterval(scroll, 30);
+    const interval = setInterval(() => {
+      setActiveIndex((prev) => (prev + 1) % testimonials.length);
+    }, 5000);
     return () => clearInterval(interval);
   }, []);
 
+  useEffect(() => {
+    const scrollContainer = horizontalScrollRef.current;
+    if (!scrollContainer) return;
+
+    const scrollSpeed = 0.5;
+    let animationId: number;
+
+    const animate = () => {
+      setScrollPosition((prev) => {
+        const newPos = prev + scrollSpeed;
+        if (scrollContainer.scrollWidth / 2 <= newPos) {
+          return 0;
+        }
+        return newPos;
+      });
+      animationId = requestAnimationFrame(animate);
+    };
+
+    animationId = requestAnimationFrame(animate);
+    return () => cancelAnimationFrame(animationId);
+  }, []);
+
+  useEffect(() => {
+    if (horizontalScrollRef.current) {
+      horizontalScrollRef.current.scrollLeft = scrollPosition;
+    }
+  }, [scrollPosition]);
+
+  const active = testimonials[activeIndex];
+
   return (
-    <>
-    <section className="py-24 bg-white">
-      <div className="max-w-7xl mx-auto px-6">
-        {/* Heading */}
-        <div className="text-center mb-14">
-          <span className="section-tag">Patient Stories</span>
-          <h2 className="text-4xl font-bold text-gray-800 mt-3 mb-4" style={{ fontFamily: "var(--font-poppins)" }}>
+    <section className="py-16 sm:py-20 md:py-24 bg-gradient-to-b from-white to-blue-50">
+      <div className="max-w-7xl mx-auto px-4 sm:px-6">
+        {/* Section Header */}
+        <div className="text-center mb-10 sm:mb-14">
+          <span className="section-tag text-xs sm:text-sm">Google Reviews</span>
+          <h2 className="text-2xl sm:text-3xl md:text-4xl font-bold text-gray-800 mt-2 mb-3" style={{ fontFamily: "var(--font-poppins)" }}>
             What Our Patients Say
           </h2>
-          <p className="text-gray-500 max-w-xl mx-auto leading-relaxed">
-            Real stories from real patients who trusted Legend Physiotherapy with their health and found the care they needed.
+          <p className="text-sm sm:text-base text-gray-500 max-w-xl mx-auto">
+            Real reviews from our patients on Google
           </p>
         </div>
 
-        <div className="grid lg:grid-cols-3 gap-8">
-          {/* Featured testimonial */}
-          <div className="lg:col-span-2 bg-blue-50 rounded-2xl p-10 relative overflow-hidden">
-            <div className="absolute top-6 right-8 text-blue-200 text-9xl font-serif leading-none select-none">"</div>
-            <div className="relative z-10">
-              {/* Stars */}
-              <div className="flex gap-1 mb-6">
+        {/* Featured Testimonial */}
+        <div className="max-w-4xl mx-auto mb-16">
+          <div className="bg-white rounded-2xl shadow-xl p-6 sm:p-10 relative overflow-hidden border border-blue-100">
+            {/* Decorative */}
+            <div className="absolute -top-10 -right-10 w-40 h-40 bg-blue-50 rounded-full opacity-50"></div>
+            <div className="absolute -bottom-10 -left-10 w-32 h-32 bg-blue-50 rounded-full opacity-50"></div>
+
+            <div className="relative">
+              {/* Quote Icon */}
+              <svg className="w-10 h-10 sm:w-12 sm:h-12 text-blue-200 mb-4" fill="currentColor" viewBox="0 0 24 24">
+                <path d="M4.583 17.321C3.553 16.227 3 15 3 13.011c0-3.5 2.457-6.637 6.03-8.188l.893 1.378c-3.335 1.804-3.987 4.145-4.247 5.621.537-.278 1.24-.375 1.929-.311 1.804.167 3.226 1.648 3.226 3.489a3.5 3.5 0 01-3.5 3.5c-1.073 0-2.099-.49-2.748-1.179zm10 0C13.553 16.227 13 15 13 13.011c0-3.5 2.457-6.637 6.03-8.188l.893 1.378c-3.335 1.804-3.987 4.145-4.247 5.621.537-.278 1.24-.375 1.929-.311 1.804.167 3.226 1.648 3.226 3.489a3.5 3.5 0 01-3.5 3.5c-1.073 0-2.099-.49-2.748-1.179z" />
+              </svg>
+
+              {/* Review Text */}
+              <p className="text-base sm:text-lg md:text-xl text-gray-700 leading-relaxed mb-6 min-h-[80px]">
+                &ldquo;{active.text}&rdquo;
+              </p>
+
+              {/* Rating */}
+              <div className="flex gap-1 mb-4">
                 {[...Array(5)].map((_, i) => (
-                  <svg key={i} className="w-5 h-5 text-yellow-400" fill="currentColor" viewBox="0 0 20 20">
+                  <svg key={i} className="w-5 h-5 text-amber-400" fill="currentColor" viewBox="0 0 20 20">
                     <path d="M9.049 2.927c.3-.921 1.603-.921 1.902 0l1.07 3.292a1 1 0 00.95.69h3.462c.969 0 1.371 1.24.588 1.81l-2.8 2.034a1 1 0 00-.364 1.118l1.07 3.292c.3.921-.755 1.688-1.54 1.118l-2.8-2.034a1 1 0 00-1.175 0l-2.8 2.034c-.784.57-1.838-.197-1.539-1.118l1.07-3.292a1 1 0 00-.364-1.118L2.98 8.72c-.783-.57-.38-1.81.588-1.81h3.461a1 1 0 00.951-.69l1.07-3.292z" />
                   </svg>
                 ))}
               </div>
-              <p className="text-gray-700 text-lg leading-relaxed mb-8 italic">
-                "{testimonials[active].text}"
-              </p>
-              <div className="flex items-center gap-4">
-                <div className="w-14 h-14 rounded-full border-2 border-blue-300 overflow-hidden bg-white">
-                  <AvatarIcon gender={testimonials[active].gender} />
+
+              {/* Person Info */}
+              <div className="flex items-center gap-3">
+                <div className="w-12 h-12 rounded-full overflow-hidden">
+                  <AvatarIcon gender={active.gender} />
                 </div>
                 <div>
-                  <p className="font-semibold text-gray-800" style={{ fontFamily: "var(--font-poppins)" }}>
-                    {testimonials[active].name}
-                  </p>
-                  <p className="text-blue-500 text-sm">{testimonials[active].role}</p>
+                  <p className="font-bold text-gray-900">{active.name}</p>
+                  <p className="text-blue-500 text-sm">{active.role}</p>
                 </div>
               </div>
             </div>
-          </div>
 
-          {/* Testimonial list */}
-          <div className="space-y-4">
-            {testimonials.map((t, i) => (
-              <button
-                key={t.name}
-                onClick={() => setActive(i)}
-                className={`w-full text-left p-4 rounded-xl border transition-all duration-200 ${i === active
-                  ? "border-blue-300 bg-blue-50 shadow-sm"
-                  : "border-gray-100 bg-white hover:border-blue-200"
-                  }`}
-              >
-                <div className="flex items-center gap-3">
-                  <div className="w-10 h-10 rounded-full overflow-hidden bg-white flex-shrink-0">
-                    <AvatarIcon gender={t.gender} />
-                  </div>
-                  <div className="overflow-hidden">
-                    <p className="font-semibold text-gray-800 text-sm truncate" style={{ fontFamily: "var(--font-poppins)" }}>
-                      {t.name}
-                    </p>
-                    <p className="text-blue-400 text-xs truncate">{t.role}</p>
-                  </div>
-                  {i === active && (
-                    <div className="ml-auto w-2 h-2 bg-blue-500 rounded-full flex-shrink-0" />
-                  )}
-                </div>
-              </button>
-            ))}
-
-            {/* Overall rating */}
-            <div className="p-4 bg-blue-500 rounded-xl text-white text-center mt-6">
-              <div className="text-4xl font-bold mb-1" style={{ fontFamily: "var(--font-poppins)" }}>5.0/5</div>
-              <div className="flex justify-center gap-1 mb-2">
-                {[...Array(5)].map((_, i) => (
-                  <svg key={i} className="w-4 h-4 text-yellow-300" fill="currentColor" viewBox="0 0 20 20">
-                    <path d="M9.049 2.927c.3-.921 1.603-.921 1.902 0l1.07 3.292a1 1 0 00.95.69h3.462c.969 0 1.371 1.24.588 1.81l-2.8 2.034a1 1 0 00-.364 1.118l1.07 3.292c.3.921-.755 1.688-1.54 1.118l-2.8-2.034a1 1 0 00-1.175 0l-2.8 2.034c-.784.57-1.838-.197-1.539-1.118l1.07-3.292a1 1 0 00-.364-1.118L2.98 8.72c-.783-.57-.38-1.81.588-1.81h3.461a1 1 0 00.951-.69l1.07-3.292z" />
-                  </svg>
-                ))}
-              </div>
-              <p className="text-white/80 text-xs">Rated 5.0 on Google</p>
+            {/* Dots */}
+            <div className="flex justify-center gap-2 mt-8">
+              {testimonials.map((_, i) => (
+                <button
+                  key={i}
+                  onClick={() => setActiveIndex(i)}
+                  className={`w-2.5 h-2.5 rounded-full transition-all ${i === activeIndex ? "bg-blue-500 w-6" : "bg-gray-300"}`}
+                />
+              ))}
             </div>
           </div>
         </div>
-      </div>
-    </section>
 
-    {/* Horizontal Sliding Reviews Section - 30+ Reviews */}
-    <section className="py-16 bg-gradient-to-r from-blue-50 to-blue-100 overflow-hidden">
-      <div className="max-w-7xl mx-auto px-6 mb-8">
-        <div className="text-center">
-          <span className="section-tag">Trusted by Thousands</span>
-          <h2 className="text-3xl font-bold text-gray-800 mt-3 mb-2" style={{ fontFamily: "var(--font-poppins)" }}>
-            Patient Reviews
-          </h2>
-          <p className="text-gray-600">Professional Physiotherapy in Hyderabad</p>
-        </div>
-      </div>
-
-      {/* Horizontal Scrolling Container */}
-      <div 
-        ref={scrollContainerRef}
-        className="flex gap-6 overflow-x-hidden px-6"
-        style={{ scrollBehavior: 'smooth' }}
-      >
-        {allReviews.map((review, index) => (
-          <div
-            key={index}
-            className="flex-shrink-0 w-80 bg-white rounded-xl shadow-lg p-6 hover:shadow-2xl transition-shadow"
-          >
-            {/* Stars */}
-            <div className="flex gap-1 mb-3">
+        {/* Rating Summary */}
+        <div className="text-center mb-8">
+          <div className="inline-flex items-center gap-2 bg-white px-6 py-3 rounded-full shadow-lg border border-amber-100">
+            <div className="flex gap-0.5">
               {[...Array(5)].map((_, i) => (
-                <svg key={i} className="w-4 h-4 text-yellow-400" fill="currentColor" viewBox="0 0 20 20">
+                <svg key={i} className="w-5 h-5 text-amber-400" fill="currentColor" viewBox="0 0 20 20">
                   <path d="M9.049 2.927c.3-.921 1.603-.921 1.902 0l1.07 3.292a1 1 0 00.95.69h3.462c.969 0 1.371 1.24.588 1.81l-2.8 2.034a1 1 0 00-.364 1.118l1.07 3.292c.3.921-.755 1.688-1.54 1.118l-2.8-2.034a1 1 0 00-1.175 0l-2.8 2.034c-.784.57-1.838-.197-1.539-1.118l1.07-3.292a1 1 0 00-.364-1.118L2.98 8.72c-.783-.57-.38-1.81.588-1.81h3.461a1 1 0 00.951-.69l1.07-3.292z" />
                 </svg>
               ))}
             </div>
-
-            {/* Review Text */}
-            <p className="text-gray-700 text-sm leading-relaxed mb-4 line-clamp-4">
-              "{review.text}"
-            </p>
-
-            {/* Reviewer Info */}
-            <div className="flex items-center gap-3 pt-3 border-t border-gray-100">
-              <div className="w-10 h-10 rounded-full overflow-hidden bg-blue-50 flex-shrink-0">
-                <AvatarIcon gender={review.gender} />
-              </div>
-              <div>
-                <p className="font-semibold text-gray-800 text-sm" style={{ fontFamily: "var(--font-poppins)" }}>
-                  {review.name}
-                </p>
-                <p className="text-blue-500 text-xs">{review.role}</p>
-              </div>
-            </div>
+            <p className="text-white/80 text-xs">Rated 5.0 on Google</p>
           </div>
-        ))}
-      </div>
+        </div>
 
-      {/* Keywords Badge */}
-      <div className="max-w-7xl mx-auto px-6 mt-8">
-        <div className="flex flex-wrap justify-center gap-2">
-          {["Physiotherapy Near Me", "Physiotherapy in Hyderabad", "Expert Physiotherapist", "Home Visit Physiotherapy", "Sports Injury Physiotherapy", "Neuro Rehabilitation"].map((keyword) => (
-            <span key={keyword} className="bg-white text-blue-600 text-xs font-semibold px-3 py-1 rounded-full shadow-sm">
-              {keyword}
-            </span>
-          ))}
+        {/* Horizontal Sliding Reviews Section */}
+        <div className="mt-8">
+          <h3 className="text-xl sm:text-2xl font-bold text-center text-gray-800 mb-6" style={{ fontFamily: "var(--font-poppins)" }}>
+            Patient Reviews
+          </h3>
+
+          <div
+            ref={horizontalScrollRef}
+            className="flex gap-4 overflow-hidden py-4"
+            style={{ scrollBehavior: "auto" }}
+          >
+            {[...allReviews, ...allReviews].map((review, index) => (
+              <div
+                key={index}
+                className="flex-shrink-0 w-72 sm:w-80 bg-white rounded-xl p-5 shadow-md border border-gray-100 hover:shadow-lg transition-shadow"
+              >
+                {/* Stars */}
+                <div className="flex gap-0.5 mb-3">
+                  {[...Array(5)].map((_, i) => (
+                    <svg key={i} className="w-4 h-4 text-amber-400" fill="currentColor" viewBox="0 0 20 20">
+                      <path d="M9.049 2.927c.3-.921 1.603-.921 1.902 0l1.07 3.292a1 1 0 00.95.69h3.462c.969 0 1.371 1.24.588 1.81l-2.8 2.034a1 1 0 00-.364 1.118l1.07 3.292c.3.921-.755 1.688-1.54 1.118l-2.8-2.034a1 1 0 00-1.175 0l-2.8 2.034c-.784.57-1.838-.197-1.539-1.118l1.07-3.292a1 1 0 00-.364-1.118L2.98 8.72c-.783-.57-.38-1.81.588-1.81h3.461a1 1 0 00.951-.69l1.07-3.292z" />
+                    </svg>
+                  ))}
+                </div>
+
+                {/* Review Text */}
+                <p className="text-gray-600 text-sm leading-relaxed mb-4 line-clamp-4">
+                  &ldquo;{review.text}&rdquo;
+                </p>
+
+                {/* Reviewer Info */}
+                <div className="flex items-center gap-2">
+                  <div className="w-8 h-8 rounded-full overflow-hidden flex-shrink-0">
+                    <AvatarIcon gender={review.gender} />
+                  </div>
+                  <div>
+                    <p className="font-semibold text-gray-800 text-sm">{review.name}</p>
+                    <p className="text-blue-500 text-xs">{review.role}</p>
+                  </div>
+                </div>
+              </div>
+            ))}
+          </div>
         </div>
       </div>
     </section>
-    </>
   );
 }

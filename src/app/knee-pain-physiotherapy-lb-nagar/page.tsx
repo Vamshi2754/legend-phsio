@@ -87,7 +87,7 @@ export default function KneePainPage() {
               Call +91 81430 15455
             </a>
             <a
-              href="https://wa.me/919966193413"
+              href="https://wa.me/918143015455"
               target="_blank"
               rel="noopener noreferrer"
               className="bg-blue-800 text-white px-6 py-3 rounded-lg font-bold hover:bg-blue-900 transition-colors text-sm sm:text-base"

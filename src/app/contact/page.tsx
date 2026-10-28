@@ -100,7 +100,7 @@ export default function ContactPage() {
                 </div>
                 <div>
                   <h3 className="font-bold text-gray-900 mb-1 sm:mb-2 text-sm sm:text-base">WhatsApp</h3>
-                  <a href="https://wa.me/919966193413" target="_blank" rel="noopener noreferrer" className="text-green-600 hover:underline font-semibold text-xs sm:text-sm md:text-base break-words">
+                  <a href="https://wa.me/918143015455" target="_blank" rel="noopener noreferrer" className="text-green-600 hover:underline font-semibold text-xs sm:text-sm md:text-base break-words">
                     Chat with us on WhatsApp
                   </a>
                   <p className="text-gray-600 text-xs sm:text-sm mt-1">Quick responses & easy booking</p>
@@ -140,7 +140,7 @@ export default function ContactPage() {
             <h3 className="font-bold text-gray-900 mb-3 sm:mb-4 text-sm sm:text-base">Follow & Connect With Us</h3>
             <div className="flex flex-wrap gap-2 sm:gap-3">
               <a
-                href="https://wa.me/919966193413"
+                href="https://wa.me/918143015455"
                 target="_blank"
                 rel="noopener noreferrer"
                 aria-label="WhatsApp"

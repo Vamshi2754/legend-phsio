@@ -92,7 +92,7 @@ export default function Header() {
             {/* Social Icons in Header */}
             <div className="flex items-center gap-2.5 border-l border-blue-500/80 pl-3">
               <a
-                href="https://wa.me/919966193413"
+                href="https://wa.me/918143015455"
                 target="_blank"
                 rel="noopener noreferrer"
                 aria-label="WhatsApp"

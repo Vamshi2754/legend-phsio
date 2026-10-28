@@ -65,7 +65,7 @@ export default function AboutPage() {
             <div className="bg-blue-50 rounded-2xl p-6 md:p-8">
               <img
                 src="/assets/physiotherpy.jpg"
-                alt="Legend Physiotherapy Clinic"
+                alt="Legend Physiotherapy Ortho and Neuro Pain Management Clinic"
                 className="rounded-xl shadow-lg w-full h-80 md:h-96 object-contain"
               />
             </div>

@@ -17,10 +17,10 @@ export default function QuickLocationSection() {
                   <span>Instant Map & Location</span>
                 </div>
                 <h2 className="text-2xl sm:text-3xl lg:text-4xl font-extrabold text-gray-900 tracking-tight" style={{ fontFamily: "var(--font-poppins)" }}>
-                  Legend Physiotherapy Clinic
+                  Legend Physiotherapy Ortho and Neuro Pain Management Clinic
                 </h2>
                 <p className="text-blue-600 font-semibold text-sm sm:text-base mt-1">
-                  Ortho and Neuro Pain Management Clinic | LB Nagar & Kothapet
+                  Kothapet | LB Nagar, Hyderabad
                 </p>
               </div>
 

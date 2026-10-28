@@ -92,7 +92,7 @@ export default function Services() {
                 <div className="relative h-64 sm:h-72 md:h-80 lg:h-96 overflow-hidden bg-gray-100 rounded-t-xl">
                   <img
                     src={svc.image}
-                    alt={`${svc.title} - Professional physiotherapy treatment at Legend Physiotherapy Clinic`}
+                    alt={`${svc.title} - Professional physiotherapy treatment at Legend Physiotherapy Ortho and Neuro Pain Management Clinic`}
                     className="w-full h-full object-contain group-hover:scale-105 transition-transform duration-500"
                   />
                 </div>

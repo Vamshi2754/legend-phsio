@@ -25,10 +25,10 @@ export default function ClinicLocation() {
               </div>
               <div>
                 <h3 className="text-xl sm:text-2xl font-bold text-gray-900 mb-2" style={{ fontFamily: "var(--font-poppins)" }}>
-                  Legend Physiotherapy Clinic
+                  Legend Physiotherapy Ortho and Neuro Pain Management Clinic
                 </h3>
                 <p className="text-sm sm:text-base text-blue-600 font-semibold">
-                  Ortho and Neuro Pain Management
+                  Kothapet | LB Nagar, Hyderabad
                 </p>
               </div>
             </div>
@@ -142,7 +142,7 @@ export default function ClinicLocation() {
               allowFullScreen
               loading="lazy"
               referrerPolicy="no-referrer-when-downgrade"
-              title="Legend Physiotherapy Clinic Location Map"
+              title="Legend Physiotherapy Ortho and Neuro Pain Management Clinic Location Map"
             ></iframe>
             
             {/* Verified Badge */}

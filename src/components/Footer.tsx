@@ -332,8 +332,9 @@ export default function Footer() {
               alt="Legend Physiotherapy Logo" 
               className="h-9 w-auto object-contain transition-transform group-hover:scale-105"
             />
-            <span className="text-xl font-bold" style={{ fontFamily: "var(--font-poppins)" }}>
+            <span className="text-lg font-bold leading-tight" style={{ fontFamily: "var(--font-poppins)" }}>
               <span className="text-blue-400">Legend</span> Physiotherapy
+              <span className="block text-xs text-gray-400 font-semibold">Ortho and Neuro Pain Management</span>
             </span>
           </a>
           <p className="text-gray-400 text-sm leading-relaxed mb-5">
@@ -576,7 +577,7 @@ export default function Footer() {
       {/* Bottom bar */}
       <div className="border-t border-gray-800 py-5 text-center text-gray-500 text-sm">
         <div className="max-w-7xl mx-auto px-6 flex flex-col sm:flex-row justify-between items-center gap-3">
-          <p>© 2026 Legend Physiotherapy. All rights reserved.</p>
+          <p>© 2026 Legend Physiotherapy Ortho and Neuro Pain Management Clinic. All rights reserved.</p>
           <div className="flex gap-4">
             <a href="#" className="hover:text-blue-400 transition-colors">Privacy Policy</a>
           </div>

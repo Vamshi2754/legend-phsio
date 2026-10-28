@@ -80,7 +80,7 @@ export default function ContactPage() {
                 <div>
                   <h3 className="font-bold text-gray-900 mb-1 sm:mb-2 text-sm sm:text-base">Clinic Address</h3>
                   <p className="text-gray-700 font-semibold text-xs sm:text-sm md:text-base">
-                    Legend Physiotherapy Clinic
+                    Legend Physiotherapy Ortho and Neuro Pain Management Clinic
                   </p>
                   <p className="text-gray-600 text-xs sm:text-sm mt-1">
                     Shop No.2 Ground Floor, Road No: 4, HNO: 11-13-714,<br />
@@ -236,7 +236,7 @@ export default function ContactPage() {
                   </svg>
                 </div>
                 <div>
-                  <h4 className="font-bold text-gray-900 text-xs sm:text-sm">Legend Physiotherapy Clinic</h4>
+                  <h4 className="font-bold text-gray-900 text-xs sm:text-sm">Legend Physiotherapy Ortho and Neuro Pain Management Clinic</h4>
                   <p className="text-[10px] sm:text-xs text-gray-600 mt-1">Dwarka Nagar, Kothapet, L. B. Nagar, Hyderabad 500102</p>
                   <p className="text-[9px] sm:text-[10px] text-blue-600 font-semibold mt-1 sm:mt-2 uppercase tracking-tighter">Verified Location</p>
                 </div>

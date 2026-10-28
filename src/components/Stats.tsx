@@ -4,7 +4,7 @@ import { useEffect, useRef, useState } from "react";
 const stats = [
   { value: 5000, label: "Happy Patients", icon: "patients" },
   { value: 20, label: "Years of Experience", icon: "experience" },
-  { value: 470, label: "Google Reviews", icon: "rating" },
+  { value: 492, label: "Google Reviews", icon: "rating" },
 ];
 
 const iconMap: Record<string, React.ReactNode> = {

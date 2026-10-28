@@ -9,35 +9,35 @@ interface Testimonial {
   text: string;
 }
 
-// Real Google Reviews from Legend Physiotherapy GMB listing (5.0 rating, 470+ reviews)
+// Real Google Reviews from Legend Physiotherapy GMB listing (5.0 rating, 492 reviews)
 const allReviews: Testimonial[] = [
   {
     name: "Maha Lakshmi",
     role: "Rheumatoid Arthritis",
     gender: "female",
     rating: 5,
-    text: "I am suffering from rheumatoid arthritis from past 20 years and was unable to walk without support from past 3 months. After treatment at Legend Physiotherapy, I am now able to walk with walker. Very grateful to the team.",
+    text: "I am suffering from rheumatoid arthritis from past 20 years and was unable to walk without support from past 3 months. After daily home visits over 20 days at Legend Physiotherapy, I am now able to walk with walker. Very grateful to the team.",
   },
   {
     name: "Sravya Samanapelli",
     role: "Ankle Sprain Recovery",
     gender: "female",
     rating: 5,
-    text: "I recovered from an ankle sprain with balance and strength training at Legend Physiotherapy. The treatment helped me return to sports. Excellent physiotherapy and very professional team.",
+    text: "I recovered from an ankle sprain with balance and strength training at Legend Physiotherapy. The structured rehab helped me return to sports without any instability. Excellent physiotherapy.",
   },
   {
     name: "Rakshi Shyamrao",
     role: "Plantar Fasciitis",
     gender: "female",
     rating: 5,
-    text: "My plantar fasciitis was treated with stretching, strengthening and gait correction exercises. The pain reduced drastically after the treatment. Highly recommend Legend Physiotherapy.",
+    text: "My plantar fasciitis heel pain was treated with stretching, strengthening and gait correction exercises. The pain dropped substantially and I can walk comfortably now. Highly recommend Legend Physiotherapy.",
   },
   {
     name: "Raghu Malyala",
     role: "Knee Osteoarthritis",
     gender: "male",
     rating: 5,
-    text: "I had early knee osteoarthritis and after treatment at Legend Physiotherapy, I can now climb stairs without discomfort. The improvement has been remarkable.",
+    text: "I had early knee osteoarthritis and the pain eased after treatment at Legend Physiotherapy. I can now climb stairs comfortably. The improvement has been remarkable.",
   },
   {
     name: "Lokendra Mandloi",
@@ -51,77 +51,77 @@ const allReviews: Testimonial[] = [
     role: "Clinic Visit",
     gender: "female",
     rating: 5,
-    text: "Professional treatment with quick results. The doctor explained everything clearly and the clinic is very clean. I got relief much faster than expected.",
+    text: "Professional treatment with quick results. The doctor explained everything clearly and the clinic is very clean. Friendly staff and I got relief much faster than expected.",
   },
   {
     name: "Shahid Afrid Mohammad",
     role: "Sciatica Treatment",
     gender: "male",
     rating: 5,
-    text: "I had sciatica and it was treated gently at Legend Physiotherapy. Now the pain is almost gone. Very thankful for the care and attention.",
+    text: "I had sciatica and it was treated gently at Legend Physiotherapy. The treatment was effective and now the pain is almost gone. Very thankful for the care.",
   },
   {
     name: "Buram Dinesh",
     role: "Post-ACL Surgery Rehab",
     gender: "male",
     rating: 5,
-    text: "I had ACL reconstruction surgery and did my rehab at Legend Physiotherapy. Now I can walk and climb stairs easily. The recovery program was excellent.",
+    text: "I had ACL reconstruction surgery and did my structured, progressive rehab at Legend Physiotherapy. Now I can walk and climb stairs easily. The recovery program was excellent.",
   },
   {
     name: "Prashanth Raparthi",
     role: "Lower Back Pain",
     gender: "male",
     rating: 5,
-    text: "I had chronic lower back pain and it improved within a week of treatment. Now I can sit and walk comfortably again. Highly recommend this clinic.",
+    text: "I had chronic lower back pain and it improved within a week of treatment. The clinic is clean and calm. Now I can sit and walk comfortably again.",
   },
   {
     name: "Shiva Kumar",
     role: "Shoulder Pain",
     gender: "male",
     rating: 5,
-    text: "I had shoulder pain from heavy lifting at work. After physiotherapy at Legend, the pain improved significantly. Now I can work without discomfort.",
+    text: "I had shoulder pain from heavy lifting at work. After physiotherapy at Legend, the pain improved session by session. Now I can work without discomfort.",
   },
   {
     name: "Podishetty Likvith",
     role: "Neck Pain",
     gender: "male",
     rating: 5,
-    text: "I had neck stiffness from constant phone use. It eased in just a few sessions at Legend Physiotherapy. Highly satisfied with the results.",
+    text: "I had neck stiffness from constant mobile use. It improved in just a few sessions at Legend Physiotherapy. They also gave me home exercises. Highly satisfied with the results.",
   },
   {
     name: "Rishik Bandari",
     role: "Cervical Pain",
     gender: "male",
     rating: 5,
-    text: "My cervical pain and headaches have eased after treatment at Legend Physiotherapy. Feeling much better now. The team is very knowledgeable.",
+    text: "My cervical pain and headaches eased gradually in a calm, cooperative setting at Legend Physiotherapy. Feeling much better now. The team is very knowledgeable.",
   },
   {
     name: "Sateesh",
     role: "Muscle Stiffness",
     gender: "male",
     rating: 5,
-    text: "I had muscle stiffness after gym workouts. The physiotherapy treatment resolved it completely. Very thankful for the care at Legend Physiotherapy.",
+    text: "I recovered quickly from severe muscle stiffness after a gym workout. The physiotherapy treatment at Legend resolved it completely. Very thankful for the care.",
   },
   {
     name: "Saketh Paka",
     role: "Wrist Pain",
     gender: "male",
     rating: 5,
-    text: "I had wrist pain from constant typing at work. After treatment at Legend Physiotherapy, I can now work without pain. Great treatment.",
+    text: "I had wrist pain from constant typing at work. After treatment at Legend Physiotherapy, I can now work without pain. Great treatment and caring staff.",
   },
   {
     name: "Sathvika Kavali",
     role: "Knee Stiffness",
     gender: "female",
     rating: 5,
-    text: "My knee stiffness is improving steadily. Slowly I can bend my knee better now and walking is easier. Thank you Legend Physiotherapy team.",
+    text: "My knee stiffness is easing steadily. Slowly I can bend my knee better now and walking is getting easier. Thank you Legend Physiotherapy team.",
   },
   {
     name: "Vamshikrishna Gaddam",
     role: "Hand Weakness",
     gender: "male",
     rating: 5,
-    text: "I had hand weakness and after treatment, I can feel some strength coming back now. The physiotherapy at Legend is helping me recover well.",
+    text: "I had hand weakness and after treatment at Legend Physiotherapy, I can feel some strength coming back now. The physiotherapy is helping me recover well.",
   },
   {
     name: "Karthik",
@@ -156,7 +156,7 @@ const allReviews: Testimonial[] = [
     role: "Post-Surgery Rehab",
     gender: "male",
     rating: 5,
-    text: "I took physiotherapy treatment from Dr. Sirish for my lumbar spondylitis post-surgery discectomy. The rehabilitation was excellent and thorough.",
+    text: "I took physiotherapy treatment from Dr. Sirish for my lumbar spondylitis post-surgery discectomy. Home visit in Uppal. The rehabilitation was excellent and thorough.",
   },
   {
     name: "Karthik Nukapongu",
@@ -195,24 +195,24 @@ const allReviews: Testimonial[] = [
   },
   {
     name: "Bollampally Pranay",
-    role: "Referred Patient",
+    role: "Leg Pain Treatment",
     gender: "male",
     rating: 5,
-    text: "My friend referred me to Legend Physiotherapy and I joined for treatment. Got great results within just 3 days. Highly recommend.",
+    text: "My friend referred me to Legend Physiotherapy for my leg pain. I joined for treatment and got great results within just 3 days. Highly recommend.",
   },
   {
     name: "Naveen Polla",
     role: "Physiotherapy Treatment",
     gender: "male",
     rating: 5,
-    text: "The physiotherapy here is very good and excellent. Professional treatment and caring staff at Legend Physiotherapy clinic.",
+    text: "The physiotherapy here is very good and excellent. Professional treatment and caring staff at Legend Physiotherapy clinic. Feeling better now.",
   },
   {
     name: "Dhanush",
-    role: "General Treatment",
+    role: "Back Pain Treatment",
     gender: "male",
     rating: 5,
-    text: "The treatment given here is very good and excellent. I had a great experience at Legend Physiotherapy. Highly recommend.",
+    text: "The treatment given here is very good and excellent. It cured my back pain. I had a great experience at Legend Physiotherapy.",
   },
   {
     name: "Amgothu Sathish",
@@ -220,6 +220,41 @@ const allReviews: Testimonial[] = [
     gender: "male",
     rating: 5,
     text: "Best treatment for ankle sprain at Legend Physiotherapy. The recovery was fast and the team was very supportive throughout.",
+  },
+  {
+    name: "Kranthi Pasula",
+    role: "Recovery Treatment",
+    gender: "male",
+    rating: 5,
+    text: "Good recovery after treatment at Legend Physiotherapy. The physiotherapists are skilled and professional. Highly recommend their services.",
+  },
+  {
+    name: "Aravind Nani",
+    role: "Back Pain Relief",
+    gender: "male",
+    rating: 5,
+    text: "Best treatment for back pain at Legend Physiotherapy. The treatment was thorough and I feel much better after the sessions.",
+  },
+  {
+    name: "Yerrolla Krishnavamshi",
+    role: "Recovery Treatment",
+    gender: "male",
+    rating: 5,
+    text: "Good recovery after physiotherapy treatment. The team at Legend Physiotherapy is very professional and the results speak for themselves.",
+  },
+  {
+    name: "Model Vishnu",
+    role: "General Treatment",
+    gender: "male",
+    rating: 5,
+    text: "Good treatment, the best I have ever received before. Legend Physiotherapy provides excellent care and great results.",
+  },
+  {
+    name: "Model Vinnu",
+    role: "Pain Relief",
+    gender: "male",
+    rating: 5,
+    text: "Better pain relief at Legend Physiotherapy. The treatment was effective and the staff is very supportive. Happy with the results.",
   },
 ];
 
@@ -249,7 +284,6 @@ export default function Testimonials() {
   const [activeIndex, setActiveIndex] = useState(0);
   const scrollRef = useRef<HTMLDivElement>(null);
 
-  // Auto-scroll for horizontal reviews
   const [scrollPosition, setScrollPosition] = useState(0);
   const horizontalScrollRef = useRef<HTMLDivElement>(null);
 
@@ -307,22 +341,18 @@ export default function Testimonials() {
         {/* Featured Testimonial */}
         <div className="max-w-4xl mx-auto mb-16">
           <div className="bg-white rounded-2xl shadow-xl p-6 sm:p-10 relative overflow-hidden border border-blue-100">
-            {/* Decorative */}
             <div className="absolute -top-10 -right-10 w-40 h-40 bg-blue-50 rounded-full opacity-50"></div>
             <div className="absolute -bottom-10 -left-10 w-32 h-32 bg-blue-50 rounded-full opacity-50"></div>
 
             <div className="relative">
-              {/* Quote Icon */}
               <svg className="w-10 h-10 sm:w-12 sm:h-12 text-blue-200 mb-4" fill="currentColor" viewBox="0 0 24 24">
                 <path d="M4.583 17.321C3.553 16.227 3 15 3 13.011c0-3.5 2.457-6.637 6.03-8.188l.893 1.378c-3.335 1.804-3.987 4.145-4.247 5.621.537-.278 1.24-.375 1.929-.311 1.804.167 3.226 1.648 3.226 3.489a3.5 3.5 0 01-3.5 3.5c-1.073 0-2.099-.49-2.748-1.179zm10 0C13.553 16.227 13 15 13 13.011c0-3.5 2.457-6.637 6.03-8.188l.893 1.378c-3.335 1.804-3.987 4.145-4.247 5.621.537-.278 1.24-.375 1.929-.311 1.804.167 3.226 1.648 3.226 3.489a3.5 3.5 0 01-3.5 3.5c-1.073 0-2.099-.49-2.748-1.179z" />
               </svg>
 
-              {/* Review Text */}
               <p className="text-base sm:text-lg md:text-xl text-gray-700 leading-relaxed mb-6 min-h-[80px]">
                 &ldquo;{active.text}&rdquo;
               </p>
 
-              {/* Rating */}
               <div className="flex gap-1 mb-4">
                 {[...Array(5)].map((_, i) => (
                   <svg key={i} className="w-5 h-5 text-amber-400" fill="currentColor" viewBox="0 0 20 20">
@@ -331,7 +361,6 @@ export default function Testimonials() {
                 ))}
               </div>
 
-              {/* Person Info */}
               <div className="flex items-center gap-3">
                 <div className="w-12 h-12 rounded-full overflow-hidden">
                   <AvatarIcon gender={active.gender} />
@@ -343,7 +372,6 @@ export default function Testimonials() {
               </div>
             </div>
 
-            {/* Dots */}
             <div className="flex justify-center gap-2 mt-8">
               {testimonials.map((_, i) => (
                 <button
@@ -366,7 +394,7 @@ export default function Testimonials() {
                 </svg>
               ))}
             </div>
-            <p className="text-white/80 text-xs">Rated 5.0 on Google</p>
+            <p className="font-bold text-gray-800 text-sm">Rated 5.0 on Google (492+ Reviews)</p>
           </div>
         </div>
 
@@ -386,7 +414,6 @@ export default function Testimonials() {
                 key={index}
                 className="flex-shrink-0 w-72 sm:w-80 bg-white rounded-xl p-5 shadow-md border border-gray-100 hover:shadow-lg transition-shadow"
               >
-                {/* Stars */}
                 <div className="flex gap-0.5 mb-3">
                   {[...Array(5)].map((_, i) => (
                     <svg key={i} className="w-4 h-4 text-amber-400" fill="currentColor" viewBox="0 0 20 20">
@@ -395,12 +422,10 @@ export default function Testimonials() {
                   ))}
                 </div>
 
-                {/* Review Text */}
                 <p className="text-gray-600 text-sm leading-relaxed mb-4 line-clamp-4">
                   &ldquo;{review.text}&rdquo;
                 </p>
 
-                {/* Reviewer Info */}
                 <div className="flex items-center gap-2">
                   <div className="w-8 h-8 rounded-full overflow-hidden flex-shrink-0">
                     <AvatarIcon gender={review.gender} />

@@ -5,7 +5,7 @@ import type { Metadata } from "next";
 
 export const metadata: Metadata = {
   title: "Physiotherapy Health Articles & Tips | Legend Physiotherapy Blog",
-  description: "Expert physiotherapy articles, recovery tips, and health insights. Learn about back pain relief, sports injury recovery, neck pain treatment, and rehabilitation techniques from experienced physiotherapists.",
+  description: "Physiotherapy articles and recovery tips from Legend Physiotherapy. Back pain, sports injuries, neck pain and rehab guidance.",
   keywords: [
     "physiotherapy articles",
     "physiotherapy tips",

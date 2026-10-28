@@ -238,7 +238,7 @@ export default function LocationsPage() {
               📞 Call +91 81430 15455
             </a>
             <a
-              href="https://wa.me/918143015455"
+              href="https://wa.me/919966193413"
               target="_blank"
               rel="noopener noreferrer"
               className="bg-green-500 text-white font-bold px-4 sm:px-6 py-2.5 sm:py-3 rounded-xl hover:bg-green-600 transition-all text-xs sm:text-sm"

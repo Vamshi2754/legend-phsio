@@ -5,7 +5,7 @@ import Footer from "@/components/Footer";
 export const metadata: Metadata = {
   title: "Frozen Shoulder & Shoulder Pain Physio, LB Nagar | Legend",
   description:
-    "Shoulder pain and frozen shoulder physiotherapy at our Kothapet clinic near LB Nagar. Rotator cuff, impingement and post-dislocation rehab. Call +91 81430 15455.",
+    "Shoulder pain and frozen shoulder physiotherapy near LB Nagar, Kothapet. Rotator cuff and impingement rehab. Call +91 81430 15455.",
   alternates: { canonical: "/shoulder-pain-physiotherapy-lb-nagar" },
   openGraph: {
     title: "Frozen Shoulder & Shoulder Pain Physio, LB Nagar | Legend",

@@ -39,7 +39,7 @@ export const locationData: Record<string, LocationEntry> = {
     type: "Clinic & Home Visit",
     title: "Legend Physiotherapy Ortho and Neuro Pain Management Clinic | Kothapet | Lb Nagar",
     phone: "+91 81430 15455",
-    whatsapp: "918143015455",
+    whatsapp: "919966193413",
     address: "Shop No.2 Ground Floor, Road No: 4, HNO: 11-13-714, Dwarka Nagar, Green Hills Colony, Kothapet, L. B. Nagar, Hyderabad, Telangana 500102",
     mapEmbed: "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3807.5!2d78.5457583!3d17.3597024!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3bcb990043784b77%3A0x55126327d4caeb32!2sLegend%20Physiotherapy%20Ortho%20and%20Neuro%20Pain%20Management%20Clinic%20%7C%20Kothapet%20%7C%20Lb%20Nagar!5e0!3m2!1sen!2sin!4v1",
     mapPins: [
@@ -1233,7 +1233,7 @@ export const locationData: Record<string, LocationEntry> = {
     type: "Home Visit",
     title: "Legend Physiotherapy Home Visit Service | Vanasthalipuram",
     phone: "+91 81430 15455",
-    whatsapp: "918143015455",
+    whatsapp: "919966193413",
     address: "Vanasthalipuram Bus Depot Rd, Vanasthalipuram, Hyderabad, Telangana 500070",
     mapEmbed: "https://maps.google.com/maps?q=Vanasthalipuram+Bus+Depot+Rd+Vanasthalipuram+Hyderabad+Telangana+500070&output=embed",
     mapPins: [

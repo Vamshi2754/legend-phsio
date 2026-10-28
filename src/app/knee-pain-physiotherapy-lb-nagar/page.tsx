@@ -5,7 +5,7 @@ import type { Metadata } from "next";
 export const metadata: Metadata = {
   title: "Knee Pain Physiotherapy in LB Nagar, Hyderabad | Legend",
   description:
-    "Knee pain physiotherapy at our Kothapet clinic near LB Nagar. Treatment for osteoarthritis, ligament injuries, runner's knee and post-surgery rehab. Call +91 81430 15455.",
+    "Knee pain physiotherapy near LB Nagar, Kothapet. Osteoarthritis, ligament injury and post-surgery rehab. Call +91 81430 15455.",
   alternates: { canonical: "/knee-pain-physiotherapy-lb-nagar" },
   openGraph: {
     title: "Knee Pain Physiotherapy in LB Nagar, Hyderabad | Legend",

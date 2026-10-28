@@ -5,7 +5,7 @@ import type { Metadata } from "next";
 export const metadata: Metadata = {
   title: "Post-Surgery Physiotherapy in LB Nagar, Hyderabad | Legend",
   description:
-    "Post-surgery physiotherapy at our Kothapet clinic near LB Nagar. Rehab for knee and hip replacement, ACL reconstruction, spine surgery and fractures. Call +91 81430 15455.",
+    "Post-surgery physiotherapy near LB Nagar, Kothapet. Knee and hip replacement, ACL and spine surgery rehab. Call +91 81430 15455.",
   alternates: { canonical: "/post-surgery-rehabilitation-lb-nagar" },
   openGraph: {
     title: "Post-Surgery Physiotherapy in LB Nagar, Hyderabad | Legend",

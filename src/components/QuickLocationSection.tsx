@@ -32,7 +32,7 @@ export default function QuickLocationSection() {
                   ))}
                 </div>
                 <span className="text-xs sm:text-sm font-bold text-gray-800">
-                  4.9 / 5.0 Rating <span className="text-gray-500 font-normal">(500+ Google Reviews)</span>
+                  Rated 5.0 on Google
                 </span>
               </div>
 

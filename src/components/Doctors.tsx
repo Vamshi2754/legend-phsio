@@ -10,7 +10,7 @@ const doctors = [
       "Specialized in Orthopedic & Neurological Rehabilitation",
       "Expert in Sports Injury Management & Recovery",
       "Advanced Manual Therapy & Pain Management Specialist",
-      "Treated 5000+ Patients Successfully",
+      "Treated 5,000+ Patients Successfully",
     ],
     bio: "Dr. Sirish brings extensive experience in treating complex orthopedic and neurological conditions. His patient-centered approach and commitment to evidence-based practice have helped thousands achieve pain-free, active lives.",
     image: doctorImg,

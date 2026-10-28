@@ -5,7 +5,7 @@ import type { Metadata } from "next";
 export const metadata: Metadata = {
   title: "Sciatica & Slip Disc Physiotherapy in LB Nagar | Legend",
   description:
-    "Physiotherapy for sciatica and slip disc at our Kothapet clinic near LB Nagar. Evidence-based treatment, home exercises and home visits. Call +91 81430 15455.",
+    "Sciatica and slip disc physiotherapy near LB Nagar, Kothapet. Evidence-based treatment and home visits. Call +91 81430 15455.",
   alternates: { canonical: "/sciatica-physiotherapy-lb-nagar" },
   openGraph: {
     title: "Sciatica & Slip Disc Physiotherapy in LB Nagar | Legend",

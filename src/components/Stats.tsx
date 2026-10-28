@@ -2,9 +2,8 @@
 import { useEffect, useRef, useState } from "react";
 
 const stats = [
-  { value: 12000, label: "Happy Patients", icon: "patients" },
+  { value: 5000, label: "Happy Patients", icon: "patients" },
   { value: 20, label: "Years of Experience", icon: "experience" },
-  { value: 19, label: "Service Locations", icon: "locations" },
   { value: 470, label: "Google Reviews", icon: "rating" },
 ];
 
@@ -60,7 +59,7 @@ export default function Stats() {
   return (
     <section className="hero-gradient py-6 md:py-10">
       <div className="max-w-7xl mx-auto px-4 md:px-6">
-        <div className="grid grid-cols-2 lg:grid-cols-4 md:divide-x divide-white/20 gap-y-8 md:gap-y-0">
+        <div className="grid grid-cols-3 md:divide-x divide-white/20">
           {stats.map((s) => (
             <StatItem key={s.label} {...s} />
           ))}

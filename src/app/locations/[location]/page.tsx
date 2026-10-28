@@ -298,7 +298,9 @@ export async function generateMetadata({ params }: { params: Promise<{ location:
 
   return {
     title: `Physiotherapy in ${location.name}, Hyderabad | Legend Physiotherapy`,
-    description: `Physiotherapy clinic near ${location.name}, in Kothapet, for back, neck, knee and sports injuries, plus neuro rehab and home visits. Call +91 81430 15455.`,
+    description: isClinic
+      ? `Physiotherapy clinic near ${location.name} in Kothapet, Hyderabad. Back, knee, neck pain, sports injuries and neuro rehab. Call +91 81430 15455.`
+      : `Home visit physiotherapy in ${location.name}, Hyderabad. Expert treatment for back, knee, neck pain and sports injuries. Call +91 81430 15455.`,
     keywords: [
       `physiotherapy in ${location.name}`,
       `physiotherapist in ${location.name}`,
@@ -567,10 +569,13 @@ export default async function LocationPage({ params }: { params: Promise<{ locat
             <div className="bg-white p-6 md:p-8 rounded-xl shadow-sm">
               <h3 className="text-xl md:text-2xl font-bold text-gray-800 mb-3 md:mb-4 flex items-center gap-3" style={{ fontFamily: "var(--font-poppins)" }}>
                 <span className="w-8 h-8 md:w-10 md:h-10 bg-blue-500 text-white rounded-full flex items-center justify-center text-lg md:text-xl font-bold flex-shrink-0">3</span>
-                Personalized Treatment Plans
+                {isClinic ? "Ortho & Neuro Under One Roof" : "Full Rehabilitation at Your Doorstep"}
               </h3>
               <p className="text-sm md:text-base text-gray-700 leading-relaxed">
-                We understand that every patient is unique, which is why we never use a one-size-fits-all approach. Your treatment plan in {location.name} is customized based on your specific condition, lifestyle, goals, and preferences. We take time to understand your daily activities, work requirements, and personal objectives, then design a rehabilitation program that fits seamlessly into your life while delivering maximum results.
+                {isClinic
+                  ? `Our ${location.name} clinic covers both orthopaedic and neurological conditions — back pain, knee replacements, stroke recovery, Parkinson's — so you never need referrals to multiple providers.`
+                  : `Our therapists carry TENS, ultrasound, resistance equipment and manual therapy tools to your home in ${location.name}. You get a complete rehabilitation session without leaving your house, ideal for elderly patients and post-surgical recovery.`
+                }
               </p>
             </div>
 
@@ -578,32 +583,13 @@ export default async function LocationPage({ params }: { params: Promise<{ locat
             <div className="bg-white p-6 md:p-8 rounded-xl shadow-sm">
               <h3 className="text-xl md:text-2xl font-bold text-gray-800 mb-3 md:mb-4 flex items-center gap-3" style={{ fontFamily: "var(--font-poppins)" }}>
                 <span className="w-8 h-8 md:w-10 md:h-10 bg-blue-500 text-white rounded-full flex items-center justify-center text-lg md:text-xl font-bold flex-shrink-0">4</span>
-                Comprehensive Care for All Conditions
+                Open 7 Days, 9 AM – 9 PM
               </h3>
               <p className="text-sm md:text-base text-gray-700 leading-relaxed">
-                From sports injuries and post-operative rehabilitation to chronic pain management and neurological conditions, we treat the full spectrum of physical ailments. Our dual specialization in orthopaedic and neurological physiotherapy means you don't need to go to multiple providers. Whether you need treatment for back pain, stroke rehabilitation, or anything in between, we have the expertise to help you recover.
-              </p>
-            </div>
-
-            {/* Reason 5 */}
-            <div className="bg-white p-6 md:p-8 rounded-xl shadow-sm">
-              <h3 className="text-xl md:text-2xl font-bold text-gray-800 mb-3 md:mb-4 flex items-center gap-3" style={{ fontFamily: "var(--font-poppins)" }}>
-                <span className="w-8 h-8 md:w-10 md:h-10 bg-blue-500 text-white rounded-full flex items-center justify-center text-lg md:text-xl font-bold flex-shrink-0">5</span>
-                Flexible Scheduling & Convenient Location
-              </h3>
-              <p className="text-sm md:text-base text-gray-700 leading-relaxed">
-                Located in {location.nearby}, we're easily accessible from all parts of {location.name}. We offer flexible appointment times including early morning and evening slots to accommodate working professionals. Open 7 days a week, we ensure that you can receive treatment when it's most convenient for you. Same-day appointments are often available for urgent cases.
-              </p>
-            </div>
-
-            {/* Reason 6 */}
-            <div className="bg-white p-6 md:p-8 rounded-xl shadow-sm">
-              <h3 className="text-xl md:text-2xl font-bold text-gray-800 mb-3 md:mb-4 flex items-center gap-3" style={{ fontFamily: "var(--font-poppins)" }}>
-                <span className="w-8 h-8 md:w-10 md:h-10 bg-blue-500 text-white rounded-full flex items-center justify-center text-lg md:text-xl font-bold flex-shrink-0">6</span>
-                Proven Track Record of Success
-              </h3>
-              <p className="text-sm md:text-base text-gray-700 leading-relaxed">
-                With thousands of successful treatments, our results speak for themselves. Patients in {location.name} consistently report significant pain reduction, improved mobility, and faster recovery times. Our evidence-based approach, combined with compassionate care, has made us the trusted choice for physiotherapy in the area. Read our patient testimonials to see how we've helped people just like you return to pain-free, active lives.
+                {isClinic
+                  ? `Walk in or book via WhatsApp. We offer early-morning and late-evening slots for working professionals in ${location.name}, with same-day appointments for urgent cases.`
+                  : `Book a home visit via WhatsApp or call. We offer morning and evening slots across ${location.name} to fit around your schedule, with same-day visits often available.`
+                }
               </p>
             </div>
           </div>
@@ -709,125 +695,6 @@ export default async function LocationPage({ params }: { params: Promise<{ locat
               </svg>
               Get Directions
             </a>
-          </div>
-        </div>
-      </section>
-
-      {/* Home Care Physiotherapy Info Section */}
-      <section className="py-12 md:py-20 bg-white">
-        <div className="max-w-4xl mx-auto px-4 sm:px-6">
-          <h2 className="text-3xl md:text-4xl font-bold text-gray-800 mb-8" style={{ fontFamily: "var(--font-poppins)" }}>
-            Home Care Physiotherapy in {location.name}
-          </h2>
-
-          <div className="space-y-8 text-sm md:text-base text-gray-700 leading-relaxed">
-
-            <div>
-              <h3 className="text-xl md:text-2xl font-bold text-gray-800 mb-3" style={{ fontFamily: "var(--font-poppins)" }}>
-                Who are Physiotherapists?
-              </h3>
-              <p>
-                Physiotherapists are healthcare professionals who help the patients to reduce pain and restore their functions and mobility of the body after an injury or disability. They also help in promoting and maintaining the overall well being of the patient. They are specialized in physiotherapy and help the patient in avoiding the surgery or medications by providing physical treatment options like soft tissue mobilization, Kinesio taping, and ROM exercises, etc.
-              </p>
-            </div>
-
-            <div>
-              <h3 className="text-xl md:text-2xl font-bold text-gray-800 mb-3" style={{ fontFamily: "var(--font-poppins)" }}>
-                What does home care physiotherapy mean?
-              </h3>
-              <p>
-                Home care physiotherapy mainly focuses on home-based physiotherapy treatment and management for the patients. This type of service provides patient-centered care for individuals who are unable to come to the hospital or clinic due to complex health conditions. The ultimate goal of home care physiotherapy is to provide appropriate high quality and cost-effective care to people.
-              </p>
-            </div>
-
-            <div>
-              <h3 className="text-xl md:text-2xl font-bold text-gray-800 mb-3" style={{ fontFamily: "var(--font-poppins)" }}>
-                What are home care physiotherapy services?
-              </h3>
-              <p className="mb-3">Following are a few of the conditions for which home care physiotherapy services are available:</p>
-              <ul className="grid sm:grid-cols-2 gap-2 list-none p-0">
-                {[
-                  "Stiff joints", "Osteoarthritis", "Back pain", "Neck pain",
-                  "Facial paralysis or Bell&apos;s palsy", "Neuropathy", "Stroke/Paralysis",
-                  "Peripheral nerve injuries", "Parkinson&apos;s disease", "Congenital deformities",
-                  "Spinal cord injuries", "Fractures", "Joint replacements", "Head injuries",
-                  "Post-surgical stiffness", "Amputations", "Multiple sclerosis",
-                  "Geriatric rehabilitation", "Postural problems", "Balance and coordination problems"
-                ].map((item, i) => (
-                  <li key={i} className="flex items-start gap-2">
-                    <svg className="w-4 h-4 text-blue-500 flex-shrink-0 mt-1" fill="currentColor" viewBox="0 0 20 20">
-                      <path fillRule="evenodd" d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z" clipRule="evenodd" />
-                    </svg>
-                    <span dangerouslySetInnerHTML={{ __html: item }} />
-                  </li>
-                ))}
-              </ul>
-            </div>
-
-            <div>
-              <h3 className="text-xl md:text-2xl font-bold text-gray-800 mb-3" style={{ fontFamily: "var(--font-poppins)" }}>
-                What are the advantages of home care physiotherapy?
-              </h3>
-              <p className="mb-3">Home care physiotherapy is beneficial for many reasons. Following are a few of them:</p>
-              <ul className="grid sm:grid-cols-2 gap-2 list-none p-0">
-                {[
-                  "Personalized care", "Safe for high-risk patients", "Can have flexible timings",
-                  "Time-saving", "Cost-savings", "Eliminate obstacles like transportation",
-                  "Home comforts", "Convenience", "Easy access"
-                ].map((item, i) => (
-                  <li key={i} className="flex items-start gap-2">
-                    <svg className="w-4 h-4 text-blue-500 flex-shrink-0 mt-1" fill="currentColor" viewBox="0 0 20 20">
-                      <path fillRule="evenodd" d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z" clipRule="evenodd" />
-                    </svg>
-                    {item}
-                  </li>
-                ))}
-              </ul>
-            </div>
-
-            <div>
-              <h3 className="text-xl md:text-2xl font-bold text-gray-800 mb-3" style={{ fontFamily: "var(--font-poppins)" }}>
-                Who will benefit due to home care physiotherapy?
-              </h3>
-              <p className="mb-3">Almost all the patients will be benefited due to home care physiotherapy. Following are a few of them:</p>
-              <ul className="space-y-2 list-none p-0">
-                {[
-                  "Individuals suffering from chronic joint or muscle pain",
-                  "People with physical disabilities",
-                  "Immobilized patients",
-                  "Post-surgery patients",
-                  "Elderly people",
-                  "People who are suffering from severe muscular-skeletal disorders",
-                  "Cancer patients"
-                ].map((item, i) => (
-                  <li key={i} className="flex items-start gap-2">
-                    <svg className="w-4 h-4 text-blue-500 flex-shrink-0 mt-1" fill="currentColor" viewBox="0 0 20 20">
-                      <path fillRule="evenodd" d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z" clipRule="evenodd" />
-                    </svg>
-                    {item}
-                  </li>
-                ))}
-              </ul>
-            </div>
-
-            <div>
-              <h3 className="text-xl md:text-2xl font-bold text-gray-800 mb-3" style={{ fontFamily: "var(--font-poppins)" }}>
-                How does home physiotherapy work?
-              </h3>
-              <p>
-                Initially, the Physiotherapist will examine the health condition of an individual for health assessment and plan appropriate treatment. Depending on the type of procedure performed and the patient condition, the duration of the service varies from 45 to 60 minutes. Based on individual needs, home care will offer weekly or monthly packages. A convenient time slot can be taken.
-              </p>
-            </div>
-
-            <div>
-              <h3 className="text-xl md:text-2xl font-bold text-gray-800 mb-3" style={{ fontFamily: "var(--font-poppins)" }}>
-                Can home care physiotherapy help to treat arthritis?
-              </h3>
-              <p>
-                A painful disorder that leads to inflammation of joints is called arthritis. A Physiotherapist helps in reducing the pain and stiffness by hot and cold treatments. Home care services are available to treat arthritis, they will advise splints, braces to maintain good posture. Some of the treatment options such as mobilizations, stretching exercises, and manual manipulation helps in reducing the pressure over joints.
-              </p>
-            </div>
-
           </div>
         </div>
       </section>

@@ -5,7 +5,7 @@ import type { Metadata } from "next";
 export const metadata: Metadata = {
   title: "Neuro & Stroke Rehab Physiotherapy in LB Nagar | Legend",
   description:
-    "Neuro physiotherapy and stroke rehabilitation at our Kothapet clinic near LB Nagar. Treating stroke, paralysis, Parkinson's and spinal cord injury. Call +91 81430 15455.",
+    "Neuro physiotherapy and stroke rehab near LB Nagar, Kothapet. Paralysis, Parkinson's and spinal cord injury care. Call +91 81430 15455.",
   alternates: { canonical: "/neuro-rehabilitation-lb-nagar" },
   openGraph: {
     title: "Neuro & Stroke Rehab Physiotherapy in LB Nagar | Legend",

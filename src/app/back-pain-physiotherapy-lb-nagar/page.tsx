@@ -5,7 +5,7 @@ import type { Metadata } from "next";
 export const metadata: Metadata = {
   title: "Back Pain Physiotherapy in LB Nagar, Hyderabad | Legend",
   description:
-    "Back pain physiotherapy at our Kothapet clinic near LB Nagar. Treatment for lower back strain, slip disc, lumbar spondylosis and posture pain. Call +91 81430 15455.",
+    "Back pain physiotherapy near LB Nagar, Kothapet. Slip disc, lumbar spondylosis and posture pain treatment. Call +91 81430 15455.",
   alternates: { canonical: "/back-pain-physiotherapy-lb-nagar" },
   openGraph: {
     title: "Back Pain Physiotherapy in LB Nagar, Hyderabad | Legend",

@@ -283,6 +283,18 @@ export default function RootLayout({
       <body className={`${inter.variable} ${poppins.variable} antialiased`}>
         <ErrorReporter />
         <Script
+          src="https://www.googletagmanager.com/gtag/js?id=G-GQNQZLS4FN"
+          strategy="afterInteractive"
+        />
+        <Script id="google-analytics" strategy="afterInteractive">
+          {`
+            window.dataLayer = window.dataLayer || [];
+            function gtag(){dataLayer.push(arguments);}
+            gtag('js', new Date());
+            gtag('config', 'G-GQNQZLS4FN');
+          `}
+        </Script>
+        <Script
           src="https://slelguoygbfzlpylpxfs.supabase.co/storage/v1/object/public/scripts//route-messenger.js"
           strategy="afterInteractive"
           data-target-origin="*"

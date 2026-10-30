@@ -4,7 +4,7 @@ const posts = [
     date: "October 8, 2026",
     category: "Spine Care",
     image: "/assets/backpain2.jpg",
-    excerpt: "Should you get surgery or physiotherapy for a herniated slip disc or sciatica? Discover why 85%+ of slip disc patients in Hyderabad recover completely using non-surgical robotic physiotherapy.",
+    excerpt: "Should you get surgery or physiotherapy for a herniated slip disc or sciatica? Learn how non-surgical physiotherapy helps many slip disc patients in Hyderabad avoid surgery and recover well.",
     readTime: "8 min read",
     slug: "physiotherapy-vs-surgery-slip-disc-sciatica-hyderabad",
   },
@@ -51,7 +51,7 @@ const posts = [
     image: "/assets/wardroom.jpg",
     excerpt: "Comprehensive guide to bedside physiotherapy, respiratory care, and early mobilization programs for hospitalized patients.",
     readTime: "7 min read",
-    slug: "home-physiotherapy-services",
+    slug: "home-visit-services",
   },
   {
     title: "Home Physiotherapy Services: Bringing Expert Care to Your Doorstep",
@@ -78,7 +78,7 @@ const posts = [
     image: "/assets/bed.jpg",
     excerpt: "Advanced neurological physiotherapy techniques for stroke recovery, paralysis rehabilitation, and regaining independence.",
     readTime: "8 min read",
-    slug: "benefits-of-manual-therapy",
+    slug: "rehabilitation-after-surgery",
   },
   {
     title: "Sports Injury Prevention: Essential Physiotherapy Tips for Athletes",
@@ -121,9 +121,9 @@ const posts = [
     date: "March 28, 2026",
     category: "Spine Health",
     image: "/assets/shoulderpain.jpg",
-    excerpt: "Effective physiotherapy techniques for cervical spondylosis, neck stiffness, and chronic neck pain with proven outcomes.",
+    excerpt: "Effective physiotherapy techniques for cervical spondylosis, neck stiffness, and chronic neck pain.",
     readTime: "6 min read",
-    slug: "posture-correction-guide",
+    slug: "neck-and-shoulder-care",
   },
   {
     title: "Geriatric Physiotherapy: Maintaining Independence in Senior Years",
@@ -132,7 +132,7 @@ const posts = [
     image: "/assets/homeservices.jpg",
     excerpt: "Specialized physiotherapy programs for elderly patients focusing on balance, strength, fall prevention, and quality of life.",
     readTime: "7 min read",
-    slug: "home-physiotherapy-services",
+    slug: "home-visit-services",
   },
 ];
 

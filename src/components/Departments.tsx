@@ -8,7 +8,7 @@ const departments = [
     icon: "back",
     title: "Back Pain Relief & Management",
     image: "/assets/backpain.jpg",
-    desc: "Walk pain-free in 2-3 weeks with our expert treatment for lower back pain. We use advanced manual therapy, corrective exercises, and personalized rehabilitation plans to address the root cause of your pain.",
+    desc: "Expert treatment for lower back pain using advanced manual therapy, corrective exercises, and personalized rehabilitation plans to address the root cause of your pain. Most patients see meaningful improvement within a few weeks.",
     features: [
       "Manual Therapy Techniques",
       "Corrective Exercise Programs",

@@ -2,7 +2,7 @@ const services = [
   {
     icon: "back",
     title: "Physiotherapy for Back Pain",
-    desc: "Expert treatment for lower back pain. Walk pain-free in 2-3 weeks with our advanced manual therapy and corrective exercises.",
+    desc: "Expert treatment for lower back pain. Our advanced manual therapy and corrective exercises help most patients see meaningful improvement.",
     color: "blue",
     image: "/assets/backpain.jpg",
     slug: "back-pain-relief",

@@ -242,20 +242,6 @@ const allReviews: Testimonial[] = [
     rating: 5,
     text: "Good recovery after physiotherapy treatment. The team at Legend Physiotherapy is very professional and the results speak for themselves.",
   },
-  {
-    name: "Model Vishnu",
-    role: "General Treatment",
-    gender: "male",
-    rating: 5,
-    text: "Good treatment, the best I have ever received before. Legend Physiotherapy provides excellent care and great results.",
-  },
-  {
-    name: "Model Vinnu",
-    role: "Pain Relief",
-    gender: "male",
-    rating: 5,
-    text: "Better pain relief at Legend Physiotherapy. The treatment was effective and the staff is very supportive. Happy with the results.",
-  },
 ];
 
 const testimonials: Testimonial[] = allReviews.slice(0, 6);
@@ -409,7 +395,7 @@ export default function Testimonials() {
             className="flex gap-4 overflow-hidden py-4"
             style={{ scrollBehavior: "auto" }}
           >
-            {[...allReviews, ...allReviews].map((review, index) => (
+            {[...allReviews, ...allReviews.slice(0, 10)].map((review, index) => (
               <div
                 key={index}
                 className="flex-shrink-0 w-72 sm:w-80 bg-white rounded-xl p-5 shadow-md border border-gray-100 hover:shadow-lg transition-shadow"

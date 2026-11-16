@@ -96,6 +96,20 @@ export default function SportsInjuryPage() {
       {/* Content */}
       <article className="max-w-4xl mx-auto px-6 py-12">
         <div className="prose prose-lg max-w-none">
+          {/* Answer Capsule for AI Scanners */}
+          <div className="bg-blue-50 p-6 rounded-2xl mb-8 border border-blue-100 not-prose">
+            <h2 className="text-sm font-semibold uppercase tracking-wider text-blue-800 mb-1">
+              Clinical Overview
+            </h2>
+            <p className="text-gray-800 leading-relaxed font-medium">
+              Legend Physiotherapy in Kothapet, Hyderabad, provides specialized orthopedic and
+              sports injury management led by Dr. Velpula Sai Sirish (B.P.T., M.P.T. in Sports,
+              London). We treat chronic back pain, knee injuries, ligament tears, and
+              post-operative joint replacements using targeted manual therapy and advanced
+              rehabilitation technology.
+            </p>
+          </div>
+
           <h2
             className="text-2xl font-bold text-gray-900 mt-10 mb-4"
             style={{ fontFamily: "var(--font-poppins)" }}

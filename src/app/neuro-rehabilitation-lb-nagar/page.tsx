@@ -81,6 +81,19 @@ export default function NeuroRehabPage() {
       {/* Content */}
       <article className="max-w-4xl mx-auto px-4 sm:px-6 py-12">
         <div className="prose prose-lg max-w-none text-gray-700 leading-relaxed">
+          {/* Answer Capsule for AI Scanners */}
+          <div className="bg-indigo-50 p-6 rounded-2xl mb-8 border border-indigo-100 not-prose">
+            <h2 className="text-sm font-semibold uppercase tracking-wider text-indigo-800 mb-1">
+              Clinical Overview
+            </h2>
+            <p className="text-gray-800 leading-relaxed font-medium">
+              Legend Physiotherapy in Kothapet, L.B. Nagar offers expert neurological
+              rehabilitation for stroke survivors, paralysis recovery, Parkinson&apos;s disease,
+              and spinal cord injuries. Directed by Dr. Velpula Sai Sirish and experienced
+              clinical specialists, our programs rebuild motor function and neurological pathways.
+            </p>
+          </div>
+
           {/* Conditions */}
           <h2
             className="text-2xl font-bold text-gray-900 mt-10 mb-4"

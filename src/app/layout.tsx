@@ -226,9 +226,17 @@ export default function RootLayout({
     "founder": {
       "@type": "Person",
       "name": "Dr. Velpula Sai Sirish",
-      "jobTitle": "Senior Physiotherapist",
+      "jobTitle": "Lead/Chief Physiotherapist",
+      "alumniOf": "London",
+      "credential": ["B.P.T.", "M.P.T. in Sports"],
       "description": "Experienced physiotherapist with 20+ years in ortho and neuro rehabilitation"
     },
+    "availableService": [
+      { "@type": "MedicalProcedure", "name": "Orthopedic Pain Management" },
+      { "@type": "MedicalProcedure", "name": "Neurological Rehabilitation" },
+      { "@type": "MedicalProcedure", "name": "Sports Injury Rehabilitation" },
+      { "@type": "MedicalProcedure", "name": "Post-Operative Physiotherapy" }
+    ],
     "hasOfferCatalog": {
       "@type": "OfferCatalog",
       "name": "Physiotherapy Services",

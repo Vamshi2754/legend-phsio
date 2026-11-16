@@ -31,6 +31,14 @@ const faqs = [
     answer: "Our team is led by Dr. Sirish with over 20 years of experience in ortho and neuro rehabilitation. We have treated thousands of patients with a consistent 5-star rating on Google."
   },
   {
+    question: "Who leads the clinical treatments at the clinic?",
+    answer: "All treatment protocols are directed by Dr. Velpula Sai Sirish (B.P.T., M.P.T. in Sports, with advanced clinical education completed in London), serving as Founder, Director, and Lead Physiotherapist, supported by an expert team of specialized therapists."
+  },
+  {
+    question: "Do I need a doctor's prescription to book a session?",
+    answer: "No formal prescription is mandatory to book an initial clinical assessment. However, if you have prior MRI scans, surgical discharge summaries, or physician notes, bringing them helps our team tailor your precise recovery roadmap."
+  },
+  {
     question: "Do you offer lady physiotherapist for home visits?",
     answer: "Yes, we have experienced lady physiotherapists available for home visits across Hyderabad. This service is available for women patients who prefer a female physiotherapist for their treatment sessions."
   },

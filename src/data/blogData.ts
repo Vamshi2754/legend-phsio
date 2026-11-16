@@ -5,6 +5,8 @@ export interface BlogPost {
   image: string;
   excerpt: string;
   readTime: string;
+  author: string;
+  reviewedBy: string;
   content: Array<{
     type: "paragraph" | "heading" | "list";
     text?: string;
@@ -20,6 +22,8 @@ export const blogPosts: Record<string, BlogPost> = {
     image: "/assets/backpain2.jpg",
     excerpt: "Expert treatment for lower back pain. Walk pain-free in 2-3 weeks with our advanced manual therapy and corrective exercises.",
     readTime: "8 min read",
+    author: "Dr. Velpula Sai Sirish",
+    reviewedBy: "Dr. Velpula Sai Sirish, B.P.T, M.Sc Sports (London)",
     content: [
       {
         type: "paragraph",
@@ -81,6 +85,8 @@ export const blogPosts: Record<string, BlogPost> = {
     image: "/assets/shoulderpain.jpg",
     excerpt: "Relief from cervical spondylosis, neck stiffness, and frozen shoulder through personalized rehabilitation plans.",
     readTime: "7 min read",
+    author: "Dr. Velpula Sai Sirish",
+    reviewedBy: "Dr. Velpula Sai Sirish, B.P.T, M.Sc Sports (London)",
     content: [
       {
         type: "paragraph",
@@ -142,6 +148,8 @@ export const blogPosts: Record<string, BlogPost> = {
     image: "/assets/physiotherpy.jpg",
     excerpt: "Return to peak performance. From ACL tears to ankle sprains, recover with strength conditioning and injury prevention.",
     readTime: "9 min read",
+    author: "Dr. Velpula Sai Sirish",
+    reviewedBy: "Dr. Velpula Sai Sirish, B.P.T, M.Sc Sports (London)",
     content: [
       {
         type: "paragraph",
@@ -210,6 +218,8 @@ export const blogPosts: Record<string, BlogPost> = {
     image: "/assets/kneepain2.jpg",
     excerpt: "Specialized care for knee pain, arthritis, and post-operative rehab. Regain mobility and strength.",
     readTime: "8 min read",
+    author: "Dr. Velpula Sai Sirish",
+    reviewedBy: "Dr. Velpula Sai Sirish, B.P.T, M.Sc Sports (London)",
     content: [
       {
         type: "paragraph",
@@ -287,6 +297,8 @@ export const blogPosts: Record<string, BlogPost> = {
     image: "/assets/homeservices.jpg",
     excerpt: "Professional physiotherapy brought to your doorstep. Available across all areas with all necessary equipment.",
     readTime: "6 min read",
+    author: "Dr. Velpula Sai Sirish",
+    reviewedBy: "Dr. Velpula Sai Sirish, B.P.T, M.Sc Sports (London)",
     content: [
       {
         type: "paragraph",
@@ -365,6 +377,8 @@ export const blogPosts: Record<string, BlogPost> = {
     image: "/assets/physiotherpy.jpg",
     excerpt: "State-of-the-art facility with advanced equipment and premium clinical environment for optimal recovery.",
     readTime: "7 min read",
+    author: "Dr. Velpula Sai Sirish",
+    reviewedBy: "Dr. Velpula Sai Sirish, B.P.T, M.Sc Sports (London)",
     content: [
       {
         type: "paragraph",
@@ -387,7 +401,7 @@ export const blogPosts: Record<string, BlogPost> = {
           "Ultrasound Therapy: Therapeutic ultrasound for pain relief and tissue repair",
           "Electrical Stimulation: TENS and other modalities for pain management",
           "Exercise Equipment: Comprehensive gym setup for therapeutic exercises",
-          "Hydrotherapy Facilities: Water-based therapy options"
+          "Balance Training Tools: Wobble boards and balance pads for stability rehabilitation"
         ]
       },
       {
@@ -443,6 +457,8 @@ export const blogPosts: Record<string, BlogPost> = {
     image: "/assets/backpain2.jpg",
     excerpt: "Discover proven physiotherapy techniques that provide effective relief from chronic lower back pain and improve spinal health.",
     readTime: "5 min read",
+    author: "Dr. Velpula Sai Sirish",
+    reviewedBy: "Dr. Velpula Sai Sirish, B.P.T, M.Sc Sports (London)",
     content: [
       {
         type: "paragraph",
@@ -509,6 +525,8 @@ export const blogPosts: Record<string, BlogPost> = {
     image: "/assets/physiotherpy.jpg",
     excerpt: "Learn how structured physiotherapy programs accelerate healing and help athletes return to peak performance safely.",
     readTime: "4 min read",
+    author: "Dr. Velpula Sai Sirish",
+    reviewedBy: "Dr. Velpula Sai Sirish, B.P.T, M.Sc Sports (London)",
     content: [
       {
         type: "paragraph",
@@ -584,6 +602,8 @@ export const blogPosts: Record<string, BlogPost> = {
     image: "/assets/neckpain.jpg",
     excerpt: "Gentle physiotherapy methods to enhance mobility, balance, and independence while reducing fall risk in older adults.",
     readTime: "6 min read",
+    author: "Dr. Velpula Sai Sirish",
+    reviewedBy: "Dr. Velpula Sai Sirish, B.P.T, M.Sc Sports (London)",
     content: [
       {
         type: "paragraph",
@@ -668,6 +688,8 @@ export const blogPosts: Record<string, BlogPost> = {
     image: "/assets/backpain.jpg",
     excerpt: "Learn how physiotherapy offers effective, drug-free solutions for managing chronic pain conditions.",
     readTime: "7 min read",
+    author: "Dr. Velpula Sai Sirish",
+    reviewedBy: "Dr. Velpula Sai Sirish, B.P.T, M.Sc Sports (London)",
     content: [
       {
         type: "paragraph",
@@ -717,6 +739,8 @@ export const blogPosts: Record<string, BlogPost> = {
     image: "/assets/neckpain.jpg",
     excerpt: "Discover how poor posture affects your health and learn practical techniques to improve your alignment.",
     readTime: "6 min read",
+    author: "Dr. Velpula Sai Sirish",
+    reviewedBy: "Dr. Velpula Sai Sirish, B.P.T, M.Sc Sports (London)",
     content: [
       {
         type: "paragraph",
@@ -773,6 +797,8 @@ export const blogPosts: Record<string, BlogPost> = {
     image: "/assets/shoulderpain2.jpg",
     excerpt: "Learn essential strategies to prevent common workplace injuries and maintain optimal health at work.",
     readTime: "5 min read",
+    author: "Dr. Velpula Sai Sirish",
+    reviewedBy: "Dr. Velpula Sai Sirish, B.P.T, M.Sc Sports (London)",
     content: [
       {
         type: "paragraph",
@@ -821,6 +847,8 @@ export const blogPosts: Record<string, BlogPost> = {
     image: "/assets/physiotherpy.jpg",
     excerpt: "Explore how hands-on manual therapy techniques can accelerate healing and reduce pain.",
     readTime: "6 min read",
+    author: "Dr. Velpula Sai Sirish",
+    reviewedBy: "Dr. Velpula Sai Sirish, B.P.T, M.Sc Sports (London)",
     content: [
       {
         type: "paragraph",
@@ -870,6 +898,8 @@ export const blogPosts: Record<string, BlogPost> = {
     image: "/assets/kneepain2.jpg",
     excerpt: "A comprehensive guide to post-surgical rehabilitation and the role of physiotherapy in recovery.",
     readTime: "8 min read",
+    author: "Dr. Velpula Sai Sirish",
+    reviewedBy: "Dr. Velpula Sai Sirish, B.P.T, M.Sc Sports (London)",
     content: [
       {
         type: "paragraph",
@@ -922,6 +952,8 @@ export const blogPosts: Record<string, BlogPost> = {
     image: "/assets/homeservices.jpg",
     excerpt: "Discover the convenience and effectiveness of professional physiotherapy treatment delivered to your home. Expert care without the hassle of travel.",
     readTime: "9 min read",
+    author: "Dr. Velpula Sai Sirish",
+    reviewedBy: "Dr. Velpula Sai Sirish, B.P.T, M.Sc Sports (London)",
     content: [
       {
         type: "paragraph",
@@ -1041,6 +1073,8 @@ export const blogPosts: Record<string, BlogPost> = {
     image: "/assets/backpain2.jpg",
     excerpt: "Should you get surgery or physiotherapy for a herniated slip disc or sciatica? Discover why 85%+ of slip disc patients in Hyderabad recover completely using non-surgical robotic physiotherapy and targeted spinal decompression therapy at Legend Physiotherapy.",
     readTime: "8 min read",
+    author: "Dr. Velpula Sai Sirish",
+    reviewedBy: "Dr. Velpula Sai Sirish, B.P.T, M.Sc Sports (London)",
     content: [
       {
         type: "paragraph",
@@ -1101,6 +1135,8 @@ export const blogPosts: Record<string, BlogPost> = {
     image: "/assets/bed.jpg",
     excerpt: "Compare traditional manual physiotherapy with cutting-edge robotic rehabilitation in Hyderabad. Learn how robotic pain management accelerates recovery for stroke, paralysis, knee arthritis, and chronic joint stiffness.",
     readTime: "7 min read",
+    author: "Dr. Velpula Sai Sirish",
+    reviewedBy: "Dr. Velpula Sai Sirish, B.P.T, M.Sc Sports (London)",
     content: [
       {
         type: "paragraph",

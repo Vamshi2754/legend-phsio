@@ -71,6 +71,12 @@ export default async function BlogPost({ params }: { params: Promise<{ slug: str
             <span>·</span>
             <span>{post.readTime}</span>
           </div>
+          {post.author && (
+            <p className="text-white/70 text-sm mt-3">
+              Written by <strong className="text-white/90">{post.author}</strong>
+              {post.reviewedBy && <> · Clinically reviewed by <strong className="text-white/90">{post.reviewedBy}</strong></>}
+            </p>
+          )}
         </div>
       </div>
 

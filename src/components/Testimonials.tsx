@@ -9,7 +9,7 @@ interface Testimonial {
   text: string;
 }
 
-// Real Google Reviews from Legend Physiotherapy GMB listing (5.0 rating, 492 reviews)
+// Real Google Reviews from Legend Physiotherapy GMB listing (5.0 rating, 499 reviews)
 const allReviews: Testimonial[] = [
   {
     name: "Maha Lakshmi",
@@ -290,7 +290,8 @@ export default function Testimonials() {
     const animate = () => {
       setScrollPosition((prev) => {
         const newPos = prev + scrollSpeed;
-        if (scrollContainer.scrollWidth / 2 <= newPos) {
+        const maxScroll = scrollContainer.scrollWidth - scrollContainer.clientWidth;
+        if (newPos >= maxScroll) {
           return 0;
         }
         return newPos;
@@ -380,22 +381,22 @@ export default function Testimonials() {
                 </svg>
               ))}
             </div>
-            <p className="font-bold text-gray-800 text-sm">Rated 5.0 on Google (492+ Reviews)</p>
+            <p className="font-bold text-gray-800 text-sm">Rated 5.0 on Google (499+ Reviews)</p>
           </div>
         </div>
 
         {/* Horizontal Sliding Reviews Section */}
         <div className="mt-8">
-          <h3 className="text-xl sm:text-2xl font-bold text-center text-gray-800 mb-6" style={{ fontFamily: "var(--font-poppins)" }}>
-            Patient Reviews
-          </h3>
+          <p className="text-xl sm:text-2xl font-bold text-center text-gray-800 mb-6" style={{ fontFamily: "var(--font-poppins)" }}>
+            More Patient Reviews
+          </p>
 
           <div
             ref={horizontalScrollRef}
             className="flex gap-4 overflow-hidden py-4"
             style={{ scrollBehavior: "auto" }}
           >
-            {[...allReviews, ...allReviews.slice(0, 10)].map((review, index) => (
+            {allReviews.slice(6).map((review, index) => (
               <div
                 key={index}
                 className="flex-shrink-0 w-72 sm:w-80 bg-white rounded-xl p-5 shadow-md border border-gray-100 hover:shadow-lg transition-shadow"

@@ -260,7 +260,7 @@ export default function NeckPainPage() {
             className="text-xl font-bold text-gray-900 mb-3"
             style={{ fontFamily: "var(--font-poppins)" }}
           >
-            Your Physiotherapist — Dr&nbsp;Sirish
+            Clinically Reviewed by Dr Sirish
           </h2>
           <p className="text-gray-700 text-sm leading-relaxed">
             Dr&nbsp;Sirish holds a B.P.T and M.Sc in Sports Science (London) with over 20&nbsp;years

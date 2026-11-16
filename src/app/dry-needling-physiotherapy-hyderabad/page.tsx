@@ -42,7 +42,7 @@ const faqs = [
   {
     question: "How many dry needling sessions will I need?",
     answer:
-      "Many patients notice improvement after one to three sessions. Chronic conditions with multiple trigger points may need four to six sessions. Your physiotherapist will reassess after each visit and adjust the treatment plan. Dry needling is usually combined with stretching and strengthening exercises for lasting results.",
+      "Many patients notice improvement after one to three sessions. Chronic conditions with multiple trigger points may need four to six sessions. your physiotherapist will reassess after each visit and adjust the treatment plan. Dry needling is usually combined with stretching and strengthening exercises for lasting results.",
   },
   {
     question: "What conditions does dry needling treat?",
@@ -156,7 +156,7 @@ export default function DryNeedlingPage() {
             What to Expect During a Session
           </h2>
           <p className="text-gray-700 leading-relaxed mb-4">
-            Your physiotherapist begins with a hands-on assessment, palpating the affected muscles to identify trigger points. The area is cleaned and single-use, sterile needles are inserted — each one thinner than a standard sewing needle. You may feel a dull ache or brief twitch when the trigger point is reached. The needles remain in place for a few seconds to a few minutes depending on the technique used.
+            your physiotherapist begins with a hands-on assessment, palpating the affected muscles to identify trigger points. The area is cleaned and single-use, sterile needles are inserted — each one thinner than a standard sewing needle. You may feel a dull ache or brief twitch when the trigger point is reached. The needles remain in place for a few seconds to a few minutes depending on the technique used.
           </p>
           <p className="text-gray-700 leading-relaxed mb-6">
             A typical session lasts 30 to 45 minutes including assessment, needling and follow-up stretching or manual therapy. Most patients feel immediate improvement in their range of motion and a reduction in referred pain patterns. Mild post-treatment soreness — similar to the feeling after a strong massage — is normal and resolves within 24 to 48 hours.
@@ -214,7 +214,7 @@ export default function DryNeedlingPage() {
         {/* Dr Sirish Bio */}
         <section className="mt-12 bg-blue-50 rounded-2xl p-8 border border-blue-100">
           <h2 className="text-xl font-bold text-gray-900 mb-3" style={{ fontFamily: "var(--font-poppins)" }}>
-            Your Physiotherapist — Dr Sirish
+            Clinically Reviewed by Dr Sirish
           </h2>
           <p className="text-gray-700 text-sm leading-relaxed mb-2">
             <strong>B.P.T, M.Sc Sports (London)</strong> — Senior Physiotherapist with 20+ years of experience in orthopaedic and neurological rehabilitation. Dr Sirish has advanced training in dry needling and trigger point therapy, helping thousands of patients find relief from chronic muscle pain.

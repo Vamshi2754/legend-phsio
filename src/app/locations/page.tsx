@@ -67,11 +67,11 @@ export default function LocationsPage() {
           </a>
           <h1 className="text-2xl sm:text-3xl md:text-4xl lg:text-5xl font-bold mb-2 sm:mb-3">Our Clinic Locations</h1>
           <p className="text-white/80 text-sm sm:text-base lg:text-lg max-w-2xl">
-            20 branches across Hyderabad & Secunderabad. Find the one nearest to you.
+            1 clinic in Kothapet + home visits across 30+ areas in Hyderabad & Secunderabad.
           </p>
           <div className="flex flex-wrap gap-2 sm:gap-3 mt-3 sm:mt-4 md:mt-5">
             <span className="bg-white/20 border border-white/30 px-2 sm:px-3 py-1 rounded-full text-xs sm:text-sm font-semibold">
-              🏥 20 Branches
+              🏥 1 Clinic + Home Visits
             </span>
             <span className="bg-white/20 border border-white/30 px-2 sm:px-3 py-1 rounded-full text-xs sm:text-sm font-semibold">
               📍 Hyderabad & Secunderabad

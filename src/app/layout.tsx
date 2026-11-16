@@ -176,7 +176,7 @@ export default function RootLayout({
 }>) {
   const businessSchema = {
     "@context": "https://schema.org",
-    "@type": "Physiotherapy",
+    "@type": ["Physiotherapy", "MedicalClinic", "LocalBusiness"],
     "@id": "https://www.legendphysiotherapy.com/#organization",
     "name": "Legend Physiotherapy Ortho and Neuro Pain Management Clinic",
     "alternateName": "Legend Physiotherapy",
@@ -200,6 +200,15 @@ export default function RootLayout({
       "latitude": 17.3596851,
       "longitude": 78.5457377
     },
+    "areaServed": {
+      "@type": "GeoCircle",
+      "geoMidpoint": {
+        "@type": "GeoCoordinates",
+        "latitude": 17.3596851,
+        "longitude": 78.5457377
+      },
+      "geoRadius": "15000"
+    },
     "openingHoursSpecification": [
       {
         "@type": "OpeningHoursSpecification",
@@ -213,11 +222,10 @@ export default function RootLayout({
       "https://www.facebook.com/share/1DTdMkDcju/",
       "https://www.linkedin.com/in/sirish-physiotherapist/"
     ],
-    "medicalSpecialty": ["Musculoskeletal", "Neurologic"],
-    "areaServed": ["Kothapet", "LB Nagar", "Dilsukhnagar", "Nagole", "Vanasthalipuram", "Hyderabad"],
+    "medicalSpecialty": ["Orthopedic", "Neurologic", "SportsMedicine", "PhysicalTherapy"],
     "founder": {
       "@type": "Person",
-      "name": "Dr. Sirish",
+      "name": "Dr. Velpula Sai Sirish",
       "jobTitle": "Senior Physiotherapist",
       "description": "Experienced physiotherapist with 20+ years in ortho and neuro rehabilitation"
     },

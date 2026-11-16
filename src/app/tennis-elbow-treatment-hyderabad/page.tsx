@@ -211,7 +211,7 @@ export default function TennisElbowPage() {
         {/* Dr Sirish Bio */}
         <section className="mt-12 bg-blue-50 rounded-2xl p-8 border border-blue-100">
           <h2 className="text-xl font-bold text-gray-900 mb-3" style={{ fontFamily: "var(--font-poppins)" }}>
-            Your Physiotherapist — Dr Sirish
+            Clinically Reviewed by Dr Sirish
           </h2>
           <p className="text-gray-700 text-sm leading-relaxed mb-2">
             <strong>B.P.T, M.Sc Sports (London)</strong> — Senior Physiotherapist with 20+ years of experience in orthopaedic and neurological rehabilitation. Dr Sirish has treated thousands of patients with elbow, shoulder and upper limb conditions across Hyderabad.

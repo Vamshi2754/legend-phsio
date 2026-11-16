@@ -268,7 +268,7 @@ export default function SportsInjuryPage() {
             className="text-xl font-bold text-gray-900 mb-3"
             style={{ fontFamily: "var(--font-poppins)" }}
           >
-            Your Physiotherapist — Dr Sirish
+            Clinically Reviewed by Dr Sirish
           </h2>
           <p className="text-gray-700 text-sm leading-relaxed">
             Dr Sirish holds a B.P.T degree and an M.Sc in Sports Physiotherapy from London. With

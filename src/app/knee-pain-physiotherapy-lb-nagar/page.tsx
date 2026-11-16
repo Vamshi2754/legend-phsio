@@ -321,7 +321,7 @@ export default function KneePainPage() {
             className="text-xl font-bold text-gray-900 mb-3"
             style={{ fontFamily: "var(--font-poppins)" }}
           >
-            Your Physiotherapist — Dr Sirish
+            Clinically Reviewed by Dr Sirish
           </h2>
           <p className="text-gray-700 text-sm leading-relaxed mb-2">
             <strong>B.P.T, M.Sc Sports (London)</strong> — Senior

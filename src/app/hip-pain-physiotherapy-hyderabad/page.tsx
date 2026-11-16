@@ -3,55 +3,54 @@ import Footer from "@/components/Footer";
 import type { Metadata } from "next";
 
 export const metadata: Metadata = {
-  title: "Hip Pain Physiotherapy in Hyderabad | Legend Physiotherapy",
+  title: "Hip Pain Physiotherapy & Treatment in Hyderabad | Legend Physiotherapy",
   description:
-    "Hip pain treatment and physiotherapy in Hyderabad. Hip arthritis, bursitis, labral tear, hip replacement rehab. Call +91 81430 15455.",
+    "Expert hip pain physiotherapy for arthritis, AVN, bursitis and post hip replacement rehab in Hyderabad. Comprehensive assessment and treatment. Call +91 81430 15455.",
   keywords: [
     "hip pain physiotherapy Hyderabad",
-    "hip arthritis treatment Hyderabad",
+    "hip arthritis treatment",
     "hip replacement rehab Hyderabad",
-    "hip bursitis treatment Hyderabad",
-    "hip joint pain treatment Hyderabad",
-    "hip replacement physiotherapy Hyderabad",
-    "best physiotherapy for hip pain Hyderabad",
+    "avascular necrosis physiotherapy",
+    "hip bursitis treatment",
+    "hip pain treatment near me",
   ],
   alternates: { canonical: "/hip-pain-physiotherapy-hyderabad" },
   openGraph: {
-    title: "Hip Pain Physiotherapy in Hyderabad | Legend Physiotherapy",
-    description: "Expert hip pain treatment and rehabilitation at Legend Physiotherapy, Kothapet, Hyderabad.",
+    title: "Hip Pain Physiotherapy & Treatment in Hyderabad | Legend Physiotherapy",
+    description:
+      "Comprehensive hip pain assessment and physiotherapy at Legend Physiotherapy Kothapet, Hyderabad.",
     url: "/hip-pain-physiotherapy-hyderabad",
     siteName: "Legend Physiotherapy",
     locale: "en_IN",
     type: "website",
-    images: [{ url: "/og-image.jpg", width: 1200, height: 630, alt: "Hip Pain Physiotherapy at Legend Physiotherapy Hyderabad" }],
   },
 };
 
 const faqs = [
   {
-    question: "What causes hip pain?",
+    question: "What are the most common causes of hip pain?",
     answer:
-      "Hip pain can be caused by osteoarthritis, bursitis (trochanteric bursitis), labral tears, muscle strains, referred pain from the lower back, avascular necrosis or fractures. In older adults, hip osteoarthritis is the most common cause. In younger patients, muscle strains and hip impingement are more frequent. A thorough assessment is needed to identify the exact source.",
+      "The most common causes include osteoarthritis (age-related cartilage wear), hip bursitis (inflammation of the bursa over the greater trochanter), avascular necrosis (loss of blood supply to the femoral head), labral tears, IT band syndrome, hip flexor strains, referred pain from the lumbar spine, and stress fractures in active individuals. A thorough physiotherapy assessment identifies the specific cause.",
   },
   {
-    question: "Can physiotherapy help avoid hip replacement?",
+    question: "Can physiotherapy help avoid hip replacement surgery?",
     answer:
-      "In many cases, yes. A structured physiotherapy programme focusing on hip strengthening, flexibility and pain management can delay or eliminate the need for hip replacement surgery. Studies show that patients who complete a physiotherapy programme report significant improvements in pain and function, and many are able to postpone surgery by several years.",
+      "In many cases, yes. Research shows that structured exercise therapy, manual mobilisation and weight management can significantly reduce hip arthritis pain and improve function, delaying or even eliminating the need for surgery. A physiotherapy programme focusing on hip strengthening, flexibility and activity modification is recommended as the first line of treatment for hip osteoarthritis by all major clinical guidelines.",
   },
   {
-    question: "How long does hip pain recovery take?",
+    question: "What is the timeline for hip replacement rehabilitation?",
     answer:
-      "Recovery time depends on the diagnosis. Muscle strains may improve in 2 to 4 weeks. Hip bursitis typically responds to treatment in 4 to 6 weeks. Hip osteoarthritis is a chronic condition that benefits from ongoing management. Post hip replacement rehabilitation takes 8 to 12 weeks to regain full function.",
+      "Recovery follows a phased approach: weeks one to two focus on wound healing, gentle range of motion and walking with a walker. Weeks three to six involve progressive strengthening and transitioning to a cane. Weeks six to twelve see a return to most daily activities with continued strengthening. Full recovery with return to sports or heavy activity typically takes four to six months. Physiotherapy is essential throughout.",
   },
   {
-    question: "Do you provide post hip replacement physiotherapy at home?",
+    question: "Do you offer home visits for hip pain patients?",
     answer:
-      "Yes. Post hip replacement rehabilitation at home is one of our most requested services. We provide home visit physiotherapy across Hyderabad for patients recovering from hip replacement surgery. Treatment includes gait training, strengthening exercises and range of motion work. Call +91 81430 15455 to book.",
+      "Yes, we provide home visit physiotherapy across Hyderabad for patients who have difficulty travelling, particularly after hip replacement surgery or for elderly patients with mobility limitations. Home sessions include manual therapy, exercise prescription and gait training. Call +91 81430 15455 to arrange a home visit.",
   },
   {
-    question: "Is walking good for hip pain?",
+    question: "Which exercises should I avoid with hip pain?",
     answer:
-      "Gentle walking is generally beneficial for most hip conditions as it helps maintain joint mobility and muscle strength. However, if walking causes significant pain or a limp, the duration and intensity should be reduced. Your physiotherapist will advise on the right amount of walking for your condition.",
+      "Exercises to avoid depend on your specific diagnosis. Generally, deep squats, heavy leg presses, high-impact running and sudden twisting movements should be avoided with hip arthritis. After hip replacement, crossing your legs, bending past 90 degrees and internal rotation are restricted in the early weeks. your physiotherapist will provide personalised guidance on safe and beneficial exercises for your condition.",
   },
 ];
 
@@ -66,43 +65,20 @@ export default function HipPainPage() {
     })),
   };
 
-  const medicalSchema = {
-    "@context": "https://schema.org",
-    "@type": "MedicalWebPage",
-    name: "Hip Pain Physiotherapy in Hyderabad",
-    description: "Expert hip pain treatment and rehabilitation at Legend Physiotherapy Hyderabad.",
-    url: "https://www.legendphysiotherapy.com/hip-pain-physiotherapy-hyderabad",
-    medicalAudience: { "@type": "MedicalAudience", audienceType: "Patient" },
-    lastReviewed: "2026-10-28",
-    provider: {
-      "@type": "Physiotherapy",
-      name: "Legend Physiotherapy Ortho and Neuro Pain Management Clinic",
-      telephone: "+918143015455",
-      address: {
-        "@type": "PostalAddress",
-        streetAddress: "Shop No.2 Ground Floor, Road No: 4, HNO: 11-13-714, Dwarka Nagar, Green Hills Colony, Kothapet",
-        addressLocality: "L. B. Nagar, Hyderabad",
-        addressRegion: "Telangana",
-        postalCode: "500102",
-        addressCountry: "IN",
-      },
-    },
-  };
-
   return (
     <div className="min-h-screen bg-white">
       <Header />
+
       <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(faqSchema) }} />
-      <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(medicalSchema) }} />
 
       {/* Hero */}
       <section className="bg-gradient-to-r from-blue-600 to-blue-700 text-white py-16 md:py-20">
         <div className="max-w-4xl mx-auto px-6">
           <h1 className="text-3xl sm:text-4xl md:text-5xl font-bold mb-4" style={{ fontFamily: "var(--font-poppins)" }}>
-            Hip Pain Physiotherapy in Hyderabad
+            Hip Pain Physiotherapy &amp; Treatment in Hyderabad
           </h1>
           <p className="text-lg text-white/90 max-w-2xl mb-6">
-            Expert treatment for hip arthritis, bursitis, labral tears and post hip replacement rehabilitation at Legend Physiotherapy, Kothapet.
+            Comprehensive assessment and treatment for hip arthritis, AVN, bursitis and post hip replacement rehabilitation at Legend Physiotherapy, Kothapet.
           </p>
           <div className="flex flex-wrap gap-3">
             <a href="tel:+918143015455" className="bg-white text-blue-600 px-6 py-3 rounded-lg font-bold hover:bg-blue-50 transition-colors text-sm sm:text-base">
@@ -119,72 +95,64 @@ export default function HipPainPage() {
       <article className="max-w-4xl mx-auto px-6 py-12">
         <div className="prose prose-lg max-w-none">
           <h2 className="text-2xl font-bold text-gray-900 mt-10 mb-4" style={{ fontFamily: "var(--font-poppins)" }}>
+            Understanding Hip Pain
+          </h2>
+          <p className="text-gray-700 leading-relaxed mb-4">
+            The hip is the body&apos;s largest ball-and-socket joint, designed for both stability and a wide range of motion. Hip pain can originate from the joint itself, the surrounding muscles and tendons, or be referred from the lower back. Accurate diagnosis is essential because treatment varies significantly depending on the cause. At Legend Physiotherapy, we perform a thorough biomechanical assessment including range of motion testing, muscle strength evaluation, gait analysis and special orthopaedic tests to identify the precise source of your pain.
+          </p>
+          <p className="text-gray-700 leading-relaxed mb-6">
+            Hip problems are common across all age groups &mdash; from young athletes with labral tears and muscle strains to middle-aged adults with early arthritis and elderly patients with osteoarthritis or avascular necrosis. Each group requires a tailored approach combining the right balance of pain management, manual therapy, strengthening and activity modification.
+          </p>
+
+          <h2 className="text-2xl font-bold text-gray-900 mt-10 mb-4" style={{ fontFamily: "var(--font-poppins)" }}>
             Common Causes of Hip Pain
           </h2>
-          <p className="text-gray-700 leading-relaxed mb-4">
-            The hip joint is the largest ball-and-socket joint in the body and bears significant load during walking, running and daily activities. Hip pain can originate from the joint itself, the surrounding muscles and tendons, or even be referred from the lower back.
-          </p>
           <ul className="list-disc list-inside space-y-2 text-gray-700 mb-6">
-            <li><strong>Hip osteoarthritis</strong> — progressive wear of the hip joint cartilage, causing groin pain, stiffness and difficulty walking. Most common in adults over 50.</li>
-            <li><strong>Trochanteric bursitis</strong> — inflammation of the bursa on the outer hip, causing pain when lying on the affected side, climbing stairs or walking long distances.</li>
-            <li><strong>Hip labral tear</strong> — a tear in the ring of cartilage around the hip socket, causing a catching or locking sensation and deep groin pain.</li>
-            <li><strong>Hip muscle strains</strong> — tears in the hip flexors, adductors or gluteal muscles from sports or sudden movements.</li>
-            <li><strong>Referred pain from the lumbar spine</strong> — disc problems or nerve compression in the lower back can cause pain that feels like it is coming from the hip.</li>
-            <li><strong>Avascular necrosis (AVN)</strong> — loss of blood supply to the femoral head, requiring early intervention to preserve the joint.</li>
+            <li><strong>Osteoarthritis (OA)</strong> &mdash; the most common cause in patients over 50, involving progressive cartilage loss, joint space narrowing and bone spur formation.</li>
+            <li><strong>Avascular necrosis (AVN)</strong> &mdash; loss of blood supply to the femoral head, common in patients with a history of steroid use, alcohol use or hip fracture.</li>
+            <li><strong>Hip bursitis (trochanteric pain syndrome)</strong> &mdash; inflammation of the bursa over the outer hip, causing pain when lying on the affected side or climbing stairs.</li>
+            <li><strong>Labral tears</strong> &mdash; damage to the cartilage ring lining the hip socket, often seen in athletes and causing clicking, catching or deep groin pain.</li>
+            <li><strong>IT band syndrome</strong> &mdash; tightness of the iliotibial band causing lateral hip and thigh pain, common in runners and cyclists.</li>
+            <li><strong>Hip flexor strain</strong> &mdash; overuse of the iliopsoas and rectus femoris muscles, frequent in sports involving kicking or sprinting.</li>
           </ul>
 
           <h2 className="text-2xl font-bold text-gray-900 mt-10 mb-4" style={{ fontFamily: "var(--font-poppins)" }}>
-            Our Treatment Approach
+            Physiotherapy Assessment and Treatment
           </h2>
           <p className="text-gray-700 leading-relaxed mb-4">
-            Dr Sirish conducts a thorough assessment including range of motion testing, special orthopaedic tests and gait analysis before designing your treatment plan:
+            Our hip rehabilitation programme begins with a detailed assessment of your joint mobility, muscle strength (particularly gluteus medius and maximus, hip flexors and deep external rotators), movement patterns and functional limitations. Treatment typically includes manual joint mobilisation to improve hip range of motion, soft tissue techniques to release tight muscles and fascia, and a progressive strengthening programme targeting the muscles that stabilise the hip and pelvis.
           </p>
-          <ul className="list-disc list-inside space-y-2 text-gray-700 mb-4">
-            <li>
-              <strong>Hip joint mobilisation</strong> — manual techniques to improve hip range of motion, reduce stiffness and relieve pain. Particularly effective for hip osteoarthritis.
-            </li>
-            <li>
-              <strong>Strengthening exercises</strong> — progressive strengthening of the gluteal muscles, hip flexors, abductors and core. Strong hip muscles improve joint stability and reduce pain during walking and activities.
-            </li>
-            <li>
-              <strong>Flexibility and stretching</strong> — targeted stretches for tight hip flexors, adductors and piriformis muscles that contribute to hip pain and stiffness.
-            </li>
-            <li>
-              <strong>Gait retraining</strong> — correction of walking patterns that place excessive stress on the hip joint. Common in hip arthritis patients who develop compensatory movement patterns.
-            </li>
-            <li>
-              <strong>Electrotherapy</strong> — ultrasound, laser therapy and TENS for pain management and inflammation control.
-            </li>
-          </ul>
-
-          <h2 className="text-2xl font-bold text-gray-900 mt-10 mb-4" style={{ fontFamily: "var(--font-poppins)" }}>
-            Hip Replacement Rehabilitation
-          </h2>
-          <p className="text-gray-700 leading-relaxed mb-4">
-            If you have had or are planning a hip replacement, physiotherapy is essential for a successful recovery:
-          </p>
-          <ul className="list-disc list-inside space-y-2 text-gray-700 mb-6">
-            <li><strong>Pre-operative (prehab)</strong> — strengthening muscles and improving fitness before surgery leads to faster post-operative recovery. We typically recommend 4 to 6 weeks of prehab.</li>
-            <li><strong>Early post-operative (weeks 1–6)</strong> — gentle exercises to restore range of motion, prevent blood clots, reduce swelling and begin walking with support. We teach hip precautions to protect the new joint.</li>
-            <li><strong>Late post-operative (weeks 6–12)</strong> — progressive strengthening, balance training and functional exercises to return to walking without aids, climbing stairs, driving and daily activities.</li>
-          </ul>
           <p className="text-gray-700 leading-relaxed mb-6">
-            We provide both clinic-based and home visit rehabilitation for hip replacement patients across Hyderabad. Many patients prefer home visits in the early weeks when mobility is limited.
+            Gluteus medius weakness is a key contributor to many hip conditions. This muscle prevents the pelvis from dropping during single-leg stance (walking, stair climbing) and its weakness leads to compensatory movement patterns that overload the hip joint. Our strengthening programmes systematically progress from non-weight-bearing exercises to functional activities like squats, lunges and balance training.
           </p>
 
           <h2 className="text-2xl font-bold text-gray-900 mt-10 mb-4" style={{ fontFamily: "var(--font-poppins)" }}>
-            Visit Our Clinic or Book a Home Visit
+            Post Hip Replacement Rehabilitation
+          </h2>
+          <p className="text-gray-700 leading-relaxed mb-4">
+            Physiotherapy after total hip replacement follows a structured phased approach. In the first two weeks, the focus is on wound care, gentle range of motion exercises, bed mobility, transfers and walking with a frame. Weeks three to six introduce progressive strengthening &mdash; clamshells, bridges, standing hip abduction &mdash; and transition from walker to cane. From six to twelve weeks, the programme advances to functional exercises including stair climbing, balance work and light recreational activities.
+          </p>
+          <p className="text-gray-700 leading-relaxed mb-6">
+            We also focus on fall prevention for elderly hip patients through balance training, home environment modification advice and confidence-building exercises. Research shows that structured physiotherapy after hip replacement leads to better functional outcomes, faster return to independence and lower risk of complications.
+          </p>
+
+          <h2 className="text-2xl font-bold text-gray-900 mt-10 mb-4" style={{ fontFamily: "var(--font-poppins)" }}>
+            Why Choose Legend Physiotherapy for Hip Pain
           </h2>
           <p className="text-gray-700 leading-relaxed mb-6">
-            Our clinic in Kothapet, near LB Nagar, is open every day from 9 am to 9 pm. We also offer home visit physiotherapy across Hyderabad — LB Nagar, Dilsukhnagar, Nagole, Vanasthalipuram, Uppal, Secunderabad, Kukatpally, Gachibowli, Kondapur, Madhapur and all other areas. Call{" "}
+            Dr Sirish and the team combine manual therapy, progressive exercise and advanced modalities for comprehensive hip care. We offer both clinic-based treatment and home visits for patients with limited mobility. Our Kothapet clinic near LB Nagar is open daily from 9 am to 9 pm. Call{" "}
             <a href="tel:+918143015455" className="text-blue-600 font-semibold hover:underline">+91 81430 15455</a>{" "}
-            to book.
+            or{" "}
+            <a href="https://wa.me/918143015455" target="_blank" rel="noopener noreferrer" className="text-blue-600 font-semibold hover:underline">WhatsApp us</a>{" "}
+            to book your assessment.
           </p>
         </div>
 
-        {/* FAQ */}
+        {/* FAQ Section */}
         <section className="mt-12">
-          <h2 className="text-2xl font-bold text-gray-900 mb-6" style={{ fontFamily: "var(--font-poppins)" }}>Frequently Asked Questions</h2>
+          <h2 className="text-2xl font-bold text-gray-900 mb-6" style={{ fontFamily: "var(--font-poppins)" }}>
+            Frequently Asked Questions
+          </h2>
           <div className="space-y-6">
             {faqs.map((faq, i) => (
               <div key={i} className="border border-gray-200 rounded-xl p-6">
@@ -197,31 +165,39 @@ export default function HipPainPage() {
 
         {/* Internal Links */}
         <section className="mt-12">
-          <h2 className="text-2xl font-bold text-gray-900 mb-4" style={{ fontFamily: "var(--font-poppins)" }}>Related Pages</h2>
+          <h2 className="text-2xl font-bold text-gray-900 mb-4" style={{ fontFamily: "var(--font-poppins)" }}>
+            Related Pages
+          </h2>
           <ul className="space-y-2">
-            <li><a href="/arthritis-physiotherapy-hyderabad" className="text-blue-600 hover:underline">Arthritis Physiotherapy</a></li>
             <li><a href="/knee-pain-physiotherapy-lb-nagar" className="text-blue-600 hover:underline">Knee Pain Physiotherapy</a></li>
-            <li><a href="/back-pain-physiotherapy-lb-nagar" className="text-blue-600 hover:underline">Back Pain Physiotherapy</a></li>
+            <li><a href="/arthritis-physiotherapy-hyderabad" className="text-blue-600 hover:underline">Arthritis Physiotherapy</a></li>
             <li><a href="/post-surgery-rehabilitation-lb-nagar" className="text-blue-600 hover:underline">Post-Surgery Rehabilitation</a></li>
-            <li><a href="/book-appointment" className="text-blue-600 hover:underline">Book an Appointment</a></li>
+            <li><a href="/sports-injury-rehabilitation-lb-nagar" className="text-blue-600 hover:underline">Sports Injury Rehabilitation</a></li>
+            <li><a href="/contact" className="text-blue-600 hover:underline">Contact Us</a></li>
           </ul>
         </section>
 
         {/* Dr Sirish Bio */}
         <section className="mt-12 bg-blue-50 rounded-2xl p-8 border border-blue-100">
-          <h2 className="text-xl font-bold text-gray-900 mb-3" style={{ fontFamily: "var(--font-poppins)" }}>Your Physiotherapist — Dr Sirish</h2>
+          <h2 className="text-xl font-bold text-gray-900 mb-3" style={{ fontFamily: "var(--font-poppins)" }}>
+            Clinically Reviewed by Dr Sirish
+          </h2>
           <p className="text-gray-700 text-sm leading-relaxed mb-2">
-            <strong>B.P.T, M.Sc Sports (London)</strong> — Senior Physiotherapist with 20+ years of experience in orthopaedic and neurological rehabilitation. Dr Sirish specialises in hip conditions and has guided hundreds of patients through hip replacement recovery.
+            <strong>B.P.T, M.Sc Sports (London)</strong> &mdash; Senior Physiotherapist with 20+ years of experience in orthopaedic rehabilitation. Dr Sirish specialises in hip and knee conditions, post-surgical rehabilitation and fall prevention for elderly patients.
           </p>
           <p className="text-gray-700 text-sm leading-relaxed">
-            Clinic: Shop No. 2, Ground Floor, H.No. 11-13-714, Road No. 4, Dwarka Nagar, Green Hills Colony, Kothapet, Hyderabad 500102. Open daily 9 am – 9 pm.
+            Clinic: Shop No. 2, Ground Floor, H.No. 11-13-714, Road No. 4, Dwarka Nagar, Green Hills Colony, Kothapet, Hyderabad 500102. Open daily 9 am &ndash; 9 pm.
           </p>
         </section>
 
         {/* CTA */}
         <section className="mt-12 bg-gradient-to-r from-blue-600 to-blue-700 rounded-2xl p-8 text-center text-white">
-          <h2 className="text-2xl font-bold mb-3" style={{ fontFamily: "var(--font-poppins)" }}>Get Hip Pain Treatment Today</h2>
-          <p className="text-white/90 mb-6">Call +91 81430 15455 or book online. We are open every day, 9 am to 9 pm.</p>
+          <h2 className="text-2xl font-bold mb-3" style={{ fontFamily: "var(--font-poppins)" }}>
+            Book a Hip Pain Assessment
+          </h2>
+          <p className="text-white/90 mb-6">
+            Call +91 81430 15455 or book online. We are open every day, 9 am to 9 pm.
+          </p>
           <div className="flex flex-wrap gap-4 justify-center">
             <a href="tel:+918143015455" className="bg-white text-blue-600 px-8 py-4 rounded-lg font-bold hover:bg-blue-50 transition-colors">Call Now</a>
             <a href="/book-appointment" className="bg-blue-800 text-white px-8 py-4 rounded-lg font-bold hover:bg-blue-900 transition-colors">Book Online</a>

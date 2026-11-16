@@ -207,7 +207,7 @@ export default function Blog() {
 
                 <div className="flex items-center justify-end">
                   <a href={`/blog/${post.slug}`} className="text-blue-500 text-xs font-semibold hover:underline">
-                    Read More →
+                    Read Full Article: {post.title.length > 40 ? post.title.slice(0, 40) + "…" : post.title} →
                   </a>
                 </div>
               </div>

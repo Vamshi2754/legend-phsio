@@ -3,56 +3,54 @@ import Footer from "@/components/Footer";
 import type { Metadata } from "next";
 
 export const metadata: Metadata = {
-  title: "Robotic Physiotherapy in Hyderabad | Legend Physiotherapy",
+  title: "Robotic Physiotherapy & Technology-Assisted Rehab in Hyderabad | Legend Physiotherapy",
   description:
-    "Advanced robotic and technology-assisted physiotherapy for stroke recovery, spinal cord injury and neurological rehabilitation in Hyderabad. Call +91 81430 15455.",
+    "Robotic physiotherapy and technology-assisted rehabilitation for stroke, spinal cord injury and neurological conditions in Hyderabad. Call +91 81430 15455.",
   keywords: [
     "robotic physiotherapy Hyderabad",
-    "robotic rehabilitation Hyderabad",
-    "technology assisted physiotherapy",
+    "robotic rehabilitation",
+    "technology assisted rehab",
     "advanced physiotherapy Hyderabad",
-    "robotic rehab near me",
-    "automated physiotherapy treatment",
-    "neuro robotic rehabilitation Hyderabad",
+    "robotic gait training",
+    "robotic therapy near me",
   ],
   alternates: { canonical: "/robotic-physiotherapy-hyderabad" },
   openGraph: {
-    title: "Robotic Physiotherapy in Hyderabad | Legend Physiotherapy",
+    title: "Robotic Physiotherapy & Technology-Assisted Rehab in Hyderabad | Legend Physiotherapy",
     description:
-      "Technology-assisted rehabilitation for neurological and orthopaedic conditions at Legend Physiotherapy Kothapet, Hyderabad.",
+      "Advanced robotic and technology-assisted rehabilitation at Legend Physiotherapy Kothapet, Hyderabad.",
     url: "/robotic-physiotherapy-hyderabad",
     siteName: "Legend Physiotherapy",
     locale: "en_IN",
     type: "website",
-    images: [{ url: "/og-image.jpg", width: 1200, height: 630, alt: "Robotic Physiotherapy at Legend Physiotherapy Hyderabad" }],
   },
 };
 
 const faqs = [
   {
-    question: "What is robotic physiotherapy?",
+    question: "Who benefits most from robotic physiotherapy?",
     answer:
-      "Robotic physiotherapy uses computer-controlled devices and technology-assisted equipment to guide patients through precise, repetitive movements during rehabilitation. These devices provide consistent resistance, real-time feedback and measurable data on each session, allowing the physiotherapist to track progress objectively and adjust treatment with precision that manual therapy alone cannot achieve.",
+      "Robotic rehabilitation is particularly effective for stroke survivors, spinal cord injury patients, individuals with traumatic brain injuries and those with neurological conditions like multiple sclerosis or Parkinson's disease. It is also beneficial for post-surgical patients who need intensive, repetitive movement training to regain function safely.",
   },
   {
-    question: "Who benefits most from robotic rehabilitation?",
+    question: "Is robotic physiotherapy better than manual therapy?",
     answer:
-      "Patients recovering from stroke, traumatic brain injury, spinal cord injury, Parkinson's disease and other neurological conditions benefit greatly from the high-repetition, guided movements that robotic devices provide. It is also effective for post-surgical joint rehabilitation (knee and hip replacements), balance disorders and gait retraining in elderly patients at risk of falls.",
+      "Robotic therapy and manual therapy are complementary, not competing approaches. Robots excel at delivering high-repetition, consistent movements that are critical for neuroplasticity. Manual therapy provides the hands-on assessment, soft tissue work and clinical reasoning that machines cannot replicate. The best outcomes come from combining both approaches in a structured rehabilitation programme.",
   },
   {
-    question: "How is robotic physiotherapy different from regular physiotherapy?",
+    question: "How much does robotic physiotherapy cost?",
     answer:
-      "Traditional physiotherapy relies on the therapist's hands and the patient's voluntary effort. Robotic physiotherapy adds computer-guided assistance that can support, resist or guide movements with exact force and trajectory. This means patients who are too weak to move a limb on their own can still perform hundreds of repetitions per session — the device fills in the missing force while the patient contributes what they can. The result is faster neural relearning and measurable improvement tracked session to session.",
+      "The cost depends on the type of technology used and the duration of each session. We offer competitive pricing with package options for longer rehabilitation programmes. Please call +91 81430 15455 for a detailed quote based on your specific needs. Many patients find that technology-assisted rehab shortens overall recovery time, reducing total treatment cost.",
   },
   {
-    question: "How many robotic physiotherapy sessions will I need?",
+    question: "Is robotic rehabilitation available in Hyderabad?",
     answer:
-      "The number of sessions depends on the condition and its severity. Stroke patients typically undergo 20 to 40 sessions over several weeks. Post-surgical knee or hip patients may need 10 to 20 sessions. Your physiotherapist will set functional goals — such as walking distance, grip strength or balance scores — and adjust the programme as you hit milestones.",
+      "Yes, Legend Physiotherapy offers technology-assisted rehabilitation in Hyderabad. Our clinic is equipped with advanced modalities including electrical stimulation devices, biofeedback systems and computerised exercise equipment. We integrate these tools with expert manual therapy and exercise prescription for comprehensive neurological and orthopaedic rehabilitation.",
   },
   {
-    question: "Is robotic physiotherapy safe?",
+    question: "What conditions are treated with technology-assisted rehab?",
     answer:
-      "Yes. The devices are designed with built-in safety limits for force, speed and range of motion. A trained physiotherapist supervises every session and can adjust parameters in real time. The equipment stops automatically if it detects resistance beyond safe limits. Robotic rehabilitation is considered one of the safest forms of intensive therapy, particularly for patients with significant weakness or poor balance.",
+      "Technology-assisted rehabilitation is used for stroke recovery (hemiplegia), spinal cord injury, traumatic brain injury, multiple sclerosis, Parkinson's disease, cerebral palsy, post-surgical joint rehabilitation, chronic pain conditions and balance disorders. The specific technology is selected based on the patient's condition, goals and stage of recovery.",
   },
 ];
 
@@ -67,42 +65,20 @@ export default function RoboticPhysiotherapyPage() {
     })),
   };
 
-  const pageSchema = {
-    "@context": "https://schema.org",
-    "@type": "MedicalWebPage",
-    name: "Robotic Physiotherapy in Hyderabad",
-    description: "Advanced robotic and technology-assisted rehabilitation at Legend Physiotherapy Hyderabad.",
-    url: "https://www.legendphysiotherapy.com/robotic-physiotherapy-hyderabad",
-    provider: {
-      "@type": "Physiotherapy",
-      name: "Legend Physiotherapy Ortho and Neuro Pain Management Clinic",
-      telephone: "+918143015455",
-      address: {
-        "@type": "PostalAddress",
-        streetAddress: "Shop No.2 Ground Floor, Road No: 4, HNO: 11-13-714, Dwarka Nagar, Green Hills Colony, Kothapet",
-        addressLocality: "L. B. Nagar, Hyderabad",
-        addressRegion: "Telangana",
-        postalCode: "500102",
-        addressCountry: "IN",
-      },
-    },
-  };
-
   return (
     <div className="min-h-screen bg-white">
       <Header />
 
       <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(faqSchema) }} />
-      <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(pageSchema) }} />
 
       {/* Hero */}
       <section className="bg-gradient-to-r from-blue-600 to-blue-700 text-white py-16 md:py-20">
         <div className="max-w-4xl mx-auto px-6">
           <h1 className="text-3xl sm:text-4xl md:text-5xl font-bold mb-4" style={{ fontFamily: "var(--font-poppins)" }}>
-            Robotic Physiotherapy in Hyderabad
+            Robotic Physiotherapy &amp; Technology-Assisted Rehab in Hyderabad
           </h1>
           <p className="text-lg text-white/90 max-w-2xl mb-6">
-            Technology-assisted rehabilitation for stroke, neurological conditions and post-surgical recovery at Legend Physiotherapy, Kothapet, Hyderabad.
+            Advanced technology-driven rehabilitation for stroke, spinal cord injury and neurological recovery at Legend Physiotherapy, Kothapet.
           </p>
           <div className="flex flex-wrap gap-3">
             <a href="tel:+918143015455" className="bg-white text-blue-600 px-6 py-3 rounded-lg font-bold hover:bg-blue-50 transition-colors text-sm sm:text-base">
@@ -122,54 +98,48 @@ export default function RoboticPhysiotherapyPage() {
             What Is Robotic Physiotherapy?
           </h2>
           <p className="text-gray-700 leading-relaxed mb-4">
-            Robotic physiotherapy combines traditional rehabilitation principles with computer-controlled devices that guide, assist or resist movement during therapy sessions. These systems range from motorised limb trainers and continuous passive motion (CPM) machines to advanced exoskeletons and sensor-based balance platforms. The common thread is precision — every movement is monitored, measured and adjusted in real time.
+            Robotic physiotherapy uses advanced mechanical devices and computer-controlled systems to assist, guide and challenge patients through precise, repetitive movements. These technologies are designed to deliver the high volumes of task-specific practice that the brain needs to rewire neural pathways &mdash; a process known as neuroplasticity. For patients recovering from stroke, spinal cord injury or other neurological conditions, robotic-assisted training can provide thousands of movement repetitions in a single session.
           </p>
           <p className="text-gray-700 leading-relaxed mb-6">
-            The concept is rooted in neuroplasticity — the brain&apos;s ability to reorganise itself by forming new neural connections. Research shows that high-repetition, task-specific practice is one of the strongest drivers of neural recovery after stroke and brain injury. Robotic devices make it possible to perform hundreds or even thousands of repetitions per session, far more than is feasible with manual therapy alone, while keeping each movement biomechanically correct.
+            At Legend Physiotherapy, we integrate technology-assisted modalities with expert manual therapy and evidence-based exercise programming. Our approach uses the strengths of each method: technology provides consistent, measurable, high-repetition training while our physiotherapists provide clinical reasoning, hands-on treatment and motivational coaching.
           </p>
 
           <h2 className="text-2xl font-bold text-gray-900 mt-10 mb-4" style={{ fontFamily: "var(--font-poppins)" }}>
-            How Technology-Assisted Rehabilitation Works
+            Robotic-Assisted Gait Training
           </h2>
           <p className="text-gray-700 leading-relaxed mb-4">
-            During a robotic physiotherapy session, the patient is positioned in or connected to a device that targets the affected limb or body region. Sensors detect the patient&apos;s voluntary effort — however small — and the device provides just enough assistance to complete the intended movement. This &ldquo;assist-as-needed&rdquo; approach encourages the patient&apos;s own nervous system to participate actively rather than being passively moved.
+            Gait training robots support patients in walking with a normal pattern by guiding their legs through the correct biomechanical sequence. Body-weight support systems reduce the load on weakened limbs while maintaining upright posture. This allows patients who cannot yet walk independently to begin gait training much earlier in their recovery. Research shows that early, intensive gait training significantly improves walking speed, endurance and independence after stroke.
           </p>
           <p className="text-gray-700 leading-relaxed mb-6">
-            As the patient improves, the device reduces its assistance, progressively challenging the recovering muscles and neural pathways. All data — force, speed, range of motion, number of repetitions, symmetry — is recorded and displayed, giving both the patient and the physiotherapist objective evidence of progress. This data-driven approach eliminates guesswork and keeps motivation high.
+            The robotic system provides real-time feedback on step symmetry, weight distribution and walking speed, allowing both therapist and patient to track progress objectively. As strength and coordination improve, the level of robotic assistance is gradually reduced until the patient walks independently.
           </p>
 
           <h2 className="text-2xl font-bold text-gray-900 mt-10 mb-4" style={{ fontFamily: "var(--font-poppins)" }}>
-            Conditions We Treat with Robotic Rehabilitation
+            Upper Limb Robotic Rehabilitation
           </h2>
-          <ul className="list-disc list-inside space-y-2 text-gray-700 mb-6">
-            <li><strong>Stroke recovery</strong> — upper limb and lower limb retraining, gait rehabilitation and hand function recovery. Robotic devices allow intensive practice even when the patient has minimal voluntary movement.</li>
-            <li><strong>Spinal cord injury</strong> — locomotor training using body-weight-supported treadmill systems and robotic gait trainers to retrain walking patterns.</li>
-            <li><strong>Parkinson&apos;s disease</strong> — rhythmic, repetitive training improves gait speed, step length and balance, reducing the risk of freezing and falls.</li>
-            <li><strong>Traumatic brain injury</strong> — cognitive-motor dual-task training using interactive robotic systems that challenge both movement and attention simultaneously.</li>
-            <li><strong>Post-surgical joint rehabilitation</strong> — continuous passive motion and progressive resistance training after knee replacement, hip replacement and ACL reconstruction.</li>
-            <li><strong>Balance and fall prevention</strong> — sensor-based balance platforms provide real-time visual feedback, training proprioception and postural control in elderly patients.</li>
-          </ul>
+          <p className="text-gray-700 leading-relaxed mb-6">
+            Upper limb robots assist patients in performing reaching, grasping and manipulation tasks that are essential for daily activities such as eating, dressing and writing. These devices can support the arm against gravity, guide movements through specific trajectories and provide resistance as strength returns. Studies demonstrate that robotic upper limb training combined with conventional therapy produces greater improvements in arm function than conventional therapy alone for stroke patients.
+          </p>
 
           <h2 className="text-2xl font-bold text-gray-900 mt-10 mb-4" style={{ fontFamily: "var(--font-poppins)" }}>
-            Advantages Over Manual Therapy Alone
-          </h2>
-          <ul className="list-disc list-inside space-y-2 text-gray-700 mb-6">
-            <li><strong>Higher repetition volume</strong> — robotic devices can deliver 500 to 1,000+ movement repetitions per session, compared to 50 to 100 with manual therapy.</li>
-            <li><strong>Consistent precision</strong> — every repetition follows the exact same trajectory and force profile, reducing the risk of compensatory movement patterns.</li>
-            <li><strong>Objective measurement</strong> — session-to-session data shows exactly how strength, range and speed are changing, making it easy to demonstrate progress to patients and referring doctors.</li>
-            <li><strong>Patient engagement</strong> — many robotic systems include gamified visual feedback that keeps patients motivated during intensive training blocks.</li>
-          </ul>
-
-          <h2 className="text-2xl font-bold text-gray-900 mt-10 mb-4" style={{ fontFamily: "var(--font-poppins)" }}>
-            What to Expect at Legend Physiotherapy
+            Biofeedback and Virtual Reality Rehabilitation
           </h2>
           <p className="text-gray-700 leading-relaxed mb-4">
-            Your first visit begins with a comprehensive assessment — neurological examination, functional testing and goal-setting. Based on your condition and goals, your physiotherapist will design a programme that combines robotic-assisted training with hands-on manual therapy, therapeutic exercise and, where appropriate, other modalities such as electrical stimulation or laser therapy.
+            Biofeedback systems use sensors to measure muscle activity (EMG), joint angles, balance and force production, displaying this data in real time so patients can learn to control movements they cannot yet feel or see. Visual and auditory feedback helps the brain form new motor patterns more efficiently than repetition alone.
           </p>
           <p className="text-gray-700 leading-relaxed mb-6">
-            Each session lasts 45 to 60 minutes. A trained physiotherapist is with you throughout, monitoring the equipment, adjusting parameters and coaching your movement quality. Progress reviews happen every two weeks, with treatment goals updated based on your measured improvements. Call{" "}
+            Virtual reality rehabilitation immerses patients in interactive environments where they practise functional tasks &mdash; reaching for objects, navigating obstacles, playing movement-based games &mdash; that are both therapeutic and motivating. The engaging nature of VR increases patient participation and the number of repetitions performed, both critical factors in neurological recovery.
+          </p>
+
+          <h2 className="text-2xl font-bold text-gray-900 mt-10 mb-4" style={{ fontFamily: "var(--font-poppins)" }}>
+            Electrical Stimulation and Combined Approaches
+          </h2>
+          <p className="text-gray-700 leading-relaxed mb-6">
+            Functional electrical stimulation (FES) activates paralysed or weakened muscles during functional tasks &mdash; for example, stimulating the ankle dorsiflexors during walking to prevent foot drop. When combined with robotic gait training, FES enhances muscle activation patterns and accelerates motor learning. Our physiotherapists design individualised programmes that combine the most appropriate technologies with manual therapy, stretching and progressive strengthening. Call{" "}
             <a href="tel:+918143015455" className="text-blue-600 font-semibold hover:underline">+91 81430 15455</a>{" "}
-            to book your assessment.
+            or{" "}
+            <a href="https://wa.me/918143015455" target="_blank" rel="noopener noreferrer" className="text-blue-600 font-semibold hover:underline">WhatsApp us</a>{" "}
+            to discuss your rehabilitation needs.
           </p>
         </div>
 
@@ -194,9 +164,9 @@ export default function RoboticPhysiotherapyPage() {
             Related Pages
           </h2>
           <ul className="space-y-2">
-            <li><a href="/neuro-physiotherapy-lb-nagar" className="text-blue-600 hover:underline">Neurological Physiotherapy</a></li>
-            <li><a href="/post-surgery-physiotherapy-lb-nagar" className="text-blue-600 hover:underline">Post-Surgery Physiotherapy</a></li>
-            <li><a href="/laser-therapy-physiotherapy-hyderabad" className="text-blue-600 hover:underline">Laser Therapy</a></li>
+            <li><a href="/neuro-rehabilitation-lb-nagar" className="text-blue-600 hover:underline">Neuro Rehabilitation</a></li>
+            <li><a href="/post-surgery-rehabilitation-lb-nagar" className="text-blue-600 hover:underline">Post-Surgery Rehabilitation</a></li>
+            <li><a href="/vertigo-balance-rehabilitation-hyderabad" className="text-blue-600 hover:underline">Vertigo &amp; Balance Rehabilitation</a></li>
             <li><a href="/spinal-decompression-therapy-hyderabad" className="text-blue-600 hover:underline">Spinal Decompression Therapy</a></li>
             <li><a href="/contact" className="text-blue-600 hover:underline">Contact Us</a></li>
           </ul>
@@ -205,20 +175,20 @@ export default function RoboticPhysiotherapyPage() {
         {/* Dr Sirish Bio */}
         <section className="mt-12 bg-blue-50 rounded-2xl p-8 border border-blue-100">
           <h2 className="text-xl font-bold text-gray-900 mb-3" style={{ fontFamily: "var(--font-poppins)" }}>
-            Your Physiotherapist — Dr Sirish
+            Clinically Reviewed by Dr Sirish
           </h2>
           <p className="text-gray-700 text-sm leading-relaxed mb-2">
-            <strong>B.P.T, M.Sc Sports (London)</strong> — Senior Physiotherapist with 20+ years of experience in orthopaedic and neurological rehabilitation. Dr Sirish combines hands-on clinical expertise with technology-assisted treatment to maximise recovery outcomes for patients with complex conditions.
+            <strong>B.P.T, M.Sc Sports (London)</strong> &mdash; Senior Physiotherapist with 20+ years of experience in neurological and orthopaedic rehabilitation. Dr Sirish integrates advanced technology with hands-on clinical expertise to deliver the best possible recovery outcomes.
           </p>
           <p className="text-gray-700 text-sm leading-relaxed">
-            Clinic: Shop No. 2, Ground Floor, H.No. 11-13-714, Road No. 4, Dwarka Nagar, Green Hills Colony, Kothapet, Hyderabad 500102. Open daily 9 am – 9 pm.
+            Clinic: Shop No. 2, Ground Floor, H.No. 11-13-714, Road No. 4, Dwarka Nagar, Green Hills Colony, Kothapet, Hyderabad 500102. Open daily 9 am &ndash; 9 pm.
           </p>
         </section>
 
         {/* CTA */}
         <section className="mt-12 bg-gradient-to-r from-blue-600 to-blue-700 rounded-2xl p-8 text-center text-white">
           <h2 className="text-2xl font-bold mb-3" style={{ fontFamily: "var(--font-poppins)" }}>
-            Book a Robotic Rehabilitation Assessment
+            Start Your Technology-Assisted Recovery
           </h2>
           <p className="text-white/90 mb-6">
             Call +91 81430 15455 or book online. We are open every day, 9 am to 9 pm.

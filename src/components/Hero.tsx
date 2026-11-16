@@ -180,7 +180,7 @@ export default function Hero() {
                 </svg>
               </div>
               <div>
-                <h3 className="font-semibold text-gray-800 text-xs sm:text-sm" style={{ fontFamily: "var(--font-poppins)" }}>{item.title}</h3>
+                <p className="font-semibold text-gray-800 text-xs sm:text-sm" style={{ fontFamily: "var(--font-poppins)" }}>{item.title}</p>
                 <p className="text-gray-500 text-[10px] sm:text-xs mt-0.5">{item.desc}</p>
                 {item.isPhone ? (
                   <div className="space-y-0.5 mt-0.5">

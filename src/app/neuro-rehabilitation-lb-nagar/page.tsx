@@ -282,7 +282,7 @@ export default function NeuroRehabPage() {
             className="text-2xl font-bold text-gray-900 mb-4"
             style={{ fontFamily: "var(--font-poppins)" }}
           >
-            Your Physiotherapist
+            Clinically Reviewed by Dr Sirish
           </h2>
           <p className="text-gray-700 leading-relaxed">
             <strong>Dr Sirish, B.P.T, M.Sc Sports (London)</strong> — Senior
@@ -334,10 +334,10 @@ export default function NeuroRehabPage() {
           <ul className="space-y-2 text-blue-600">
             <li>
               <a
-                href="/blog/robotic-physiotherapy-vs-traditional-physical-therapy-hyderabad"
+                href="/post-surgery-rehabilitation-lb-nagar"
                 className="hover:underline"
               >
-                Robotic Physiotherapy vs Traditional Physical Therapy
+                Post-Surgery Rehabilitation in LB Nagar
               </a>
             </li>
             <li>
@@ -346,6 +346,22 @@ export default function NeuroRehabPage() {
                 className="hover:underline"
               >
                 Home Physiotherapy Services
+              </a>
+            </li>
+            <li>
+              <a
+                href="/blog/robotic-physiotherapy-vs-traditional-physical-therapy-hyderabad"
+                className="hover:underline"
+              >
+                Robotic Physiotherapy vs Traditional Physical Therapy
+              </a>
+            </li>
+            <li>
+              <a
+                href="/paralysis-treatment-hyderabad"
+                className="hover:underline"
+              >
+                Paralysis Treatment in Hyderabad
               </a>
             </li>
             <li>

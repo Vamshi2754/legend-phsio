@@ -21,7 +21,7 @@ const faqs = [
   {
     question: "Can sciatica be treated without surgery?",
     answer:
-      "In many cases, yes. Research shows that the majority of sciatica episodes improve with conservative treatment including physiotherapy, exercise and pain management. Surgery is usually considered only when there is significant neurological deficit or when symptoms have not responded to several months of structured physiotherapy. Your physiotherapist and doctor will guide you on the best path.",
+      "In many cases, yes. Research shows that the majority of sciatica episodes improve with conservative treatment including physiotherapy, exercise and pain management. Surgery is usually considered only when there is significant neurological deficit or when symptoms have not responded to several months of structured physiotherapy. your physiotherapist and doctor will guide you on the best path.",
   },
   {
     question: "How long does sciatica take to settle?",
@@ -31,7 +31,7 @@ const faqs = [
   {
     question: "Which exercises should I avoid with sciatica?",
     answer:
-      "Generally, avoid heavy dead-lifts, deep forward bends, sit-ups on a flat surface and any movement that significantly increases your leg pain. Your physiotherapist will give you a personalised list based on the direction of your disc problem. Some movements that seem risky are actually safe when performed correctly — guidance matters more than blanket rules.",
+      "Generally, avoid heavy dead-lifts, deep forward bends, sit-ups on a flat surface and any movement that significantly increases your leg pain. your physiotherapist will give you a personalised list based on the direction of your disc problem. Some movements that seem risky are actually safe when performed correctly — guidance matters more than blanket rules.",
   },
   {
     question: "Can you visit me at home if walking is hard?",
@@ -208,7 +208,7 @@ export default function SciaticaPage() {
             <li>Pain has not responded to at least 6 to 12 weeks of structured physiotherapy.</li>
           </ul>
           <p>
-            Your physiotherapist and doctor will discuss the options with you based on your specific
+            your physiotherapist and doctor will discuss the options with you based on your specific
             findings.
           </p>
 
@@ -284,7 +284,7 @@ export default function SciaticaPage() {
             className="text-xl font-bold text-gray-900 mb-3"
             style={{ fontFamily: "var(--font-poppins)" }}
           >
-            Your Physiotherapist — Dr&nbsp;Sirish
+            Clinically Reviewed by Dr Sirish
           </h2>
           <p className="text-gray-700 text-sm leading-relaxed">
             Dr&nbsp;Sirish holds a B.P.T and M.Sc in Sports Science (London) with over 20&nbsp;years

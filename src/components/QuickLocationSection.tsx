@@ -55,7 +55,7 @@ export default function QuickLocationSection() {
                     <Phone className="w-5 h-5" />
                   </div>
                   <div>
-                    <span className="font-bold text-gray-900 block text-xs uppercase text-gray-500 tracking-wider">Phone / Emergency Care</span>
+                    <span className="font-bold text-gray-900 block text-xs uppercase text-gray-500 tracking-wider">Call the Clinic</span>
                     <div className="flex flex-wrap gap-x-4 gap-y-1 mt-0.5 font-bold text-green-700 text-sm">
                       <a href="tel:+918143015455" className="hover:underline flex items-center gap-1">
                         +91 81430 15455

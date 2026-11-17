@@ -50,6 +50,18 @@ export default function LocationsPage() {
       loc.address.toLowerCase().includes(search.toLowerCase())
   );
 
+  const clinicCount = filtered.filter((l) => l.slug === "lb-nagar").length;
+  const areaCount = filtered.length - clinicCount;
+  const directoryLabel =
+    [
+      clinicCount > 0 ? "1 Clinic" : null,
+      areaCount > 0
+        ? `${areaCount} Home-Visit ${areaCount === 1 ? "Area" : "Areas"}`
+        : null,
+    ]
+      .filter(Boolean)
+      .join(" + ") || "No matches";
+
   return (
     <div className="min-h-screen bg-white">
       {/* Hero */}
@@ -126,7 +138,7 @@ export default function LocationsPage() {
           <div className="lg:col-span-2">
             <div className="flex items-center justify-between mb-4">
               <h2 className="font-bold text-gray-900 text-lg">
-                {filtered.length} {filtered.length === 1 ? "Location" : "Locations"}
+                {directoryLabel}
               </h2>
               {selectedId && (
                 <button
@@ -151,6 +163,7 @@ export default function LocationsPage() {
 
               {filtered.map((loc) => {
                 const isSelected = selectedId === loc.id;
+                const isClinic = loc.slug === "lb-nagar";
                 return (
                   <div
                     key={loc.id}
@@ -172,6 +185,15 @@ export default function LocationsPage() {
                         <h3 className={`font-bold text-sm leading-snug mb-1 ${isSelected ? "text-blue-800" : "text-gray-900"}`}>
                           {loc.name}
                         </h3>
+                        <span
+                          className={`inline-block text-[10px] font-semibold uppercase tracking-wider px-2 py-0.5 rounded-full mb-1.5 ${
+                            isClinic
+                              ? "bg-blue-100 text-blue-700"
+                              : "bg-gray-100 text-gray-500"
+                          }`}
+                        >
+                          {isClinic ? "★ Our Clinic" : "Home-visit area"}
+                        </span>
                         <p className="text-gray-500 text-xs leading-relaxed mb-2">{loc.address}</p>
 
                         <div className="flex flex-wrap gap-2">

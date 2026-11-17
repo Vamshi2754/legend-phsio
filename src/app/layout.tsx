@@ -163,11 +163,14 @@ export const metadata: Metadata = {
     },
   },
   verification: {
-    google: '9nnBXWs65-rVAJd1N1fnoDB8iZS2wlihpsayMWW77JE', // Google Search Console verification code
+    google: [
+      '9nnBXWs65-rVAJd1N1fnoDB8iZS2wlihpsayMWW77JE',
+      'vNRGhKLIVy-pdQWd_tnHdlel36KYPK9mqhFre-2wC6o',
+    ], // Google Search Console verification codes
   },
 };
 
-import { FloatingContactLazy, BookingPopupLazy } from "@/components/ClientComponents";
+import { FloatingContactLazy } from "@/components/ClientComponents";
 
 export default function RootLayout({
   children,
@@ -322,7 +325,6 @@ export default function RootLayout({
         />
         {children}
         <FloatingContactLazy />
-        <BookingPopupLazy />
         <VisualEditsMessenger />
       </body>
     </html>
